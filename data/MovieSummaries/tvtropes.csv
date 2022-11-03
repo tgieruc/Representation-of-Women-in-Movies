@@ -1,0 +1,502 @@
+,0,1,Freebase_ID,movie,actor,character,trope
+0,absent_minded_professor,"{'char': 'Professor Philip Brainard', 'movie': 'Flubber', 'id': '/m/0jy9q0', 'actor': 'Robin Williams'}",/m/0jy9q0,Flubber,Robin Williams,Professor Philip Brainard,absent_minded_professor
+1,absent_minded_professor,"{'char': 'Professor Keenbean', 'movie': 'Richie Rich', 'id': '/m/02vchl3', 'actor': 'Michael McShane'}",/m/02vchl3,Richie Rich,Michael McShane,Professor Keenbean,absent_minded_professor
+2,absent_minded_professor,"{'char': 'Dr. Reinhardt Lane', 'movie': 'The Shadow', 'id': '/m/0k6fkc', 'actor': 'Ian McKellen'}",/m/0k6fkc,The Shadow,Ian McKellen,Dr. Reinhardt Lane,absent_minded_professor
+3,absent_minded_professor,"{'char': 'Dr. Harold Medford', 'movie': 'Them!', 'id': '/m/0k6_br', 'actor': 'Edmund Gwenn'}",/m/0k6_br,Them!,Edmund Gwenn,Dr. Harold Medford,absent_minded_professor
+4,absent_minded_professor,"{'char': 'Daniel Jackson', 'movie': 'Stargate', 'id': '/m/0k3rhh', 'actor': 'James Spader'}",/m/0k3rhh,Stargate,James Spader,Daniel Jackson,absent_minded_professor
+5,adventurer_archaeologist,"{'char': 'Indiana Jones', 'movie': 'Indiana Jones and the Kingdom of the Crystal Skull', 'id': '/m/0jzx78', 'actor': 'Harrison Ford'}",/m/0jzx78,Indiana Jones and the Kingdom of the Crystal Skull,Harrison Ford,Indiana Jones,adventurer_archaeologist
+6,adventurer_archaeologist,"{'char': 'Indiana Jones', 'movie': 'Indiana Jones and the Raiders of the Lost Ark', 'id': '/m/0k294p', 'actor': 'Harrison Ford'}",/m/0k294p,Indiana Jones and the Raiders of the Lost Ark,Harrison Ford,Indiana Jones,adventurer_archaeologist
+7,adventurer_archaeologist,"{'char': 'Indiana Jones', 'movie': 'Indiana Jones and the Temple of Doom', 'id': '/m/0jzx9b', 'actor': 'Harrison Ford'}",/m/0jzx9b,Indiana Jones and the Temple of Doom,Harrison Ford,Indiana Jones,adventurer_archaeologist
+8,adventurer_archaeologist,"{'char': ""Evelyn Carnahan-O'Connell"", 'movie': 'The Mummy', 'id': '/m/0k5yzc', 'actor': 'Rachel Weisz'}",/m/0k5yzc,The Mummy,Rachel Weisz,Evelyn Carnahan-O'Connell,adventurer_archaeologist
+9,arrogant_kungfu_guy,"{'char': 'Han', 'movie': 'Enter the Dragon', 'id': '/m/02vd8hn', 'actor': 'Shih Kien'}",/m/02vd8hn,Enter the Dragon,Shih Kien,Han,arrogant_kungfu_guy
+10,arrogant_kungfu_guy,"{'char': 'Johnny Lawrence', 'movie': 'The Karate Kid', 'id': '/m/0k5jyf', 'actor': 'William Zabka'}",/m/0k5jyf,The Karate Kid,William Zabka,Johnny Lawrence,arrogant_kungfu_guy
+11,arrogant_kungfu_guy,"{'char': 'Jen Yu', 'movie': 'Crouching Tiger, Hidden Dragon', 'id': '/m/0jwv09', 'actor': 'Zhang Ziyi'}",/m/0jwv09,"Crouching Tiger, Hidden Dragon",Zhang Ziyi,Jen Yu,arrogant_kungfu_guy
+12,arrogant_kungfu_guy,"{'char': 'Pai Mei', 'movie': 'Kill Bill Volume 2', 'id': '/m/0gz3h92', 'actor': 'Chia Hui Liu'}",/m/0gz3h92,Kill Bill Volume 2,Chia Hui Liu,Pai Mei,arrogant_kungfu_guy
+13,arrogant_kungfu_guy,"{'char': 'Apollo Creed', 'movie': 'Rocky', 'id': '/m/0k2n0d', 'actor': 'Carl Weathers'}",/m/0k2n0d,Rocky,Carl Weathers,Apollo Creed,arrogant_kungfu_guy
+14,arrogant_kungfu_guy,"{'char': 'Clubber Lang', 'movie': 'Rocky III', 'id': '/m/0k2n56', 'actor': 'Mr. T'}",/m/0k2n56,Rocky III,Mr. T,Clubber Lang,arrogant_kungfu_guy
+15,arrogant_kungfu_guy,"{'char': 'Storm Shadow', 'movie': 'G.I. Joe: The Rise of Cobra', 'id': '/m/052dfd5', 'actor': 'Lee Byung-Hun'}",/m/052dfd5,G.I. Joe: The Rise of Cobra,Lee Byung-Hun,Storm Shadow,arrogant_kungfu_guy
+16,arrogant_kungfu_guy,"{'char': 'Kurgan', 'movie': 'Highlander', 'id': '/m/02214xq', 'actor': 'Clancy Brown'}",/m/02214xq,Highlander,Clancy Brown,Kurgan,arrogant_kungfu_guy
+17,arrogant_kungfu_guy,"{'char': 'Anakin Skywalker', 'movie': 'Star Wars Episode III: Revenge of the Sith', 'id': '/m/02sg5ry', 'actor': 'Hayden Christensen'}",/m/02sg5ry,Star Wars Episode III: Revenge of the Sith,Hayden Christensen,Anakin Skywalker,arrogant_kungfu_guy
+18,big_man_on_campus,"{'char': 'Guy Perkins', 'movie': 'Never Been Kissed', 'id': '/m/02vbkvz', 'actor': 'Jeremy Jordan'}",/m/02vbkvz,Never Been Kissed,Jeremy Jordan,Guy Perkins,big_man_on_campus
+19,big_man_on_campus,"{'char': 'John Tucker', 'movie': 'John Tucker Must Die', 'id': '/m/0j_6gm', 'actor': 'Jesse Metcalfe'}",/m/0j_6gm,John Tucker Must Die,Jesse Metcalfe,John Tucker,big_man_on_campus
+20,big_man_on_campus,"{'char': 'Woody Deane', 'movie': ""It's a Boy Girl Thing"", 'id': '/m/02vc983', 'actor': 'Kevin Zegers'}",/m/02vc983,It's a Boy Girl Thing,Kevin Zegers,Woody Deane,big_man_on_campus
+21,big_man_on_campus,"{'char': 'Van Wilder', 'movie': ""National Lampoon's Van Wilder"", 'id': '/m/0k14rv', 'actor': 'Ryan Reynolds'}",/m/0k14rv,National Lampoon's Van Wilder,Ryan Reynolds,Van Wilder,big_man_on_campus
+22,big_man_on_campus,"{'char': 'Paul Metzler', 'movie': 'Election', 'id': '/m/02vdf9d', 'actor': 'Chris Klein'}",/m/02vdf9d,Election,Chris Klein,Paul Metzler,big_man_on_campus
+23,big_man_on_campus,"{'char': 'Troy Bolton', 'movie': 'High School Musical', 'id': '/m/0jzdys', 'actor': 'Zac Efron'}",/m/0jzdys,High School Musical,Zac Efron,Troy Bolton,big_man_on_campus
+24,big_man_on_campus,"{'char': 'Mike Dexter', 'movie': ""Can't Hardly Wait"", 'id': '/m/03jsnmf', 'actor': 'Peter Facinelli'}",/m/03jsnmf,Can't Hardly Wait,Peter Facinelli,Mike Dexter,big_man_on_campus
+25,bounty_hunter,"{'char': 'Man with No Name', 'movie': 'For a Few Dollars More', 'id': '/m/0jybsq', 'actor': 'Clint Eastwood'}",/m/0jybsq,For a Few Dollars More,Clint Eastwood,Man with No Name,bounty_hunter
+26,bounty_hunter,"{'char': 'Josey Wales', 'movie': 'The Outlaw Josey Wales', 'id': '/m/0k61jr', 'actor': 'Clint Eastwood'}",/m/0k61jr,The Outlaw Josey Wales,Clint Eastwood,Josey Wales,bounty_hunter
+27,bounty_hunter,"{'char': 'Jellon Lamb', 'movie': 'The Proposition', 'id': '/m/06wh7_d', 'actor': 'John Hurt'}",/m/06wh7_d,The Proposition,John Hurt,Jellon Lamb,bounty_hunter
+28,bounty_hunter,"{'char': 'Beck', 'movie': 'The Rundown', 'id': '/m/0k6bqx', 'actor': 'The Rock'}",/m/0k6bqx,The Rundown,The Rock,Beck,bounty_hunter
+29,bounty_hunter,"{'char': 'Rick Deckard', 'movie': 'Blade Runner', 'id': '/m/0jvhbm', 'actor': 'Harrison Ford'}",/m/0jvhbm,Blade Runner,Harrison Ford,Rick Deckard,bounty_hunter
+30,bounty_hunter,"{'char': 'Leonard Smalls', 'movie': 'Raising Arizona', 'id': '/m/02vbtgt', 'actor': 'Randall ""Tex"" Cobb'}",/m/02vbtgt,Raising Arizona,"Randall ""Tex"" Cobb",Leonard Smalls,bounty_hunter
+31,bounty_hunter,"{'char': 'Jack Walsh', 'movie': 'Midnight Run', 'id': '/m/0k0n9r', 'actor': 'Robert De Niro'}",/m/0k0n9r,Midnight Run,Robert De Niro,Jack Walsh,bounty_hunter
+32,bounty_hunter,"{'char': 'Milo Boyd', 'movie': 'The Bounty Hunter', 'id': '/m/0772tb3', 'actor': 'Gerard Butler'}",/m/0772tb3,The Bounty Hunter,Gerard Butler,Milo Boyd,bounty_hunter
+33,bounty_hunter,"{'char': 'Toombs', 'movie': 'The Chronicles of Riddick', 'id': '/m/0k4qdz', 'actor': 'Nick Chinlund'}",/m/0k4qdz,The Chronicles of Riddick,Nick Chinlund,Toombs,bounty_hunter
+34,bounty_hunter,"{'char': 'Nick Randall', 'movie': 'Wanted: Dead or Alive', 'id': '/m/03jsm0f', 'actor': 'Rutger Hauer'}",/m/03jsm0f,Wanted: Dead or Alive,Rutger Hauer,Nick Randall,bounty_hunter
+35,brainless_beauty,"{'char': 'Gemma Honeycutt', 'movie': ""Fool's Gold"", 'id': '/m/04dddz5', 'actor': 'Alexis Dziena'}",/m/04dddz5,Fool's Gold,Alexis Dziena,Gemma Honeycutt,brainless_beauty
+36,brainless_beauty,"{'char': 'Matt Mateo', 'movie': 'The Opposite of Sex', 'id': '/m/02tbdw7', 'actor': 'Ivan Sergei'}",/m/02tbdw7,The Opposite of Sex,Ivan Sergei,Matt Mateo,brainless_beauty
+37,brainless_beauty,"{'char': 'Paul Metzler', 'movie': 'Election', 'id': '/m/02vdf9d', 'actor': 'Chris Klein'}",/m/02vdf9d,Election,Chris Klein,Paul Metzler,brainless_beauty
+38,brainless_beauty,"{'char': 'Shelley Darlingson', 'movie': 'The House Bunny', 'id': '/m/04dgw4t', 'actor': 'Anna Faris'}",/m/04dgw4t,The House Bunny,Anna Faris,Shelley Darlingson,brainless_beauty
+39,brainless_beauty,"{'char': 'Brace Channing', 'movie': 'My Favorite Martian', 'id': '/m/03lvf22', 'actor': 'Elizabeth Hurley'}",/m/03lvf22,My Favorite Martian,Elizabeth Hurley,Brace Channing,brainless_beauty
+40,brainless_beauty,"{'char': 'Mia', 'movie': 'Stan Helsing', 'id': '/m/0gc3g1p', 'actor': 'Desi Lydic'}",/m/0gc3g1p,Stan Helsing,Desi Lydic,Mia,brainless_beauty
+41,brainless_beauty,"{'char': 'Marcia Brady', 'movie': 'The Brady Bunch Movie', 'id': '/m/0k4k_5', 'actor': 'Christine Taylor'}",/m/0k4k_5,The Brady Bunch Movie,Christine Taylor,Marcia Brady,brainless_beauty
+42,brainless_beauty,"{'char': 'Chris', 'movie': 'Roxanne', 'id': '/m/0k2q15', 'actor': 'Rick Rossovich'}",/m/0k2q15,Roxanne,Rick Rossovich,Chris,brainless_beauty
+43,brainless_beauty,"{'char': 'Buffy Summers', 'movie': 'Buffy the Vampire Slayer', 'id': '/m/0jvy0r', 'actor': 'Kristy Swanson'}",/m/0jvy0r,Buffy the Vampire Slayer,Kristy Swanson,Buffy Summers,brainless_beauty
+44,brainless_beauty,"{'char': 'Brad', 'movie': 'Extract', 'id': '/m/0b3trzf', 'actor': 'Dustin Milligan'}",/m/0b3trzf,Extract,Dustin Milligan,Brad,brainless_beauty
+45,brainless_beauty,"{'char': 'Jack Bartlett', 'movie': 'Sugar & Spice', 'id': '/m/0cg2m9s', 'actor': 'James Marsden'}",/m/0cg2m9s,Sugar & Spice,James Marsden,Jack Bartlett,brainless_beauty
+46,brainless_beauty,"{'char': 'Maggie Feller', 'movie': 'In Her Shoes', 'id': '/m/0jzvtp', 'actor': 'Cameron Diaz'}",/m/0jzvtp,In Her Shoes,Cameron Diaz,Maggie Feller,brainless_beauty
+47,broken_bird,"{'char': 'Chelsea Deardon', 'movie': 'Legal Eagles', 'id': '/m/0j_wlm', 'actor': 'Daryl Hannah'}",/m/0j_wlm,Legal Eagles,Daryl Hannah,Chelsea Deardon,broken_bird
+48,broken_bird,"{'char': 'Mad Hatter', 'movie': 'Alice in Wonderland', 'id': '/m/04q4dng', 'actor': 'Johnny Depp'}",/m/04q4dng,Alice in Wonderland,Johnny Depp,Mad Hatter,broken_bird
+49,broken_bird,"{'char': 'Nicole Oakley', 'movie': 'Crazy/Beautiful', 'id': '/m/0jwrqb', 'actor': 'Kirsten Dunst'}",/m/0jwrqb,Crazy/Beautiful,Kirsten Dunst,Nicole Oakley,broken_bird
+50,broken_bird,"{'char': 'Annie Newton', 'movie': 'The Invisible', 'id': '/m/02tbbww', 'actor': 'Margarita Levieva'}",/m/02tbbww,The Invisible,Margarita Levieva,Annie Newton,broken_bird
+51,broken_bird,"{'char': 'Nina Sayers', 'movie': 'Black Swan', 'id': '/m/0cccx3m', 'actor': 'Natalie Portman'}",/m/0cccx3m,Black Swan,Natalie Portman,Nina Sayers,broken_bird
+52,bromantic_foil,"{'char': 'Randal Graves', 'movie': 'Clerks.', 'id': '/m/0jwj18', 'actor': 'Jeff Anderson'}",/m/0jwj18,Clerks.,Jeff Anderson,Randal Graves,bromantic_foil
+53,bromantic_foil,"{'char': 'Randal Graves', 'movie': 'Clerks II', 'id': '/m/09vvrb_', 'actor': 'Jeff Anderson'}",/m/09vvrb_,Clerks II,Jeff Anderson,Randal Graves,bromantic_foil
+54,bromantic_foil,"{'char': 'Brodie Bruce', 'movie': 'Mallrats', 'id': '/m/07ldy8x', 'actor': 'Jason Lee'}",/m/07ldy8x,Mallrats,Jason Lee,Brodie Bruce,bromantic_foil
+55,bromantic_foil,"{'char': 'Banky Edwards', 'movie': 'Chasing Amy', 'id': '/m/05ckj7h', 'actor': 'Jason Lee'}",/m/05ckj7h,Chasing Amy,Jason Lee,Banky Edwards,bromantic_foil
+56,bromantic_foil,"{'char': 'Ed', 'movie': 'Shaun of the Dead', 'id': '/m/0k35nb', 'actor': 'Nick Frost'}",/m/0k35nb,Shaun of the Dead,Nick Frost,Ed,bromantic_foil
+57,bruiser_with_a_soft_center,"{'char': 'Hellboy', 'movie': 'Hellboy: Blood and Iron', 'id': '/m/0jzb66', 'actor': 'Ron Perlman'}",/m/0jzb66,Hellboy: Blood and Iron,Ron Perlman,Hellboy,bruiser_with_a_soft_center
+58,bruiser_with_a_soft_center,"{'char': 'Tron', 'movie': 'Tron', 'id': '/m/0hcfdd1', 'actor': 'Bruce Boxleitner'}",/m/0hcfdd1,Tron,Bruce Boxleitner,Tron,bruiser_with_a_soft_center
+59,bruiser_with_a_soft_center,"{'char': 'James Bond', 'movie': 'Casino Royale', 'id': '/m/02hw79s', 'actor': 'Daniel Craig'}",/m/02hw79s,Casino Royale,Daniel Craig,James Bond,bruiser_with_a_soft_center
+60,bully,"{'char': 'Biff Tannen', 'movie': 'Back to the Future', 'id': '/m/0jty60', 'actor': 'Thomas F. Wilson'}",/m/0jty60,Back to the Future,Thomas F. Wilson,Biff Tannen,bully
+61,bully,"{'char': 'Scut Farkus', 'movie': 'A Christmas Story', 'id': '/m/0jsprx', 'actor': 'Zack Ward'}",/m/0jsprx,A Christmas Story,Zack Ward,Scut Farkus,bully
+62,bully,"{'char': 'Vanessa', 'movie': 'The Grudge 2', 'id': '/m/0k592n', 'actor': 'Teresa Palmer'}",/m/0k592n,The Grudge 2,Teresa Palmer,Vanessa,bully
+63,byronic_hero,"{'char': 'Jake LaMotta', 'movie': 'Raging Bull', 'id': '/m/0k28_g', 'actor': 'Robert De Niro'}",/m/0k28_g,Raging Bull,Robert De Niro,Jake LaMotta,byronic_hero
+64,byronic_hero,"{'char': 'James Bond', 'movie': 'Casino Royale', 'id': '/m/02hw79s', 'actor': 'Daniel Craig'}",/m/02hw79s,Casino Royale,Daniel Craig,James Bond,byronic_hero
+65,byronic_hero,"{'char': 'Travis Bickle', 'movie': 'Taxi Driver', 'id': '/m/0k43s9', 'actor': 'Robert De Niro'}",/m/0k43s9,Taxi Driver,Robert De Niro,Travis Bickle,byronic_hero
+66,byronic_hero,"{'char': 'Anakin Skywalker', 'movie': 'Star Wars Episode III: Revenge of the Sith', 'id': '/m/02sg5ry', 'actor': 'Hayden Christensen'}",/m/02sg5ry,Star Wars Episode III: Revenge of the Sith,Hayden Christensen,Anakin Skywalker,byronic_hero
+67,byronic_hero,"{'char': 'Martin Q. Blank', 'movie': 'Grosse Pointe Blank', 'id': '/m/0jz0wk', 'actor': 'John Cusack'}",/m/0jz0wk,Grosse Pointe Blank,John Cusack,Martin Q. Blank,byronic_hero
+68,byronic_hero,"{'char': 'Brand Hauser', 'movie': 'War Inc.', 'id': '/m/02vczvr', 'actor': 'John Cusack'}",/m/02vczvr,War Inc.,John Cusack,Brand Hauser,byronic_hero
+69,byronic_hero,"{'char': 'Cobb', 'movie': 'Inception', 'id': '/m/0667g_f', 'actor': 'Leonardo DiCaprio'}",/m/0667g_f,Inception,Leonardo DiCaprio,Cobb,byronic_hero
+70,byronic_hero,"{'char': 'Achilles', 'movie': 'Troy', 'id': '/m/0k7ckp', 'actor': 'Brad Pitt'}",/m/0k7ckp,Troy,Brad Pitt,Achilles,byronic_hero
+71,byronic_hero,"{'char': 'Britt Reid', 'movie': 'The Green Hornet', 'id': '/m/0h5m_9x', 'actor': 'Seth Rogen'}",/m/0h5m_9x,The Green Hornet,Seth Rogen,Britt Reid,byronic_hero
+72,byronic_hero,"{'char': 'Donnie Darko', 'movie': 'Donnie Darko', 'id': '/m/0jxftx', 'actor': 'Jake Gyllenhaal'}",/m/0jxftx,Donnie Darko,Jake Gyllenhaal,Donnie Darko,byronic_hero
+73,byronic_hero,"{'char': 'Captain Jack Sparrow', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xxm', 'actor': 'Johnny Depp'}",/m/0k1xxm,Pirates of the Caribbean: Dead Man's Chest,Johnny Depp,Captain Jack Sparrow,byronic_hero
+74,byronic_hero,"{'char': 'John Wilmot, 2nd Earl of Rochester', 'movie': 'The Libertine', 'id': '/m/0k5ptk', 'actor': 'Johnny Depp'}",/m/0k5ptk,The Libertine,Johnny Depp,"John Wilmot, 2nd Earl of Rochester",byronic_hero
+75,byronic_hero,"{'char': 'Robert Angier', 'movie': 'The Prestige', 'id': '/m/0k65k8', 'actor': 'Hugh Jackman'}",/m/0k65k8,The Prestige,Hugh Jackman,Robert Angier,byronic_hero
+76,byronic_hero,"{'char': 'Tony Stark', 'movie': 'Iron Man', 'id': '/m/0j1__hv', 'actor': 'Robert Downey Jr.'}",/m/0j1__hv,Iron Man,Robert Downey Jr.,Tony Stark,byronic_hero
+77,byronic_hero,"{'char': 'Loki', 'movie': 'Thor', 'id': '/m/0855mjk', 'actor': 'Tom Hiddleston'}",/m/0855mjk,Thor,Tom Hiddleston,Loki,byronic_hero
+78,byronic_hero,"{'char': 'Lenny Nero', 'movie': 'Strange Days', 'id': '/m/0k3tt_', 'actor': 'Ralph Fiennes'}",/m/0k3tt_,Strange Days,Ralph Fiennes,Lenny Nero,byronic_hero
+79,byronic_hero,"{'char': ""Bill 'The Butcher' Cutting"", 'movie': 'Gangs of New York', 'id': '/m/0jynbm', 'actor': 'Daniel Day-Lewis'}",/m/0jynbm,Gangs of New York,Daniel Day-Lewis,Bill 'The Butcher' Cutting,byronic_hero
+80,casanova,"{'char': 'Giacomo Casanova', 'movie': 'Casanova', 'id': '/m/0jw4mw', 'actor': 'Heath Ledger'}",/m/0jw4mw,Casanova,Heath Ledger,Giacomo Casanova,casanova
+81,casanova,"{'char': 'Telly', 'movie': 'Kids', 'id': '/m/0j_flm', 'actor': 'Leo Fitzpatrick'}",/m/0j_flm,Kids,Leo Fitzpatrick,Telly,casanova
+82,casanova,"{'char': 'Tony Stark', 'movie': 'Iron Man', 'id': '/m/0j1__hv', 'actor': 'Robert Downey Jr.'}",/m/0j1__hv,Iron Man,Robert Downey Jr.,Tony Stark,casanova
+83,casanova,"{'char': 'Dorian Gray', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0dkcy1f', 'actor': 'Stuart Townsend'}",/m/0dkcy1f,The League of Extraordinary Gentlemen,Stuart Townsend,Dorian Gray,casanova
+84,casanova,"{'char': 'John Wilmot, 2nd Earl of Rochester', 'movie': 'The Libertine', 'id': '/m/0k5ptk', 'actor': 'Johnny Depp'}",/m/0k5ptk,The Libertine,Johnny Depp,"John Wilmot, 2nd Earl of Rochester",casanova
+85,casanova,"{'char': 'Timothy', 'movie': 'The Long Kiss Goodnight', 'id': '/m/02vch3p', 'actor': 'Craig Bierko'}",/m/02vch3p,The Long Kiss Goodnight,Craig Bierko,Timothy,casanova
+86,casanova,"{'char': 'Johnny Wickham', 'movie': 'Bride and Prejudice', 'id': '/m/0cf_wtd', 'actor': 'Daniel Gillies'}",/m/0cf_wtd,Bride and Prejudice,Daniel Gillies,Johnny Wickham,casanova
+87,chanteuse,"{'char': 'Jessica Rabbit', 'movie': 'Who Framed Roger Rabbit', 'id': '/m/02wszk9', 'actor': 'Kathleen Turner'}",/m/02wszk9,Who Framed Roger Rabbit,Kathleen Turner,Jessica Rabbit,chanteuse
+88,chanteuse,"{'char': 'Tina Carlyle', 'movie': 'The Mask', 'id': '/m/0k5wls', 'actor': 'Cameron Diaz'}",/m/0k5wls,The Mask,Cameron Diaz,Tina Carlyle,chanteuse
+89,chanteuse,"{'char': 'Susie Diamond', 'movie': 'The Fabulous Baker Boys', 'id': '/m/0k50tl', 'actor': 'Michelle Pfeiffer'}",/m/0k50tl,The Fabulous Baker Boys,Michelle Pfeiffer,Susie Diamond,chanteuse
+90,chanteuse,"{'char': 'Sugar Kane Kowalczyk', 'movie': 'Some Like It Hot', 'id': '/m/0k3j8v', 'actor': 'Marilyn Monroe'}",/m/0k3j8v,Some Like It Hot,Marilyn Monroe,Sugar Kane Kowalczyk,chanteuse
+91,chanteuse,"{'char': 'Dorothy Vallens', 'movie': 'Blue Velvet', 'id': '/m/0jvlc4', 'actor': 'Isabella Rossellini'}",/m/0jvlc4,Blue Velvet,Isabella Rossellini,Dorothy Vallens,chanteuse
+92,chanteuse,"{'char': 'Ellen Aim', 'movie': 'Streets of Fire', 'id': '/m/0k3w12', 'actor': 'Diane Lane'}",/m/0k3w12,Streets of Fire,Diane Lane,Ellen Aim,chanteuse
+93,charmer,"{'char': 'James Bond', 'movie': 'Casino Royale', 'id': '/m/02hw79s', 'actor': 'Daniel Craig'}",/m/02hw79s,Casino Royale,Daniel Craig,James Bond,charmer
+94,charmer,"{'char': 'Han Solo', 'movie': 'Star Wars Episode IV: A New Hope', 'id': '/m/0k3r1_', 'actor': 'Harrison Ford'}",/m/0k3r1_,Star Wars Episode IV: A New Hope,Harrison Ford,Han Solo,charmer
+95,charmer,"{'char': 'Captain Jack Sparrow', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xxm', 'actor': 'Johnny Depp'}",/m/0k1xxm,Pirates of the Caribbean: Dead Man's Chest,Johnny Depp,Captain Jack Sparrow,charmer
+96,charmer,"{'char': 'Frank Abagnale Jr.', 'movie': 'Catch Me If You Can', 'id': '/m/0jw5pq', 'actor': 'Leonardo DiCaprio'}",/m/0jw5pq,Catch Me If You Can,Leonardo DiCaprio,Frank Abagnale Jr.,charmer
+97,charmer,"{'char': 'Harold Hill', 'movie': 'The Music Man', 'id': '/m/04hv61w', 'actor': 'Matthew Broderick'}",/m/04hv61w,The Music Man,Matthew Broderick,Harold Hill,charmer
+98,charmer,"{'char': 'Flynn Rider', 'movie': 'Tangled', 'id': '/m/07sl05m', 'actor': 'Zachary Levi'}",/m/07sl05m,Tangled,Zachary Levi,Flynn Rider,charmer
+99,charmer,"{'char': 'Hannibal Lecter', 'movie': 'The Silence of the Lambs', 'id': '/m/0k6g86', 'actor': 'Anthony Hopkins'}",/m/0k6g86,The Silence of the Lambs,Anthony Hopkins,Hannibal Lecter,charmer
+100,child_prodigy,"{'char': 'Anakin Skywalker', 'movie': 'Star Wars Episode I: The Phantom Menace', 'id': '/m/02sg5rn', 'actor': 'Jake Lloyd'}",/m/02sg5rn,Star Wars Episode I: The Phantom Menace,Jake Lloyd,Anakin Skywalker,child_prodigy
+101,child_prodigy,"{'char': 'Chris Knight', 'movie': 'Real Genius', 'id': '/m/0k2ckt', 'actor': 'Val Kilmer'}",/m/0k2ckt,Real Genius,Val Kilmer,Chris Knight,child_prodigy
+102,classy_cat_burglar,"{'char': 'Danielle Foussard', 'movie': 'To Catch a Thief', 'id': '/m/02vbgd1', 'actor': 'Brigitte Auber'}",/m/02vbgd1,To Catch a Thief,Brigitte Auber,Danielle Foussard,classy_cat_burglar
+103,consummate_professional,"{'char': 'Frank Martin', 'movie': 'The Transporter', 'id': '/m/0k6r5t', 'actor': 'Jason Statham'}",/m/0k6r5t,The Transporter,Jason Statham,Frank Martin,consummate_professional
+104,consummate_professional,"{'char': 'Agent Smith', 'movie': 'The Matrix', 'id': '/m/0k5wz1', 'actor': 'Hugo Weaving'}",/m/0k5wz1,The Matrix,Hugo Weaving,Agent Smith,consummate_professional
+105,consummate_professional,"{'char': 'The Professor', 'movie': 'The Bourne Identity', 'id': '/m/0k4kdl', 'actor': 'Clive Owen'}",/m/0k4kdl,The Bourne Identity,Clive Owen,The Professor,consummate_professional
+106,consummate_professional,"{'char': ""Sam 'Ace' Rothstein"", 'movie': 'Casino', 'id': '/m/0jw4vx', 'actor': 'Robert De Niro'}",/m/0jw4vx,Casino,Robert De Niro,Sam 'Ace' Rothstein,consummate_professional
+107,corrupt_corporate_executive,"{'char': 'Dick Jones', 'movie': 'RoboCop', 'id': '/m/0k2m8v', 'actor': 'Ronny Cox'}",/m/0k2m8v,RoboCop,Ronny Cox,Dick Jones,corrupt_corporate_executive
+108,corrupt_corporate_executive,"{'char': 'Cutler Beckett', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xyw', 'actor': 'Tom Hollander'}",/m/0k1xyw,Pirates of the Caribbean: Dead Man's Chest,Tom Hollander,Cutler Beckett,corrupt_corporate_executive
+109,corrupt_corporate_executive,"{'char': 'Cutler Beckett', 'movie': ""Pirates of the Caribbean: At World's End"", 'id': '/m/0k1xwx', 'actor': 'Tom Hollander'}",/m/0k1xwx,Pirates of the Caribbean: At World's End,Tom Hollander,Cutler Beckett,corrupt_corporate_executive
+110,corrupt_corporate_executive,"{'char': 'Max Zorin', 'movie': 'A View to a Kill', 'id': '/m/02xl2ny', 'actor': 'Christopher Walken'}",/m/02xl2ny,A View to a Kill,Christopher Walken,Max Zorin,corrupt_corporate_executive
+111,corrupt_corporate_executive,"{'char': 'Carter Burke', 'movie': 'Aliens', 'id': '/m/0jt8n6', 'actor': 'Paul Reiser'}",/m/0jt8n6,Aliens,Paul Reiser,Carter Burke,corrupt_corporate_executive
+112,corrupt_corporate_executive,"{'char': 'Noah Cross', 'movie': 'Chinatown', 'id': '/m/0jwcjw', 'actor': 'John Huston'}",/m/0jwcjw,Chinatown,John Huston,Noah Cross,corrupt_corporate_executive
+113,corrupt_corporate_executive,"{'char': 'Doctor Doom', 'movie': 'Fantastic Four', 'id': '/m/0jy24c', 'actor': 'Julian McMahon'}",/m/0jy24c,Fantastic Four,Julian McMahon,Doctor Doom,corrupt_corporate_executive
+114,corrupt_corporate_executive,"{'char': 'Kingpin', 'movie': 'Daredevil', 'id': '/m/0jwz5q', 'actor': 'Michael Clarke Duncan'}",/m/0jwz5q,Daredevil,Michael Clarke Duncan,Kingpin,corrupt_corporate_executive
+115,corrupt_corporate_executive,"{'char': 'Judge Doom', 'movie': 'Who Framed Roger Rabbit', 'id': '/m/0k81j_', 'actor': 'Christopher Lloyd'}",/m/0k81j_,Who Framed Roger Rabbit,Christopher Lloyd,Judge Doom,corrupt_corporate_executive
+116,corrupt_corporate_executive,"{'char': 'Conal Cochran', 'movie': 'Halloween III: Season of the Witch', 'id': '/m/0jz33w', 'actor': ""Dan O'Herlihy""}",/m/0jz33w,Halloween III: Season of the Witch,Dan O'Herlihy,Conal Cochran,corrupt_corporate_executive
+117,corrupt_corporate_executive,"{'char': 'Mayor Augustus Maywho', 'movie': 'How the Grinch Stole Christmas!', 'id': '/m/0jzmfp', 'actor': 'Jeffrey Tambor'}",/m/0jzmfp,How the Grinch Stole Christmas!,Jeffrey Tambor,Mayor Augustus Maywho,corrupt_corporate_executive
+118,corrupt_corporate_executive,"{'char': 'Henry F. Potter', 'movie': ""It's a Wonderful Life"", 'id': '/m/0j_11c', 'actor': 'Lionel Barrymore'}",/m/0j_11c,It's a Wonderful Life,Lionel Barrymore,Henry F. Potter,corrupt_corporate_executive
+119,corrupt_corporate_executive,"{'char': 'Royalton', 'movie': 'Speed Racer', 'id': '/m/03jqz37', 'actor': 'Roger Allam'}",/m/03jqz37,Speed Racer,Roger Allam,Royalton,corrupt_corporate_executive
+120,corrupt_corporate_executive,"{'char': 'B.Z.', 'movie': 'Santa Claus: The Movie', 'id': '/m/0k2w67', 'actor': 'John Lithgow'}",/m/0k2w67,Santa Claus: The Movie,John Lithgow,B.Z.,corrupt_corporate_executive
+121,corrupt_corporate_executive,"{'char': 'Les Grossman', 'movie': 'Tropic Thunder', 'id': '/m/0gyjwgg', 'actor': 'Tom Cruise'}",/m/0gyjwgg,Tropic Thunder,Tom Cruise,Les Grossman,corrupt_corporate_executive
+122,corrupt_corporate_executive,"{'char': 'James McCullen - 1641', 'movie': 'G.I. Joe: The Rise of Cobra', 'id': '/m/0h5q191', 'actor': 'David Murray'}",/m/0h5q191,G.I. Joe: The Rise of Cobra,David Murray,James McCullen - 1641,corrupt_corporate_executive
+123,corrupt_corporate_executive,"{'char': 'Ed Dillinger', 'movie': 'Tron', 'id': '/m/0k7cbx', 'actor': 'David Warner'}",/m/0k7cbx,Tron,David Warner,Ed Dillinger,corrupt_corporate_executive
+124,corrupt_corporate_executive,"{'char': 'Ian Hawke', 'movie': 'Alvin and the Chipmunks', 'id': '/m/03kyztz', 'actor': 'David Cross'}",/m/03kyztz,Alvin and the Chipmunks,David Cross,Ian Hawke,corrupt_corporate_executive
+125,corrupt_corporate_executive,"{'char': 'Jack Bennett', 'movie': 'Edge of Darkness', 'id': '/m/08cwjsb', 'actor': 'Danny Huston'}",/m/08cwjsb,Edge of Darkness,Danny Huston,Jack Bennett,corrupt_corporate_executive
+126,corrupt_corporate_executive,"{'char': 'Charles Travis', 'movie': 'Congo', 'id': '/m/02vclwl', 'actor': 'Bruce Campbell'}",/m/02vclwl,Congo,Bruce Campbell,Charles Travis,corrupt_corporate_executive
+127,corrupt_corporate_executive,"{'char': 'Gary Winston', 'movie': 'Antitrust', 'id': '/m/02vbk_v', 'actor': 'Tim Robbins'}",/m/02vbk_v,Antitrust,Tim Robbins,Gary Winston,corrupt_corporate_executive
+128,corrupt_corporate_executive,"{'char': 'Dietrich Banning', 'movie': 'The Tuxedo', 'id': '/m/0cgn58l', 'actor': 'Ritchie Coster'}",/m/0cgn58l,The Tuxedo,Ritchie Coster,Dietrich Banning,corrupt_corporate_executive
+129,corrupt_corporate_executive,"{'char': 'Ratchet', 'movie': 'Robots', 'id': '/m/0k2mmy', 'actor': 'Greg Kinnear'}",/m/0k2mmy,Robots,Greg Kinnear,Ratchet,corrupt_corporate_executive
+130,coward,"{'char': 'Beni Gabor', 'movie': 'The Mummy', 'id': '/m/03jskk3', 'actor': ""Kevin J. O'Connor""}",/m/03jskk3,The Mummy,Kevin J. O'Connor,Beni Gabor,coward
+131,coward,"{'char': 'Lt. Roget / Singing man', 'movie': 'Paths of Glory', 'id': '/m/0cc_884', 'actor': 'Wayne Morris'}",/m/0cc_884,Paths of Glory,Wayne Morris,Lt. Roget / Singing man,coward
+132,coward,"{'char': 'Captain Jack Sparrow', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xxm', 'actor': 'Johnny Depp'}",/m/0k1xxm,Pirates of the Caribbean: Dead Man's Chest,Johnny Depp,Captain Jack Sparrow,coward
+133,coward,"{'char': 'Carter Burke', 'movie': 'Aliens', 'id': '/m/0jt8n6', 'actor': 'Paul Reiser'}",/m/0jt8n6,Aliens,Paul Reiser,Carter Burke,coward
+134,coward,"{'char': 'Ike Clanton', 'movie': 'Tombstone', 'id': '/m/0cg418l', 'actor': 'Stephen Lang'}",/m/0cg418l,Tombstone,Stephen Lang,Ike Clanton,coward
+135,coward,"{'char': 'Cpl. Timothy P. Upham', 'movie': 'Saving Private Ryan', 'id': '/m/040qvsz', 'actor': 'Jeremy Davies'}",/m/040qvsz,Saving Private Ryan,Jeremy Davies,Cpl. Timothy P. Upham,coward
+136,crazy_jealous_guy,"{'char': 'Jake LaMotta', 'movie': 'Raging Bull', 'id': '/m/0k28_g', 'actor': 'Robert De Niro'}",/m/0k28_g,Raging Bull,Robert De Niro,Jake LaMotta,crazy_jealous_guy
+137,crazy_jealous_guy,"{'char': 'Sir Alfred De Carter', 'movie': 'Unfaithfully Yours', 'id': '/m/02vct43', 'actor': 'Rex Harrison'}",/m/02vct43,Unfaithfully Yours,Rex Harrison,Sir Alfred De Carter,crazy_jealous_guy
+138,crazy_jealous_guy,"{'char': 'Heathcliff', 'movie': 'Wuthering Heights', 'id': '/m/0k86mc', 'actor': 'Laurence Olivier'}",/m/0k86mc,Wuthering Heights,Laurence Olivier,Heathcliff,crazy_jealous_guy
+139,crazy_jealous_guy,"{'char': 'Alisdair Stewart', 'movie': 'The Piano', 'id': '/m/0k63tb', 'actor': 'Sam Neill'}",/m/0k63tb,The Piano,Sam Neill,Alisdair Stewart,crazy_jealous_guy
+140,crazy_jealous_guy,"{'char': 'Dr. Stephen Fleming', 'movie': 'Damage', 'id': '/m/0jwy3x', 'actor': 'Jeremy Irons'}",/m/0jwy3x,Damage,Jeremy Irons,Dr. Stephen Fleming,crazy_jealous_guy
+141,crazy_jealous_guy,"{'char': 'Otto', 'movie': 'A Fish Called Wanda', 'id': '/m/0jsqxv', 'actor': 'Kevin Kline'}",/m/0jsqxv,A Fish Called Wanda,Kevin Kline,Otto,crazy_jealous_guy
+142,crazy_jealous_guy,"{'char': 'Frank N. Furter', 'movie': 'The Rocky Horror Picture Show', 'id': '/m/0k69_1', 'actor': 'Tim Curry'}",/m/0k69_1,The Rocky Horror Picture Show,Tim Curry,Frank N. Furter,crazy_jealous_guy
+143,crazy_jealous_guy,"{'char': 'David McCall', 'movie': 'Fear', 'id': '/m/0jy3_h', 'actor': 'Mark Wahlberg'}",/m/0jy3_h,Fear,Mark Wahlberg,David McCall,crazy_jealous_guy
+144,crazy_jealous_guy,"{'char': 'Bud White', 'movie': 'L.A. Confidential', 'id': '/m/0j_n0t', 'actor': 'Russell Crowe'}",/m/0j_n0t,L.A. Confidential,Russell Crowe,Bud White,crazy_jealous_guy
+145,crazy_jealous_guy,"{'char': 'Tony Montana', 'movie': 'Scarface', 'id': '/m/02_8_nx', 'actor': 'Al Pacino'}",/m/02_8_nx,Scarface,Al Pacino,Tony Montana,crazy_jealous_guy
+146,crazy_jealous_guy,"{'char': 'Martin Burney', 'movie': 'Sleeping with the Enemy', 'id': '/m/0k3ddh', 'actor': 'Patrick Bergin'}",/m/0k3ddh,Sleeping with the Enemy,Patrick Bergin,Martin Burney,crazy_jealous_guy
+147,crazy_jealous_guy,"{'char': ""Sam 'Ace' Rothstein"", 'movie': 'Casino', 'id': '/m/0jw4vx', 'actor': 'Robert De Niro'}",/m/0jw4vx,Casino,Robert De Niro,Sam 'Ace' Rothstein,crazy_jealous_guy
+148,crazy_jealous_guy,"{'char': 'Tommy DeVito', 'movie': 'Goodfellas', 'id': '/m/0jyytb', 'actor': 'Joe Pesci'}",/m/0jyytb,Goodfellas,Joe Pesci,Tommy DeVito,crazy_jealous_guy
+149,crazy_jealous_guy,"{'char': 'John Lotter', 'movie': ""Boys Don't Cry"", 'id': '/m/0jvqzw', 'actor': 'Peter Sarsgaard'}",/m/0jvqzw,Boys Don't Cry,Peter Sarsgaard,John Lotter,crazy_jealous_guy
+150,crazy_jealous_guy,"{'char': 'Jake McKenna', 'movie': 'U Turn', 'id': '/m/0k7gxk', 'actor': 'Nick Nolte'}",/m/0k7gxk,U Turn,Nick Nolte,Jake McKenna,crazy_jealous_guy
+151,crazy_jealous_guy,"{'char': 'Duke of Monroth', 'movie': 'Moulin Rouge!', 'id': '/m/0k0vyn', 'actor': 'Richard Roxburgh'}",/m/0k0vyn,Moulin Rouge!,Richard Roxburgh,Duke of Monroth,crazy_jealous_guy
+152,crazy_jealous_guy,"{'char': 'Bill', 'movie': 'Kill Bill Volume 1', 'id': '/m/0j_fvv', 'actor': 'David Carradine'}",/m/0j_fvv,Kill Bill Volume 1,David Carradine,Bill,crazy_jealous_guy
+153,crazy_jealous_guy,"{'char': 'Bobby Tennison', 'movie': 'No One Would Tell', 'id': '/m/0g9k2p6', 'actor': 'Fred Savage'}",/m/0g9k2p6,No One Would Tell,Fred Savage,Bobby Tennison,crazy_jealous_guy
+154,crazy_jealous_guy,"{'char': 'Johnny Farrell', 'movie': 'Gilda', 'id': '/m/0jysmq', 'actor': 'Glenn Ford'}",/m/0jysmq,Gilda,Glenn Ford,Johnny Farrell,crazy_jealous_guy
+155,crazy_jealous_guy,"{'char': 'Takeo', 'movie': 'The Grudge', 'id': '/m/0hgc9dq', 'actor': 'Takashi Matsuyama'}",/m/0hgc9dq,The Grudge,Takashi Matsuyama,Takeo,crazy_jealous_guy
+156,crazy_jealous_guy,"{'char': 'Guy', 'movie': 'Swimming with Sharks', 'id': '/m/021_h9h', 'actor': 'Frank Whaley'}",/m/021_h9h,Swimming with Sharks,Frank Whaley,Guy,crazy_jealous_guy
+157,crazy_jealous_guy,"{'char': 'Blue', 'movie': 'Sucker Punch', 'id': '/m/0850_tx', 'actor': 'Oscar Isaac'}",/m/0850_tx,Sucker Punch,Oscar Isaac,Blue,crazy_jealous_guy
+158,crazy_jealous_guy,"{'char': 'Tony Wendice', 'movie': 'Dial M for Murder', 'id': '/m/0jx7qr', 'actor': 'Ray Milland'}",/m/0jx7qr,Dial M for Murder,Ray Milland,Tony Wendice,crazy_jealous_guy
+159,crazy_jealous_guy,"{'char': 'Steven Taylor', 'movie': 'A Perfect Murder', 'id': '/m/0jsw40', 'actor': 'Michael Douglas'}",/m/0jsw40,A Perfect Murder,Michael Douglas,Steven Taylor,crazy_jealous_guy
+160,crazy_jealous_guy,"{'char': 'Geoffrey Clifton', 'movie': 'The English Patient', 'id': '/m/0k4_tz', 'actor': 'Colin Firth'}",/m/0k4_tz,The English Patient,Colin Firth,Geoffrey Clifton,crazy_jealous_guy
+161,crazy_survivalist,"{'char': 'Harlan Ogilvy', 'movie': 'War of the Worlds', 'id': '/m/0k7w6s', 'actor': 'Tim Robbins'}",/m/0k7w6s,War of the Worlds,Tim Robbins,Harlan Ogilvy,crazy_survivalist
+162,crazy_survivalist,"{'char': 'Eli', 'movie': 'The Book of Eli', 'id': '/m/05nv915', 'actor': 'Denzel Washington'}",/m/05nv915,The Book of Eli,Denzel Washington,Eli,crazy_survivalist
+163,crazy_survivalist,"{'char': 'Marvin Boggs', 'movie': 'Red', 'id': '/m/0b7n5zy', 'actor': 'John Malkovich'}",/m/0b7n5zy,Red,John Malkovich,Marvin Boggs,crazy_survivalist
+164,cultured_badass,"{'char': 'James Bond', 'movie': 'Casino Royale', 'id': '/m/02hw79s', 'actor': 'Daniel Craig'}",/m/02hw79s,Casino Royale,Daniel Craig,James Bond,cultured_badass
+165,cultured_badass,"{'char': 'Dorian Gray', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0dkcy1f', 'actor': 'Stuart Townsend'}",/m/0dkcy1f,The League of Extraordinary Gentlemen,Stuart Townsend,Dorian Gray,cultured_badass
+166,cultured_badass,"{'char': 'Everett Hitch', 'movie': 'Appaloosa', 'id': '/m/04601vx', 'actor': 'Viggo Mortensen'}",/m/04601vx,Appaloosa,Viggo Mortensen,Everett Hitch,cultured_badass
+167,cultured_badass,"{'char': 'Leopold', 'movie': 'Kate & Leopold', 'id': '/m/02tb9_v', 'actor': 'Hugh Jackman'}",/m/02tb9_v,Kate & Leopold,Hugh Jackman,Leopold,cultured_badass
+168,cultured_badass,"{'char': 'Hannibal Lecter', 'movie': 'The Silence of the Lambs', 'id': '/m/0k6g86', 'actor': 'Anthony Hopkins'}",/m/0k6g86,The Silence of the Lambs,Anthony Hopkins,Hannibal Lecter,cultured_badass
+169,cultured_badass,"{'char': 'Ghost Dog', 'movie': 'Ghost Dog: The Way of the Samurai', 'id': '/m/0jyr6h', 'actor': 'Forest Whitaker'}",/m/0jyr6h,Ghost Dog: The Way of the Samurai,Forest Whitaker,Ghost Dog,cultured_badass
+170,cultured_badass,"{'char': 'Dupont', 'movie': 'Equilibrium', 'id': '/m/0jxwqx', 'actor': 'Angus Macfadyen'}",/m/0jxwqx,Equilibrium,Angus Macfadyen,Dupont,cultured_badass
+171,cultured_badass,"{'char': 'Arthur Burns', 'movie': 'The Proposition', 'id': '/m/0k66rt', 'actor': 'Danny Huston'}",/m/0k66rt,The Proposition,Danny Huston,Arthur Burns,cultured_badass
+172,dean_bitterman,"{'char': 'Richard Vernon', 'movie': 'The Breakfast Club', 'id': '/m/0k4l6b', 'actor': 'Paul Gleason'}",/m/0k4l6b,The Breakfast Club,Paul Gleason,Richard Vernon,dean_bitterman
+173,dean_bitterman,"{'char': 'Ed Rooney', 'movie': ""Ferris Bueller's Day Off"", 'id': '/m/0jy52w', 'actor': 'Jeffrey Jones'}",/m/0jy52w,Ferris Bueller's Day Off,Jeffrey Jones,Ed Rooney,dean_bitterman
+174,dean_bitterman,"{'char': 'Mr. Nolan', 'movie': 'Dead Poets Society', 'id': '/m/0jx21w', 'actor': 'Norman Lloyd'}",/m/0jx21w,Dead Poets Society,Norman Lloyd,Mr. Nolan,dean_bitterman
+175,dean_bitterman,"{'char': 'Dean Richmond', 'movie': 'The Nutty Professor', 'id': '/m/0k60j5', 'actor': 'Larry Miller'}",/m/0k60j5,The Nutty Professor,Larry Miller,Dean Richmond,dean_bitterman
+176,dirty_cop,"{'char': 'Alonzo', 'movie': 'Training Day', 'id': '/m/0k79b3', 'actor': 'Denzel Washington'}",/m/0k79b3,Training Day,Denzel Washington,Alonzo,dirty_cop
+177,dirty_cop,"{'char': 'Dennis Peck', 'movie': 'Internal Affairs', 'id': '/m/0jzyzv', 'actor': 'Richard Gere'}",/m/0jzyzv,Internal Affairs,Richard Gere,Dennis Peck,dirty_cop
+178,dirty_cop,"{'char': 'Colin Sullivan', 'movie': 'The Departed', 'id': '/m/0k4xjq', 'actor': 'Matt Damon'}",/m/0k4xjq,The Departed,Matt Damon,Colin Sullivan,dirty_cop
+179,dirty_cop,"{'char': 'Police Captain Hank Quinlan', 'movie': 'Touch of Evil', 'id': '/m/0k78gf', 'actor': 'Orson Welles'}",/m/0k78gf,Touch of Evil,Orson Welles,Police Captain Hank Quinlan,dirty_cop
+180,dirty_cop,"{'char': 'Rooster', 'movie': 'Righteous Kill', 'id': '/m/02vcq3r', 'actor': 'Al Pacino'}",/m/02vcq3r,Righteous Kill,Al Pacino,Rooster,dirty_cop
+181,dirty_cop,"{'char': 'Abel Turner', 'movie': 'Lakeview Terrace', 'id': '/m/02tb650', 'actor': 'Samuel L. Jackson'}",/m/02tb650,Lakeview Terrace,Samuel L. Jackson,Abel Turner,dirty_cop
+182,dirty_cop,"{'char': 'The Lieutenant', 'movie': 'Bad Lieutenant', 'id': '/m/0jtz28', 'actor': 'Harvey Keitel'}",/m/0jtz28,Bad Lieutenant,Harvey Keitel,The Lieutenant,dirty_cop
+183,ditz,"{'char': 'Cher Horowitz', 'movie': 'Clueless', 'id': '/m/0jwjsy', 'actor': 'Alicia Silverstone'}",/m/0jwjsy,Clueless,Alicia Silverstone,Cher Horowitz,ditz
+184,ditz,"{'char': 'Mr. Bean', 'movie': ""Mr. Bean's Holiday"", 'id': '/m/0jygqg', 'actor': 'Rowan Atkinson'}",/m/0jygqg,Mr. Bean's Holiday,Rowan Atkinson,Mr. Bean,ditz
+185,ditz,"{'char': 'Arthur Bach', 'movie': 'Arthur', 'id': '/m/0ghdkxh', 'actor': 'Russell Brand'}",/m/0ghdkxh,Arthur,Russell Brand,Arthur Bach,ditz
+186,ditz,"{'char': 'Nick', 'movie': '30 Minutes or Less', 'id': '/m/0gvd8dq', 'actor': 'Jesse Eisenberg'}",/m/0gvd8dq,30 Minutes or Less,Jesse Eisenberg,Nick,ditz
+187,ditz,"{'char': 'Henry Roth', 'movie': '50 First Dates', 'id': '/m/0jsll5', 'actor': 'Adam Sandler'}",/m/0jsll5,50 First Dates,Adam Sandler,Henry Roth,ditz
+188,ditz,"{'char': 'Michael Newman', 'movie': 'Click', 'id': '/m/0jwj2t', 'actor': 'Adam Sandler'}",/m/0jwj2t,Click,Adam Sandler,Michael Newman,ditz
+189,ditz,"{'char': 'Chuck Levine', 'movie': 'I Now Pronounce You Chuck and Larry', 'id': '/m/02vbl__', 'actor': 'Adam Sandler'}",/m/02vbl__,I Now Pronounce You Chuck and Larry,Adam Sandler,Chuck Levine,ditz
+190,doormat,"{'char': 'George McFly', 'movie': 'Back to the Future', 'id': '/m/0jty5w', 'actor': 'Crispin Glover'}",/m/0jty5w,Back to the Future,Crispin Glover,George McFly,doormat
+191,doormat,"{'char': 'Harry Dunne', 'movie': 'Dumb & Dumber', 'id': '/m/0jxmxp', 'actor': 'Jeff Daniels'}",/m/0jxmxp,Dumb & Dumber,Jeff Daniels,Harry Dunne,doormat
+192,doormat,"{'char': 'Belle', 'movie': 'Beauty and the Beast: The Enchanted Christmas', 'id': '/m/0fprkm7', 'actor': ""Paige O'Hara""}",/m/0fprkm7,Beauty and the Beast: The Enchanted Christmas,Paige O'Hara,Belle,doormat
+193,doormat,"{'char': 'Stu Price', 'movie': 'The Hangover', 'id': '/m/05srhg_', 'actor': 'Ed Helms'}",/m/05srhg_,The Hangover,Ed Helms,Stu Price,doormat
+194,drill_sargeant_nasty,"{'char': 'Gny. Sgt. Hartman', 'movie': 'Full Metal Jacket', 'id': '/m/0jykjt', 'actor': 'R. Lee Ermey'}",/m/0jykjt,Full Metal Jacket,R. Lee Ermey,Gny. Sgt. Hartman,drill_sargeant_nasty
+195,drill_sargeant_nasty,"{'char': 'Master Chief John James Urgayle', 'movie': 'G.I. Jane', 'id': '/m/0jylf1', 'actor': 'Viggo Mortensen'}",/m/0jylf1,G.I. Jane,Viggo Mortensen,Master Chief John James Urgayle,drill_sargeant_nasty
+196,drill_sargeant_nasty,"{'char': 'Sgt. Hulka', 'movie': 'Stripes', 'id': '/m/022108v', 'actor': 'Warren Oates'}",/m/022108v,Stripes,Warren Oates,Sgt. Hulka,drill_sargeant_nasty
+197,drill_sargeant_nasty,"{'char': 'Sergeant Thomas Highway', 'movie': 'Heartbreak Ridge', 'id': '/m/0jz8d6', 'actor': 'Clint Eastwood'}",/m/0jz8d6,Heartbreak Ridge,Clint Eastwood,Sergeant Thomas Highway,drill_sargeant_nasty
+198,drill_sargeant_nasty,"{'char': 'Staff Sergeant Robert Barnes', 'movie': 'Platoon', 'id': '/m/0k1yyt', 'actor': 'Tom Berenger'}",/m/0k1yyt,Platoon,Tom Berenger,Staff Sergeant Robert Barnes,drill_sargeant_nasty
+199,drill_sargeant_nasty,"{'char': 'Maj. John Reisman', 'movie': 'The Dirty Dozen: The Next Mission', 'id': '/m/0b78ft6', 'actor': 'Lee Marvin'}",/m/0b78ft6,The Dirty Dozen: The Next Mission,Lee Marvin,Maj. John Reisman,drill_sargeant_nasty
+200,dumb_blonde,"{'char': 'Kitty Packard', 'movie': 'Dinner at Eight', 'id': '/m/0jx9zj', 'actor': 'Jean Harlow'}",/m/0jx9zj,Dinner at Eight,Jean Harlow,Kitty Packard,dumb_blonde
+201,dumb_blonde,"{'char': 'Cindy Campbell', 'movie': 'Scary Movie 4', 'id': '/m/0k2y_7', 'actor': 'Anna Faris'}",/m/0k2y_7,Scary Movie 4,Anna Faris,Cindy Campbell,dumb_blonde
+202,dumb_blonde,"{'char': 'Cindy Campbell', 'movie': 'Scary Movie 3', 'id': '/m/0k2z05', 'actor': 'Anna Faris'}",/m/0k2z05,Scary Movie 3,Anna Faris,Cindy Campbell,dumb_blonde
+203,dumb_blonde,"{'char': 'Brandi', 'movie': 'Observe and Report', 'id': '/m/059sp8v', 'actor': 'Anna Faris'}",/m/059sp8v,Observe and Report,Anna Faris,Brandi,dumb_blonde
+204,dumb_blonde,"{'char': 'Pola Debevoise', 'movie': 'How to Marry a Millionaire', 'id': '/m/0jzmyb', 'actor': 'Marilyn Monroe'}",/m/0jzmyb,How to Marry a Millionaire,Marilyn Monroe,Pola Debevoise,dumb_blonde
+205,dumb_blonde,"{'char': 'Romy White', 'movie': ""Romy and Michele's High School Reunion"", 'id': '/m/0k2p5c', 'actor': 'Mira Sorvino'}",/m/0k2p5c,Romy and Michele's High School Reunion,Mira Sorvino,Romy White,dumb_blonde
+206,dumb_blonde,"{'char': 'Michele Weinberger', 'movie': ""Romy and Michele's High School Reunion"", 'id': '/m/0k2p5j', 'actor': 'Lisa Kudrow'}",/m/0k2p5j,Romy and Michele's High School Reunion,Lisa Kudrow,Michele Weinberger,dumb_blonde
+207,dumb_blonde,"{'char': 'Suzanne Stone Maretto', 'movie': 'To Die For', 'id': '/m/0k75t3', 'actor': 'Nicole Kidman'}",/m/0k75t3,To Die For,Nicole Kidman,Suzanne Stone Maretto,dumb_blonde
+208,dumb_blonde,"{'char': 'Rocky Horror - A Creation', 'movie': 'The Rocky Horror Picture Show', 'id': '/m/02tb6wq', 'actor': 'Peter Hinwood'}",/m/02tb6wq,The Rocky Horror Picture Show,Peter Hinwood,Rocky Horror - A Creation,dumb_blonde
+209,dumb_blonde,"{'char': 'Mia', 'movie': 'Stan Helsing', 'id': '/m/0gc3g1p', 'actor': 'Desi Lydic'}",/m/0gc3g1p,Stan Helsing,Desi Lydic,Mia,dumb_blonde
+210,dumb_blonde,"{'char': 'Lina Lamont', 'movie': ""Singin' in the Rain"", 'id': '/m/0k3b2r', 'actor': 'Jean Hagen'}",/m/0k3b2r,Singin' in the Rain,Jean Hagen,Lina Lamont,dumb_blonde
+211,dumb_muscle,"{'char': 'Lennie Pike', 'movie': ""It's a Mad, Mad, Mad, Mad World"", 'id': '/m/01z0cck', 'actor': 'Jonathan Winters'}",/m/01z0cck,"It's a Mad, Mad, Mad, Mad World",Jonathan Winters,Lennie Pike,dumb_muscle
+212,dumb_muscle,"{'char': 'Mongo', 'movie': 'Blazing Saddles', 'id': '/m/04w0vjn', 'actor': 'Alex Karras'}",/m/04w0vjn,Blazing Saddles,Alex Karras,Mongo,dumb_muscle
+213,dumb_muscle,"{'char': 'Fezzik', 'movie': 'The Princess Bride', 'id': '/m/0k65zh', 'actor': 'André the Giant'}",/m/0k65zh,The Princess Bride,André the Giant,Fezzik,dumb_muscle
+214,dumb_muscle,"{'char': 'Karl Childers', 'movie': 'Sling Blade', 'id': '/m/0k3dtt', 'actor': 'Billy Bob Thornton'}",/m/0k3dtt,Sling Blade,Billy Bob Thornton,Karl Childers,dumb_muscle
+215,eccentric_mentor,"{'char': 'Aughra', 'movie': 'The Dark Crystal', 'id': '/m/02vbpft', 'actor': 'Billie Whitelaw'}",/m/02vbpft,The Dark Crystal,Billie Whitelaw,Aughra,eccentric_mentor
+216,eccentric_mentor,"{'char': 'Mr. Kesuke Miyagi', 'movie': 'The Karate Kid', 'id': '/m/0k5jxz', 'actor': 'Pat Morita'}",/m/0k5jxz,The Karate Kid,Pat Morita,Mr. Kesuke Miyagi,eccentric_mentor
+217,eccentric_mentor,"{'char': 'Yoda', 'movie': 'Star Wars Episode V: The Empire Strikes Back', 'id': '/m/02sg6hm', 'actor': 'Frank Oz'}",/m/02sg6hm,Star Wars Episode V: The Empire Strikes Back,Frank Oz,Yoda,eccentric_mentor
+218,eccentric_mentor,"{'char': 'Gandalf', 'movie': 'The Lord of the Rings: The Fellowship of the Ring', 'id': '/m/0k5s9d', 'actor': 'Ian McKellen'}",/m/0k5s9d,The Lord of the Rings: The Fellowship of the Ring,Ian McKellen,Gandalf,eccentric_mentor
+219,eccentric_mentor,"{'char': 'Fin Raziel', 'movie': 'Willow', 'id': '/m/0k837x', 'actor': 'Patricia Hayes'}",/m/0k837x,Willow,Patricia Hayes,Fin Raziel,eccentric_mentor
+220,egomaniac_hunter,"{'char': 'Clayton', 'movie': 'Tarzan', 'id': '/m/0k42s4', 'actor': 'Brian Blessed'}",/m/0k42s4,Tarzan,Brian Blessed,Clayton,egomaniac_hunter
+221,egomaniac_hunter,"{'char': 'Gaston', 'movie': 'Beauty and the Beast', 'id': '/m/0jv4jc', 'actor': 'Richard White'}",/m/0jv4jc,Beauty and the Beast,Richard White,Gaston,egomaniac_hunter
+222,egomaniac_hunter,"{'char': 'Charles Muntz', 'movie': 'Up', 'id': '/m/045_c9z', 'actor': 'Christopher Plummer'}",/m/045_c9z,Up,Christopher Plummer,Charles Muntz,egomaniac_hunter
+223,egomaniac_hunter,"{'char': 'John Wilson', 'movie': 'White Hunter, Black Heart', 'id': '/m/0k818w', 'actor': 'Clint Eastwood'}",/m/0k818w,"White Hunter, Black Heart",Clint Eastwood,John Wilson,egomaniac_hunter
+224,egomaniac_hunter,"{'char': 'Victor Quartermaine', 'movie': 'Wallace & Gromit: The Curse of the Were-Rabbit', 'id': '/m/0k7vr9', 'actor': 'Ralph Fiennes'}",/m/0k7vr9,Wallace & Gromit: The Curse of the Were-Rabbit,Ralph Fiennes,Victor Quartermaine,egomaniac_hunter
+225,egomaniac_hunter,"{'char': 'The Predator', 'movie': 'Predator 2', 'id': '/m/03lpp78', 'actor': 'Kevin Peter Hall'}",/m/03lpp78,Predator 2,Kevin Peter Hall,The Predator,egomaniac_hunter
+226,egomaniac_hunter,"{'char': 'The Predator', 'movie': 'Predator', 'id': '/m/0h34xg2', 'actor': 'Peter Cullen'}",/m/0h34xg2,Predator,Peter Cullen,The Predator,egomaniac_hunter
+227,evil_prince,"{'char': 'Prince Yu', 'movie': 'Curse of the Golden Flower', 'id': '/m/0gbxx9x', 'actor': 'Junjie Qin'}",/m/0gbxx9x,Curse of the Golden Flower,Junjie Qin,Prince Yu,evil_prince
+228,evil_prince,"{'char': 'Crown Prince Leopold', 'movie': 'The Illusionist', 'id': '/m/0k5f_q', 'actor': 'Rufus Sewell'}",/m/0k5f_q,The Illusionist,Rufus Sewell,Crown Prince Leopold,evil_prince
+229,evil_prince,"{'char': 'Commodus', 'movie': 'Gladiator', 'id': '/m/0jytd4', 'actor': 'Joaquin Phoenix'}",/m/0jytd4,Gladiator,Joaquin Phoenix,Commodus,evil_prince
+230,evil_prince,"{'char': 'Lord Nelson Rathbone', 'movie': 'Shanghai Knights', 'id': '/m/02vd4f4', 'actor': 'Aidan Gillen'}",/m/02vd4f4,Shanghai Knights,Aidan Gillen,Lord Nelson Rathbone,evil_prince
+231,evil_prince,"{'char': 'Prince Nuada', 'movie': 'Hellboy 2: The Golden Army', 'id': '/m/04m9lhl', 'actor': 'Luke Goss'}",/m/04m9lhl,Hellboy 2: The Golden Army,Luke Goss,Prince Nuada,evil_prince
+232,evil_prince,"{'char': 'Nizam', 'movie': 'Prince of Persia: The Sands of Time', 'id': '/m/04m5488', 'actor': 'Ben Kingsley'}",/m/04m5488,Prince of Persia: The Sands of Time,Ben Kingsley,Nizam,evil_prince
+233,evil_prince,"{'char': 'Prince Otwani', 'movie': 'Sheena', 'id': '/m/0k36bq', 'actor': 'Trevor Thomas'}",/m/0k36bq,Sheena,Trevor Thomas,Prince Otwani,evil_prince
+234,evil_prince,"{'char': 'Prince Humperdinck', 'movie': 'The Princess Bride', 'id': '/m/0k65z0', 'actor': 'Chris Sarandon'}",/m/0k65z0,The Princess Bride,Chris Sarandon,Prince Humperdinck,evil_prince
+235,fastest_gun_in_the_west,"{'char': 'Jim', 'movie': 'Blazing Saddles', 'id': '/m/0jvhqr', 'actor': 'Gene Wilder'}",/m/0jvhqr,Blazing Saddles,Gene Wilder,Jim,fastest_gun_in_the_west
+236,fastest_gun_in_the_west,"{'char': 'Bret Maverick', 'movie': 'Maverick', 'id': '/m/0k0hyr', 'actor': 'Mel Gibson'}",/m/0k0hyr,Maverick,Mel Gibson,Bret Maverick,fastest_gun_in_the_west
+237,fastest_gun_in_the_west,"{'char': 'Ned Nederlander', 'movie': '¡Three Amigos!', 'id': '/m/0jshd9', 'actor': 'Martin Short'}",/m/0jshd9,¡Three Amigos!,Martin Short,Ned Nederlander,fastest_gun_in_the_west
+238,fastest_gun_in_the_west,"{'char': 'Harmonica', 'movie': 'Once Upon a Time in the West', 'id': '/m/0k1j46', 'actor': 'Charles Bronson'}",/m/0k1j46,Once Upon a Time in the West,Charles Bronson,Harmonica,fastest_gun_in_the_west
+239,fastest_gun_in_the_west,"{'char': 'Sheriff Woody', 'movie': 'Toy Story', 'id': '/m/0k78tv', 'actor': 'Tom Hanks'}",/m/0k78tv,Toy Story,Tom Hanks,Sheriff Woody,fastest_gun_in_the_west
+240,fastest_gun_in_the_west,"{'char': 'Ben Wade', 'movie': '3:10 to Yuma', 'id': '/m/03hqy08', 'actor': 'Russell Crowe'}",/m/03hqy08,3:10 to Yuma,Russell Crowe,Ben Wade,fastest_gun_in_the_west
+241,fastest_gun_in_the_west,"{'char': 'RoboCop', 'movie': 'RoboCop', 'id': '/m/0h5q82q', 'actor': 'Peter Weller'}",/m/0h5q82q,RoboCop,Peter Weller,RoboCop,fastest_gun_in_the_west
+242,father_to_his_men,"{'char': 'Capt. Mikhail Polenin', 'movie': 'K-19: The Widowmaker', 'id': '/m/0j_9gv', 'actor': 'Liam Neeson'}",/m/0j_9gv,K-19: The Widowmaker,Liam Neeson,Capt. Mikhail Polenin,father_to_his_men
+243,father_to_his_men,"{'char': 'Capt. Nathan Cutting Brittles', 'movie': 'She Wore a Yellow Ribbon', 'id': '/m/0k35w2', 'actor': 'John Wayne'}",/m/0k35w2,She Wore a Yellow Ribbon,John Wayne,Capt. Nathan Cutting Brittles,father_to_his_men
+244,father_to_his_men,"{'char': 'Maximus Decimus Meridius', 'movie': 'Gladiator', 'id': '/m/0jytc_', 'actor': 'Russell Crowe'}",/m/0jytc_,Gladiator,Russell Crowe,Maximus Decimus Meridius,father_to_his_men
+245,father_to_his_men,"{'char': 'Jack Aubrey', 'movie': 'Master and Commander: The Far Side of the World', 'id': '/m/0k0h66', 'actor': 'Russell Crowe'}",/m/0k0h66,Master and Commander: The Far Side of the World,Russell Crowe,Jack Aubrey,father_to_his_men
+246,father_to_his_men,"{'char': 'Captain Benjamin L. Willard', 'movie': 'Apocalypse Now', 'id': '/m/0jtp2f', 'actor': 'Martin Sheen'}",/m/0jtp2f,Apocalypse Now,Martin Sheen,Captain Benjamin L. Willard,father_to_his_men
+247,father_to_his_men,"{'char': ""Captain of the 'Weser'"", 'movie': 'Das Boot', 'id': '/m/0j47kxy', 'actor': 'Günter Lamprecht'}",/m/0j47kxy,Das Boot,Günter Lamprecht,Captain of the 'Weser',father_to_his_men
+248,father_to_his_men,"{'char': 'Captain Nemo', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0k5nrw', 'actor': 'Naseeruddin Shah'}",/m/0k5nrw,The League of Extraordinary Gentlemen,Naseeruddin Shah,Captain Nemo,father_to_his_men
+249,father_to_his_men,"{'char': ""Capt. James 'Bugger' Staros"", 'movie': 'The Thin Red Line', 'id': '/m/0k6nwg', 'actor': 'Elias Koteas'}",/m/0k6nwg,The Thin Red Line,Elias Koteas,Capt. James 'Bugger' Staros,father_to_his_men
+250,father_to_his_men,"{'char': 'Gen. Robert E. Lee', 'movie': 'Gettysburg', 'id': '/m/0jyqwm', 'actor': 'Martin Sheen'}",/m/0jyqwm,Gettysburg,Martin Sheen,Gen. Robert E. Lee,father_to_his_men
+251,father_to_his_men,"{'char': 'General Kuribayashi', 'movie': 'Letters from Iwo Jima', 'id': '/m/03jtctp', 'actor': 'Ken Watanabe'}",/m/03jtctp,Letters from Iwo Jima,Ken Watanabe,General Kuribayashi,father_to_his_men
+252,father_to_his_men,"{'char': 'Lt. Commander Ron Hunter', 'movie': 'Crimson Tide', 'id': '/m/0jwsnp', 'actor': 'Denzel Washington'}",/m/0jwsnp,Crimson Tide,Denzel Washington,Lt. Commander Ron Hunter,father_to_his_men
+253,father_to_his_men,"{'char': 'Christopher Pike', 'movie': 'Star Trek', 'id': '/m/03ld2yg', 'actor': 'Bruce Greenwood'}",/m/03ld2yg,Star Trek,Bruce Greenwood,Christopher Pike,father_to_his_men
+254,father_to_his_men,"{'char': 'Zordon', 'movie': ""Mighty Morphin' Power Rangers: The Movie"", 'id': '/m/0k0nmw', 'actor': 'Nicholas Bell'}",/m/0k0nmw,Mighty Morphin' Power Rangers: The Movie,Nicholas Bell,Zordon,father_to_his_men
+255,father_to_his_men,"{'char': 'Wolfstan', 'movie': 'Black Death', 'id': '/m/0cg03cg', 'actor': 'John Lynch'}",/m/0cg03cg,Black Death,John Lynch,Wolfstan,father_to_his_men
+256,father_to_his_men,"{'char': 'Major Henry West', 'movie': '28 Days Later', 'id': '/m/0jskmk', 'actor': 'Christopher Eccleston'}",/m/0jskmk,28 Days Later,Christopher Eccleston,Major Henry West,father_to_his_men
+257,final_girl,"{'char': 'Nancy Thompson', 'movie': 'A Nightmare on Elm Street', 'id': '/m/0jsvgr', 'actor': 'Heather Langenkamp'}",/m/0jsvgr,A Nightmare on Elm Street,Heather Langenkamp,Nancy Thompson,final_girl
+258,final_girl,"{'char': 'Sidney Prescott', 'movie': 'Scream', 'id': '/m/0k2_bc', 'actor': 'Neve Campbell'}",/m/0k2_bc,Scream,Neve Campbell,Sidney Prescott,final_girl
+259,final_girl,"{'char': 'Ellen Ripley', 'movie': 'Alien', 'id': '/m/0jt7sz', 'actor': 'Sigourney Weaver'}",/m/0jt7sz,Alien,Sigourney Weaver,Ellen Ripley,final_girl
+260,final_girl,"{'char': 'Sarah Connor', 'movie': 'The Terminator', 'id': '/m/0k6m_h', 'actor': 'Linda Hamilton'}",/m/0k6m_h,The Terminator,Linda Hamilton,Sarah Connor,final_girl
+261,final_girl,"{'char': 'Laurie Strode', 'movie': 'Halloween', 'id': '/m/0jz2x0', 'actor': 'Jamie Lee Curtis'}",/m/0jz2x0,Halloween,Jamie Lee Curtis,Laurie Strode,final_girl
+262,final_girl,"{'char': 'Whitney Miller', 'movie': 'Friday the 13th', 'id': '/m/04ls8ty', 'actor': 'Amanda Righetti'}",/m/04ls8ty,Friday the 13th,Amanda Righetti,Whitney Miller,final_girl
+263,gadgeteer_genius,"{'char': 'Tony Stark', 'movie': 'Iron Man', 'id': '/m/0j1__hv', 'actor': 'Robert Downey Jr.'}",/m/0j1__hv,Iron Man,Robert Downey Jr.,Tony Stark,gadgeteer_genius
+264,gadgeteer_genius,"{'char': 'Dr. Loveless', 'movie': 'Wild Wild West', 'id': '/m/0k82tm', 'actor': 'Kenneth Branagh'}",/m/0k82tm,Wild Wild West,Kenneth Branagh,Dr. Loveless,gadgeteer_genius
+265,gadgeteer_genius,"{'char': 'Artemus Gordon', 'movie': 'Wild Wild West', 'id': '/m/0k82tg', 'actor': 'Kevin Kline'}",/m/0k82tg,Wild Wild West,Kevin Kline,Artemus Gordon,gadgeteer_genius
+266,gadgeteer_genius,"{'char': 'Lewis', 'movie': 'Meet the Robinsons', 'id': '/m/0k0kn_', 'actor': 'Tom Selleck'}",/m/0k0kn_,Meet the Robinsons,Tom Selleck,Lewis,gadgeteer_genius
+267,gadgeteer_genius,"{'char': 'Anakin Skywalker', 'movie': 'Star Wars Episode I: The Phantom Menace', 'id': '/m/02sg5rn', 'actor': 'Jake Lloyd'}",/m/02sg5rn,Star Wars Episode I: The Phantom Menace,Jake Lloyd,Anakin Skywalker,gadgeteer_genius
+268,gadgeteer_genius,"{'char': 'Ling Ling Fat', 'movie': 'Forbidden City Cop', 'id': '/m/02vb6nv', 'actor': 'Stephen Chow'}",/m/02vb6nv,Forbidden City Cop,Stephen Chow,Ling Ling Fat,gadgeteer_genius
+269,gadgeteer_genius,"{'char': 'Lucius Fox', 'movie': 'The Dark Knight', 'id': '/m/045yrqg', 'actor': 'Morgan Freeman'}",/m/045yrqg,The Dark Knight,Morgan Freeman,Lucius Fox,gadgeteer_genius
+270,gentleman_thief,"{'char': 'John Robie', 'movie': 'To Catch a Thief', 'id': '/m/0k75r_', 'actor': 'Cary Grant'}",/m/0k75r_,To Catch a Thief,Cary Grant,John Robie,gentleman_thief
+271,gentleman_thief,"{'char': 'Sir Charles Lytton', 'movie': 'The Pink Panther', 'id': '/m/0k63yr', 'actor': 'David Niven'}",/m/0k63yr,The Pink Panther,David Niven,Sir Charles Lytton,gentleman_thief
+272,gentleman_thief,"{'char': 'Neil McCauley', 'movie': 'Heat', 'id': '/m/0jz8sq', 'actor': 'Robert De Niro'}",/m/0jz8sq,Heat,Robert De Niro,Neil McCauley,gentleman_thief
+273,gentleman_thief,"{'char': 'Rodney Skinner', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0k5ns5', 'actor': 'Tony Curran'}",/m/0k5ns5,The League of Extraordinary Gentlemen,Tony Curran,Rodney Skinner,gentleman_thief
+274,gentleman_thief,"{'char': 'Cobb', 'movie': 'Inception', 'id': '/m/0667g_f', 'actor': 'Leonardo DiCaprio'}",/m/0667g_f,Inception,Leonardo DiCaprio,Cobb,gentleman_thief
+275,gentleman_thief,"{'char': 'Nick Wells', 'movie': 'The Score', 'id': '/m/0k6d1f', 'actor': 'Robert De Niro'}",/m/0k6d1f,The Score,Robert De Niro,Nick Wells,gentleman_thief
+276,granola_person,"{'char': 'Beth', 'movie': 'John Tucker Must Die', 'id': '/m/0j_6h2', 'actor': 'Sophia Bush'}",/m/0j_6h2,John Tucker Must Die,Sophia Bush,Beth,granola_person
+277,granola_person,"{'char': 'Jasper Palmer', 'movie': 'Children of Men', 'id': '/m/0jwbh7', 'actor': 'Michael Caine'}",/m/0jwbh7,Children of Men,Michael Caine,Jasper Palmer,granola_person
+278,granola_person,"{'char': 'Max Dennison', 'movie': 'Hocus Pocus', 'id': '/m/02vd92w', 'actor': 'Omri Katz'}",/m/02vd92w,Hocus Pocus,Omri Katz,Max Dennison,granola_person
+279,granola_person,"{'char': 'Lotte Schwartz', 'movie': 'Being John Malkovich', 'id': '/m/0jv6mp', 'actor': 'Cameron Diaz'}",/m/0jv6mp,Being John Malkovich,Cameron Diaz,Lotte Schwartz,granola_person
+280,granola_person,"{'char': 'Ana Pascal', 'movie': 'Stranger Than Fiction', 'id': '/m/0k3t_x', 'actor': 'Maggie Gyllenhaal'}",/m/0k3t_x,Stranger Than Fiction,Maggie Gyllenhaal,Ana Pascal,granola_person
+281,granola_person,"{'char': 'Ashley', 'movie': 'Orange County', 'id': '/m/0k1m4g', 'actor': 'Schuyler Fisk'}",/m/0k1m4g,Orange County,Schuyler Fisk,Ashley,granola_person
+282,granola_person,"{'char': 'Sheldon Mopes', 'movie': 'Death to Smoochy', 'id': '/m/0jx3b8', 'actor': 'Edward Norton'}",/m/0jx3b8,Death to Smoochy,Edward Norton,Sheldon Mopes,granola_person
+283,granola_person,"{'char': 'Bill Django', 'movie': 'The Men Who Stare at Goats', 'id': '/m/06679y8', 'actor': 'Jeff Bridges'}",/m/06679y8,The Men Who Stare at Goats,Jeff Bridges,Bill Django,granola_person
+284,grumpy_old_man,"{'char': 'Max Goldman', 'movie': 'Grumpy Old Men', 'id': '/m/02vcwz0', 'actor': 'Walter Matthau'}",/m/02vcwz0,Grumpy Old Men,Walter Matthau,Max Goldman,grumpy_old_man
+285,grumpy_old_man,"{'char': 'Walt Kowalski', 'movie': 'Gran Torino', 'id': '/m/059t435', 'actor': 'Clint Eastwood'}",/m/059t435,Gran Torino,Clint Eastwood,Walt Kowalski,grumpy_old_man
+286,grumpy_old_man,"{'char': 'Carl Fredricksen', 'movie': 'Up', 'id': '/m/045_cb3', 'actor': 'Ed Asner'}",/m/045_cb3,Up,Ed Asner,Carl Fredricksen,grumpy_old_man
+287,grumpy_old_man,"{'char': 'Howard Beale', 'movie': 'Network', 'id': '/m/0k168v', 'actor': 'Peter Finch'}",/m/0k168v,Network,Peter Finch,Howard Beale,grumpy_old_man
+288,grumpy_old_man,"{'char': 'Judge Elihu Smails', 'movie': 'Caddyshack', 'id': '/m/04w0v_v', 'actor': 'Ted Knight'}",/m/04w0v_v,Caddyshack,Ted Knight,Judge Elihu Smails,grumpy_old_man
+289,hardboiled_detective,"{'char': 'Sam Spade', 'movie': 'The Maltese Falcon', 'id': '/m/04dmkpj', 'actor': 'Humphrey Bogart'}",/m/04dmkpj,The Maltese Falcon,Humphrey Bogart,Sam Spade,hardboiled_detective
+290,hardboiled_detective,"{'char': 'Philip Marlowe', 'movie': 'The Big Sleep', 'id': '/m/0k4gwm', 'actor': 'Humphrey Bogart'}",/m/0k4gwm,The Big Sleep,Humphrey Bogart,Philip Marlowe,hardboiled_detective
+291,hardboiled_detective,"{'char': 'Dist. Atty. Martin Ferguson', 'movie': 'The Enforcer', 'id': '/m/0k4_sm', 'actor': 'Humphrey Bogart'}",/m/0k4_sm,The Enforcer,Humphrey Bogart,Dist. Atty. Martin Ferguson,hardboiled_detective
+292,hardboiled_detective,"{'char': ""Capt. 'Rip' Murdock"", 'movie': 'Dead Reckoning', 'id': '/m/0jx253', 'actor': 'Humphrey Bogart'}",/m/0jx253,Dead Reckoning,Humphrey Bogart,Capt. 'Rip' Murdock,hardboiled_detective
+293,hardboiled_detective,"{'char': 'Jeff Bailey', 'movie': 'Out of the Past', 'id': '/m/0k1nzj', 'actor': 'Robert Mitchum'}",/m/0k1nzj,Out of the Past,Robert Mitchum,Jeff Bailey,hardboiled_detective
+294,hardboiled_detective,"{'char': 'J. J. Gittes', 'movie': 'Chinatown', 'id': '/m/0jwcjk', 'actor': 'Jack Nicholson'}",/m/0jwcjk,Chinatown,Jack Nicholson,J. J. Gittes,hardboiled_detective
+295,hardboiled_detective,"{'char': 'Eddie Valiant', 'movie': 'Who Framed Roger Rabbit', 'id': '/m/0k81jp', 'actor': 'Bob Hoskins'}",/m/0k81jp,Who Framed Roger Rabbit,Bob Hoskins,Eddie Valiant,hardboiled_detective
+296,hardboiled_detective,"{'char': 'Rick Deckard', 'movie': 'Blade Runner', 'id': '/m/0jvhbm', 'actor': 'Harrison Ford'}",/m/0jvhbm,Blade Runner,Harrison Ford,Rick Deckard,hardboiled_detective
+297,heartbroken_badass,"{'char': 'Mina Harker', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0k5ns0', 'actor': 'Peta Wilson'}",/m/0k5ns0,The League of Extraordinary Gentlemen,Peta Wilson,Mina Harker,heartbroken_badass
+298,heartbroken_badass,"{'char': 'James Bond', 'movie': 'Quantum of Solace', 'id': '/m/03hqwg_', 'actor': 'Daniel Craig'}",/m/03hqwg_,Quantum of Solace,Daniel Craig,James Bond,heartbroken_badass
+299,heartbroken_badass,"{'char': 'Max Rockatansky', 'movie': 'Mad Max', 'id': '/m/0k09b2', 'actor': 'Mel Gibson'}",/m/0k09b2,Mad Max,Mel Gibson,Max Rockatansky,heartbroken_badass
+300,heartbroken_badass,"{'char': 'Josey Wales', 'movie': 'The Outlaw Josey Wales', 'id': '/m/0k61jr', 'actor': 'Clint Eastwood'}",/m/0k61jr,The Outlaw Josey Wales,Clint Eastwood,Josey Wales,heartbroken_badass
+301,heartbroken_badass,"{'char': 'Tallahassee', 'movie': 'Zombieland', 'id': '/m/05skv28', 'actor': 'Woody Harrelson'}",/m/05skv28,Zombieland,Woody Harrelson,Tallahassee,heartbroken_badass
+302,heartbroken_badass,"{'char': 'Bruce Wayne', 'movie': 'The Dark Knight Rises', 'id': '/m/0n4g1dv', 'actor': 'Christian Bale'}",/m/0n4g1dv,The Dark Knight Rises,Christian Bale,Bruce Wayne,heartbroken_badass
+303,heartbroken_badass,"{'char': 'Bill', 'movie': 'Kill Bill Volume 1', 'id': '/m/0j_fvv', 'actor': 'David Carradine'}",/m/0j_fvv,Kill Bill Volume 1,David Carradine,Bill,heartbroken_badass
+304,henpecked_husband,"{'char': 'Norbit', 'movie': 'Norbit', 'id': '/m/01z0rf5', 'actor': 'Eddie Murphy'}",/m/01z0rf5,Norbit,Eddie Murphy,Norbit,henpecked_husband
+305,henpecked_husband,"{'char': 'Bobby Davis', 'movie': 'Wild Hogs', 'id': '/m/0256cyz', 'actor': 'Martin Lawrence'}",/m/0256cyz,Wild Hogs,Martin Lawrence,Bobby Davis,henpecked_husband
+306,henpecked_husband,"{'char': 'Dr. Ernest Menville', 'movie': 'Death Becomes Her', 'id': '/m/0jx2_4', 'actor': 'Bruce Willis'}",/m/0jx2_4,Death Becomes Her,Bruce Willis,Dr. Ernest Menville,henpecked_husband
+307,henpecked_husband,"{'char': 'Dr. Howard Bannister', 'movie': ""What's Up, Doc?"", 'id': '/m/0k7_cy', 'actor': ""Ryan O'Neal""}",/m/0k7_cy,"What's Up, Doc?",Ryan O'Neal,Dr. Howard Bannister,henpecked_husband
+308,henpecked_husband,"{'char': 'Ned Schneebly', 'movie': 'School of Rock', 'id': '/m/0k2zjr', 'actor': 'Mike White'}",/m/0k2zjr,School of Rock,Mike White,Ned Schneebly,henpecked_husband
+309,hitman_with_a_heart,"{'char': 'Julian Noble', 'movie': 'The Matador', 'id': '/m/0k5wt7', 'actor': 'Pierce Brosnan'}",/m/0k5wt7,The Matador,Pierce Brosnan,Julian Noble,hitman_with_a_heart
+310,hitman_with_a_heart,"{'char': 'Ghost Dog', 'movie': 'Ghost Dog: The Way of the Samurai', 'id': '/m/0jyr6h', 'actor': 'Forest Whitaker'}",/m/0jyr6h,Ghost Dog: The Way of the Samurai,Forest Whitaker,Ghost Dog,hitman_with_a_heart
+311,hitman_with_a_heart,"{'char': ""Jimmy 'The Tulip' Tudeski"", 'movie': 'The Whole Nine Yards', 'id': '/m/0k6x0x', 'actor': 'Bruce Willis'}",/m/0k6x0x,The Whole Nine Yards,Bruce Willis,Jimmy 'The Tulip' Tudeski,hitman_with_a_heart
+312,hitman_with_a_heart,"{'char': 'Mr. Goodkat', 'movie': 'Lucky Number Slevin', 'id': '/m/0k087f', 'actor': 'Bruce Willis'}",/m/0k087f,Lucky Number Slevin,Bruce Willis,Mr. Goodkat,hitman_with_a_heart
+313,hitman_with_a_heart,"{'char': 'John Lee', 'movie': 'The Replacement Killers', 'id': '/m/0k68kd', 'actor': 'Chow Yun-Fat'}",/m/0k68kd,The Replacement Killers,Chow Yun-Fat,John Lee,hitman_with_a_heart
+314,hitman_with_a_heart,"{'char': 'Il Duce', 'movie': 'The Boondock Saints', 'id': '/m/0k4k6j', 'actor': 'Billy Connolly'}",/m/0k4k6j,The Boondock Saints,Billy Connolly,Il Duce,hitman_with_a_heart
+315,hitman_with_a_heart,"{'char': 'Jason Bourne', 'movie': 'The Bourne Identity', 'id': '/m/0k4kcz', 'actor': 'Matt Damon'}",/m/0k4kcz,The Bourne Identity,Matt Damon,Jason Bourne,hitman_with_a_heart
+316,hitman_with_a_heart,"{'char': 'Frank Falenczyk', 'movie': 'You Kill Me', 'id': '/m/02vb7cx', 'actor': 'Ben Kingsley'}",/m/02vb7cx,You Kill Me,Ben Kingsley,Frank Falenczyk,hitman_with_a_heart
+317,hitman_with_a_heart,"{'char': 'Wesley Gibson', 'movie': 'Wanted', 'id': '/m/02vb_l5', 'actor': 'James McAvoy'}",/m/02vb_l5,Wanted,James McAvoy,Wesley Gibson,hitman_with_a_heart
+318,hitman_with_a_heart,"{'char': 'Vincent', 'movie': 'Collateral', 'id': '/m/0jwkz6', 'actor': 'Tom Cruise'}",/m/0jwkz6,Collateral,Tom Cruise,Vincent,hitman_with_a_heart
+319,jerk_jock,"{'char': 'Austin', 'movie': 'Not Another Teen Movie', 'id': '/m/0k1cs5', 'actor': 'Eric Christian Olsen'}",/m/0k1cs5,Not Another Teen Movie,Eric Christian Olsen,Austin,jerk_jock
+320,jerk_jock,"{'char': 'Johnny Lawrence', 'movie': 'The Karate Kid', 'id': '/m/0k5jyf', 'actor': 'William Zabka'}",/m/0k5jyf,The Karate Kid,William Zabka,Johnny Lawrence,jerk_jock
+321,jerk_jock,"{'char': 'Gaston', 'movie': 'Beauty and the Beast', 'id': '/m/0jv4jc', 'actor': 'Richard White'}",/m/0jv4jc,Beauty and the Beast,Richard White,Gaston,jerk_jock
+322,jerk_jock,"{'char': 'Jim', 'movie': 'Edward Scissorhands', 'id': '/m/0jxqwd', 'actor': 'Anthony Michael Hall'}",/m/0jxqwd,Edward Scissorhands,Anthony Michael Hall,Jim,jerk_jock
+323,jerk_jock,"{'char': 'Biff Tannen', 'movie': 'Back to the Future', 'id': '/m/0jty60', 'actor': 'Thomas F. Wilson'}",/m/0jty60,Back to the Future,Thomas F. Wilson,Biff Tannen,jerk_jock
+324,jerk_jock,"{'char': 'Kurt Kelly', 'movie': 'Heathers', 'id': '/m/0h5slxp', 'actor': 'Lance Fenton'}",/m/0h5slxp,Heathers,Lance Fenton,Kurt Kelly,jerk_jock
+325,jerk_jock,"{'char': 'Bo', 'movie': 'Cursed', 'id': '/m/0jwwhw', 'actor': 'Milo Ventimiglia'}",/m/0jwwhw,Cursed,Milo Ventimiglia,Bo,jerk_jock
+326,jerk_jock,"{'char': 'Mike Dexter', 'movie': ""Can't Hardly Wait"", 'id': '/m/03jsnmf', 'actor': 'Peter Facinelli'}",/m/03jsnmf,Can't Hardly Wait,Peter Facinelli,Mike Dexter,jerk_jock
+327,jerk_jock,"{'char': 'Garth', 'movie': 'Alpha and Omega', 'id': '/m/0d2jcym', 'actor': 'Chris Carmack'}",/m/0d2jcym,Alpha and Omega,Chris Carmack,Garth,jerk_jock
+328,junkie_prophet,"{'char': 'Agatha', 'movie': 'Minority Report', 'id': '/m/0k0pgt', 'actor': 'Samantha Morton'}",/m/0k0pgt,Minority Report,Samantha Morton,Agatha,junkie_prophet
+329,junkie_prophet,"{'char': 'Cassie Holmes', 'movie': 'Push', 'id': '/m/040kc5w', 'actor': 'Dakota Fanning'}",/m/040kc5w,Push,Dakota Fanning,Cassie Holmes,junkie_prophet
+330,klutz,"{'char': 'Mia Thermopolis', 'movie': 'The Princess Diaries', 'id': '/m/02vbfh2', 'actor': 'Anne Hathaway'}",/m/02vbfh2,The Princess Diaries,Anne Hathaway,Mia Thermopolis,klutz
+331,klutz,"{'char': 'Seymour Krelborn', 'movie': 'Little Shop of Horrors', 'id': '/m/0k020r', 'actor': 'Rick Moranis'}",/m/0k020r,Little Shop of Horrors,Rick Moranis,Seymour Krelborn,klutz
+332,loser_protagonist,"{'char': 'Paul Blart', 'movie': 'Paul Blart: Mall Cop', 'id': '/m/059sm0m', 'actor': 'Kevin James'}",/m/059sm0m,Paul Blart: Mall Cop,Kevin James,Paul Blart,loser_protagonist
+333,loser_protagonist,"{'char': 'Sidney Young', 'movie': 'How to Lose Friends & Alienate People', 'id': '/m/040l_q8', 'actor': 'Simon Pegg'}",/m/040l_q8,How to Lose Friends & Alienate People,Simon Pegg,Sidney Young,loser_protagonist
+334,loser_protagonist,"{'char': 'Dennis', 'movie': 'Run, Fat Boy, Run', 'id': '/m/03lvx8n', 'actor': 'Simon Pegg'}",/m/03lvx8n,"Run, Fat Boy, Run",Simon Pegg,Dennis,loser_protagonist
+335,loser_protagonist,"{'char': 'Mark Bellison', 'movie': 'The Invention of Lying', 'id': '/m/062xh9l', 'actor': 'Ricky Gervais'}",/m/062xh9l,The Invention of Lying,Ricky Gervais,Mark Bellison,loser_protagonist
+336,loser_protagonist,"{'char': 'Dewey Finn', 'movie': 'School of Rock', 'id': '/m/0k2zjf', 'actor': 'Jack Black'}",/m/0k2zjf,School of Rock,Jack Black,Dewey Finn,loser_protagonist
+337,loser_protagonist,"{'char': 'Rob Gordon', 'movie': 'High Fidelity', 'id': '/m/02vb_jp', 'actor': 'John Cusack'}",/m/02vb_jp,High Fidelity,John Cusack,Rob Gordon,loser_protagonist
+338,loveable_rogue,"{'char': 'Han Solo', 'movie': 'Star Wars Episode IV: A New Hope', 'id': '/m/0k3r1_', 'actor': 'Harrison Ford'}",/m/0k3r1_,Star Wars Episode IV: A New Hope,Harrison Ford,Han Solo,loveable_rogue
+339,loveable_rogue,"{'char': 'Captain Jack Sparrow', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xxm', 'actor': 'Johnny Depp'}",/m/0k1xxm,Pirates of the Caribbean: Dead Man's Chest,Johnny Depp,Captain Jack Sparrow,loveable_rogue
+340,loveable_rogue,"{'char': 'Peter Blood', 'movie': 'Captain Blood', 'id': '/m/02vb_m3', 'actor': 'Errol Flynn'}",/m/02vb_m3,Captain Blood,Errol Flynn,Peter Blood,loveable_rogue
+341,loveable_rogue,"{'char': 'Capt. Louis Renault', 'movie': 'Casablanca', 'id': '/m/05286qg', 'actor': 'Claude Rains'}",/m/05286qg,Casablanca,Claude Rains,Capt. Louis Renault,loveable_rogue
+342,loveable_rogue,"{'char': 'Abu', 'movie': 'The Thief of Bagdad', 'id': '/m/0k6nkk', 'actor': 'Sabu Dastagir'}",/m/0k6nkk,The Thief of Bagdad,Sabu Dastagir,Abu,loveable_rogue
+343,loveable_rogue,"{'char': 'Eames', 'movie': 'Inception', 'id': '/m/07lkzl3', 'actor': 'Tom Hardy'}",/m/07lkzl3,Inception,Tom Hardy,Eames,loveable_rogue
+344,loveable_rogue,"{'char': 'Rodney Skinner', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0k5ns5', 'actor': 'Tony Curran'}",/m/0k5ns5,The League of Extraordinary Gentlemen,Tony Curran,Rodney Skinner,loveable_rogue
+345,loveable_rogue,"{'char': 'Harold Hill', 'movie': 'The Music Man', 'id': '/m/04hv61w', 'actor': 'Matthew Broderick'}",/m/04hv61w,The Music Man,Matthew Broderick,Harold Hill,loveable_rogue
+346,loveable_rogue,"{'char': 'Wolverine', 'movie': 'X-Men', 'id': '/m/0k86q4', 'actor': 'Hugh Jackman'}",/m/0k86q4,X-Men,Hugh Jackman,Wolverine,loveable_rogue
+347,master_swordsman,"{'char': 'Qui-Gon Jinn', 'movie': 'Star Wars Episode I: The Phantom Menace', 'id': '/m/0k3qyf', 'actor': 'Liam Neeson'}",/m/0k3qyf,Star Wars Episode I: The Phantom Menace,Liam Neeson,Qui-Gon Jinn,master_swordsman
+348,master_swordsman,"{'char': 'Obi-Wan Kenobi', 'movie': 'Star Wars Episode I: The Phantom Menace', 'id': '/m/0k3qy3', 'actor': 'Ewan McGregor'}",/m/0k3qy3,Star Wars Episode I: The Phantom Menace,Ewan McGregor,Obi-Wan Kenobi,master_swordsman
+349,master_swordsman,"{'char': 'Darth Vader', 'movie': 'Star Wars Episode V: The Empire Strikes Back', 'id': '/m/02nwtmm', 'actor': 'James Earl Jones'}",/m/02nwtmm,Star Wars Episode V: The Empire Strikes Back,James Earl Jones,Darth Vader,master_swordsman
+350,master_swordsman,"{'char': 'Inigo Montoya', 'movie': 'The Princess Bride', 'id': '/m/0k65z5', 'actor': 'Mandy Patinkin'}",/m/0k65z5,The Princess Bride,Mandy Patinkin,Inigo Montoya,master_swordsman
+351,master_swordsman,"{'char': 'Bill', 'movie': 'Kill Bill Volume 1', 'id': '/m/0j_fvv', 'actor': 'David Carradine'}",/m/0j_fvv,Kill Bill Volume 1,David Carradine,Bill,master_swordsman
+352,master_swordsman,"{'char': 'Archibald Cunningham', 'movie': 'Rob Roy', 'id': '/m/0k2ltj', 'actor': 'Tim Roth'}",/m/0k2ltj,Rob Roy,Tim Roth,Archibald Cunningham,master_swordsman
+353,master_swordsman,"{'char': 'Madmartigan', 'movie': 'Willow', 'id': '/m/0k8378', 'actor': 'Val Kilmer'}",/m/0k8378,Willow,Val Kilmer,Madmartigan,master_swordsman
+354,master_swordsman,"{'char': 'Nameless', 'movie': 'Hero', 'id': '/m/0jzcr5', 'actor': 'Jet Li'}",/m/0jzcr5,Hero,Jet Li,Nameless,master_swordsman
+355,master_swordsman,"{'char': 'Broken Sword', 'movie': 'Hero', 'id': '/m/0jzcrb', 'actor': 'Tony Leung Chiu Wai'}",/m/0jzcrb,Hero,Tony Leung Chiu Wai,Broken Sword,master_swordsman
+356,master_swordsman,"{'char': 'Aragorn', 'movie': 'The Lord of the Rings: The Return of the King', 'id': '/m/0k5scp', 'actor': 'Viggo Mortensen'}",/m/0k5scp,The Lord of the Rings: The Return of the King,Viggo Mortensen,Aragorn,master_swordsman
+357,master_swordsman,"{'char': 'Blade', 'movie': 'Blade', 'id': '/m/0jvh78', 'actor': 'Wesley Snipes'}",/m/0jvh78,Blade,Wesley Snipes,Blade,master_swordsman
+358,master_swordsman,"{'char': 'He-Man', 'movie': 'Masters of the Universe', 'id': '/m/0k0h9d', 'actor': 'Dolph Lundgren'}",/m/0k0h9d,Masters of the Universe,Dolph Lundgren,He-Man,master_swordsman
+359,morally_bankrupt_banker,"{'char': 'Mr. Perkins', 'movie': 'Despicable Me', 'id': '/m/06zzgw6', 'actor': 'Will Arnett'}",/m/06zzgw6,Despicable Me,Will Arnett,Mr. Perkins,morally_bankrupt_banker
+360,morally_bankrupt_banker,"{'char': 'Patrick Bateman', 'movie': 'American Psycho', 'id': '/m/0jtfcj', 'actor': 'Christian Bale'}",/m/0jtfcj,American Psycho,Christian Bale,Patrick Bateman,morally_bankrupt_banker
+361,morally_bankrupt_banker,"{'char': 'Henry F. Potter', 'movie': ""It's a Wonderful Life"", 'id': '/m/0j_11c', 'actor': 'Lionel Barrymore'}",/m/0j_11c,It's a Wonderful Life,Lionel Barrymore,Henry F. Potter,morally_bankrupt_banker
+362,officer_and_a_gentleman,"{'char': 'Norrington', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xyd', 'actor': 'Jack Davenport'}",/m/0k1xyd,Pirates of the Caribbean: Dead Man's Chest,Jack Davenport,Norrington,officer_and_a_gentleman
+363,officer_and_a_gentleman,"{'char': 'Col. Robert Gould Shaw', 'movie': 'Glory', 'id': '/m/0jyts_', 'actor': 'Matthew Broderick'}",/m/0jyts_,Glory,Matthew Broderick,Col. Robert Gould Shaw,officer_and_a_gentleman
+364,officer_and_a_gentleman,"{'char': 'Jack Aubrey', 'movie': 'Master and Commander: The Far Side of the World', 'id': '/m/0k0h66', 'actor': 'Russell Crowe'}",/m/0k0h66,Master and Commander: The Far Side of the World,Russell Crowe,Jack Aubrey,officer_and_a_gentleman
+365,officer_and_a_gentleman,"{'char': 'Captain Nicholls', 'movie': 'War Horse', 'id': '/m/0gkcn1g', 'actor': 'Tom Hiddleston'}",/m/0gkcn1g,War Horse,Tom Hiddleston,Captain Nicholls,officer_and_a_gentleman
+366,ophelia,"{'char': 'Elisabeth Burrows', 'movie': ""Don't Say a Word"", 'id': '/m/0jxfnl', 'actor': 'Brittany Murphy'}",/m/0jxfnl,Don't Say a Word,Brittany Murphy,Elisabeth Burrows,ophelia
+367,ophelia,"{'char': 'Crazy Cora', 'movie': 'Quigley Down Under', 'id': '/m/02tb5g1', 'actor': 'Laura San Giacomo'}",/m/02tb5g1,Quigley Down Under,Laura San Giacomo,Crazy Cora,ophelia
+368,ophelia,"{'char': 'Justine', 'movie': 'Melancholia', 'id': '/m/0gkj0cn', 'actor': 'Kirsten Dunst'}",/m/0gkj0cn,Melancholia,Kirsten Dunst,Justine,ophelia
+369,ophelia,"{'char': 'Gina Montana', 'movie': 'Scarface', 'id': '/m/0k2ysf', 'actor': 'Mary Elizabeth Mastrantonio'}",/m/0k2ysf,Scarface,Mary Elizabeth Mastrantonio,Gina Montana,ophelia
+370,ophelia,"{'char': 'Jane Olsen', 'movie': 'The Cabinet of Dr. Caligari', 'id': '/m/08cqh60', 'actor': 'Lil Dagover'}",/m/08cqh60,The Cabinet of Dr. Caligari,Lil Dagover,Jane Olsen,ophelia
+371,playful_hacker,"{'char': 'Kevin Flynn', 'movie': 'Tron', 'id': '/m/0k7cbl', 'actor': 'Jeff Bridges'}",/m/0k7cbl,Tron,Jeff Bridges,Kevin Flynn,playful_hacker
+372,playful_hacker,"{'char': 'Sam Flynn', 'movie': 'Tron: Legacy', 'id': '/m/062y97x', 'actor': 'Garrett Hedlund'}",/m/062y97x,Tron: Legacy,Garrett Hedlund,Sam Flynn,playful_hacker
+373,playful_hacker,"{'char': 'Riley Poole', 'movie': 'National Treasure', 'id': '/m/0k14vc', 'actor': 'Justin Bartha'}",/m/0k14vc,National Treasure,Justin Bartha,Riley Poole,playful_hacker
+374,playful_hacker,"{'char': 'David Lightman', 'movie': 'WarGames', 'id': '/m/0k7w8p', 'actor': 'Matthew Broderick'}",/m/0k7w8p,WarGames,Matthew Broderick,David Lightman,playful_hacker
+375,playful_hacker,"{'char': 'Mr. Universe', 'movie': 'Serenity', 'id': '/m/0k31lb', 'actor': 'David Krumholtz'}",/m/0k31lb,Serenity,David Krumholtz,Mr. Universe,playful_hacker
+376,prima_donna,"{'char': 'Lina Lamont', 'movie': ""Singin' in the Rain"", 'id': '/m/0k3b2r', 'actor': 'Jean Hagen'}",/m/0k3b2r,Singin' in the Rain,Jean Hagen,Lina Lamont,prima_donna
+377,prima_donna,"{'char': 'Sharpay Evans', 'movie': 'High School Musical', 'id': '/m/0jzdz2', 'actor': 'Ashley Tisdale'}",/m/0jzdz2,High School Musical,Ashley Tisdale,Sharpay Evans,prima_donna
+378,prima_donna,"{'char': 'Sharpay Evans', 'movie': 'High School Musical 2', 'id': '/m/02vc3dx', 'actor': 'Ashley Tisdale'}",/m/02vc3dx,High School Musical 2,Ashley Tisdale,Sharpay Evans,prima_donna
+379,prima_donna,"{'char': 'Sharpay Evans', 'movie': 'High School Musical 3: Senior Year', 'id': '/m/03lyytc', 'actor': 'Ashley Tisdale'}",/m/03lyytc,High School Musical 3: Senior Year,Ashley Tisdale,Sharpay Evans,prima_donna
+380,prima_donna,"{'char': 'Margo Channing', 'movie': 'All About Eve', 'id': '/m/0jt8y2', 'actor': 'Bette Davis'}",/m/0jt8y2,All About Eve,Bette Davis,Margo Channing,prima_donna
+381,prima_donna,"{'char': 'Norma Desmond', 'movie': 'Sunset Boulevard', 'id': '/m/0k3ybb', 'actor': 'Gloria Swanson'}",/m/0k3ybb,Sunset Boulevard,Gloria Swanson,Norma Desmond,prima_donna
+382,psycho_for_hire,"{'char': 'Gaear Grimsrud', 'movie': 'Fargo', 'id': '/m/0jy2x0', 'actor': 'Peter Stormare'}",/m/0jy2x0,Fargo,Peter Stormare,Gaear Grimsrud,psycho_for_hire
+383,psycho_for_hire,"{'char': 'Harlen Maguire', 'movie': 'Road to Perdition', 'id': '/m/0k2ljt', 'actor': 'Jude Law'}",/m/0k2ljt,Road to Perdition,Jude Law,Harlen Maguire,psycho_for_hire
+384,psycho_for_hire,"{'char': 'Mr. Blonde', 'movie': 'Reservoir Dogs', 'id': '/m/0k2ggy', 'actor': 'Michael Madsen'}",/m/0k2ggy,Reservoir Dogs,Michael Madsen,Mr. Blonde,psycho_for_hire
+385,psycho_for_hire,"{'char': 'Red Grant', 'movie': 'From Russia with Love', 'id': '/m/04p7pxj', 'actor': 'Robert Shaw'}",/m/04p7pxj,From Russia with Love,Robert Shaw,Red Grant,psycho_for_hire
+386,psycho_for_hire,"{'char': 'Anton Chigurh', 'movie': 'No Country for Old Men', 'id': '/m/03lgvz6', 'actor': 'Javier Bardem'}",/m/03lgvz6,No Country for Old Men,Javier Bardem,Anton Chigurh,psycho_for_hire
+387,psycho_for_hire,"{'char': 'Jackson Rippner', 'movie': 'Red Eye', 'id': '/m/0k2dm9', 'actor': 'Cillian Murphy'}",/m/0k2dm9,Red Eye,Cillian Murphy,Jackson Rippner,psycho_for_hire
+388,psycho_for_hire,"{'char': 'Staff Sergeant Robert Barnes', 'movie': 'Platoon', 'id': '/m/0k1yyt', 'actor': 'Tom Berenger'}",/m/0k1yyt,Platoon,Tom Berenger,Staff Sergeant Robert Barnes,psycho_for_hire
+389,psycho_for_hire,"{'char': 'George Higgins', 'movie': '8mm', 'id': '/m/03jsz47', 'actor': 'Chris Bauer'}",/m/03jsz47,8mm,Chris Bauer,George Higgins,psycho_for_hire
+390,psycho_for_hire,"{'char': 'Major Arnold Toht', 'movie': 'Indiana Jones and the Raiders of the Lost Ark', 'id': '/m/02nwzyz', 'actor': 'Ronald Lacey'}",/m/02nwzyz,Indiana Jones and the Raiders of the Lost Ark,Ronald Lacey,Major Arnold Toht,psycho_for_hire
+391,psycho_for_hire,"{'char': 'Mortimer Brewster', 'movie': 'Arsenic and Old Lace', 'id': '/m/0jtr3s', 'actor': 'Cary Grant'}",/m/0jtr3s,Arsenic and Old Lace,Cary Grant,Mortimer Brewster,psycho_for_hire
+392,psycho_for_hire,"{'char': 'Col. Paul Tanner', 'movie': 'My Fellow Americans', 'id': '/m/04q604c', 'actor': 'Everett McGill'}",/m/04q604c,My Fellow Americans,Everett McGill,Col. Paul Tanner,psycho_for_hire
+393,psycho_for_hire,"{'char': 'Bullet Tooth Tony', 'movie': 'Snatch', 'id': '/m/0k3gbw', 'actor': 'Vinnie Jones'}",/m/0k3gbw,Snatch,Vinnie Jones,Bullet Tooth Tony,psycho_for_hire
+394,psycho_for_hire,"{'char': 'Waingro', 'movie': 'Heat', 'id': '/m/03jrl1d', 'actor': 'Kevin Gage'}",/m/03jrl1d,Heat,Kevin Gage,Waingro,psycho_for_hire
+395,psycho_for_hire,"{'char': 'Jack Wilson', 'movie': 'Shane', 'id': '/m/0k34x6', 'actor': 'Jack Palance'}",/m/0k34x6,Shane,Jack Palance,Jack Wilson,psycho_for_hire
+396,psycho_for_hire,"{'char': 'Isaacs', 'movie': 'Hanna', 'id': '/m/0gh94vc', 'actor': 'Tom Hollander'}",/m/0gh94vc,Hanna,Tom Hollander,Isaacs,psycho_for_hire
+397,psycho_for_hire,"{'char': 'Frank', 'movie': 'Once Upon a Time in the West', 'id': '/m/0k1j4j', 'actor': 'Henry Fonda'}",/m/0k1j4j,Once Upon a Time in the West,Henry Fonda,Frank,psycho_for_hire
+398,pupil_turned_to_evil,"{'char': 'Count Dooku', 'movie': 'Star Wars Episode II: Attack of the Clones', 'id': '/m/0k3q_8', 'actor': 'Christopher Lee'}",/m/0k3q_8,Star Wars Episode II: Attack of the Clones,Christopher Lee,Count Dooku,pupil_turned_to_evil
+399,pupil_turned_to_evil,"{'char': 'Aaron Hallam', 'movie': 'The Hunted', 'id': '/m/03ls4jv', 'actor': 'Benicio del Toro'}",/m/03ls4jv,The Hunted,Benicio del Toro,Aaron Hallam,pupil_turned_to_evil
+400,retired_outlaw,"{'char': 'William Munny', 'movie': 'Unforgiven', 'id': '/m/0k7l31', 'actor': 'Clint Eastwood'}",/m/0k7l31,Unforgiven,Clint Eastwood,William Munny,retired_outlaw
+401,retired_outlaw,"{'char': 'Ned Logan', 'movie': 'Unforgiven', 'id': '/m/04xg29q', 'actor': 'Morgan Freeman'}",/m/04xg29q,Unforgiven,Morgan Freeman,Ned Logan,retired_outlaw
+402,retired_outlaw,"{'char': 'Butch Cassidy', 'movie': 'Butch Cassidy and the Sundance Kid', 'id': '/m/04ky2tz', 'actor': 'Paul Newman'}",/m/04ky2tz,Butch Cassidy and the Sundance Kid,Paul Newman,Butch Cassidy,retired_outlaw
+403,retired_outlaw,"{'char': 'The Sundance Kid', 'movie': 'Butch Cassidy and the Sundance Kid', 'id': '/m/0jvzx9', 'actor': 'Robert Redford'}",/m/0jvzx9,Butch Cassidy and the Sundance Kid,Robert Redford,The Sundance Kid,retired_outlaw
+404,retired_outlaw,"{'char': ""Patrick Floyd 'Pat' Garrett"", 'movie': 'Young Guns II', 'id': '/m/03jsysn', 'actor': 'William Petersen'}",/m/03jsysn,Young Guns II,William Petersen,Patrick Floyd 'Pat' Garrett,retired_outlaw
+405,retired_outlaw,"{'char': ""Roy O'Bannon"", 'movie': 'Shanghai Noon', 'id': '/m/0k34yw', 'actor': 'Owen Wilson'}",/m/0k34yw,Shanghai Noon,Owen Wilson,Roy O'Bannon,retired_outlaw
+406,revenge,"{'char': 'Inigo Montoya', 'movie': 'The Princess Bride', 'id': '/m/0k65z5', 'actor': 'Mandy Patinkin'}",/m/0k65z5,The Princess Bride,Mandy Patinkin,Inigo Montoya,revenge
+407,revenge,"{'char': 'Khan Noonien Singh', 'movie': 'Star Trek II: The Wrath of Khan', 'id': '/m/02h8fyx', 'actor': 'Ricardo Montalbán'}",/m/02h8fyx,Star Trek II: The Wrath of Khan,Ricardo Montalbán,Khan Noonien Singh,revenge
+408,revenge,"{'char': 'Col. Douglas Mortimer', 'movie': 'For a Few Dollars More', 'id': '/m/0jybsw', 'actor': 'Lee Van Cleef'}",/m/0jybsw,For a Few Dollars More,Lee Van Cleef,Col. Douglas Mortimer,revenge
+409,revenge,"{'char': 'Leonard', 'movie': 'Memento', 'id': '/m/0k0l33', 'actor': 'Guy Pearce'}",/m/0k0l33,Memento,Guy Pearce,Leonard,revenge
+410,revenge,"{'char': 'Harmonica', 'movie': 'Once Upon a Time in the West', 'id': '/m/0k1j46', 'actor': 'Charles Bronson'}",/m/0k1j46,Once Upon a Time in the West,Charles Bronson,Harmonica,revenge
+411,revenge,"{'char': 'Conan the Barbarian', 'movie': 'Conan the Destroyer', 'id': '/m/0jwmfk', 'actor': 'Arnold Schwarzenegger'}",/m/0jwmfk,Conan the Destroyer,Arnold Schwarzenegger,Conan the Barbarian,revenge
+412,romantic_runnerup,"{'char': 'Lon Hammond Jr.', 'movie': 'The Notebook', 'id': '/m/04lsjwd', 'actor': 'James Marsden'}",/m/04lsjwd,The Notebook,James Marsden,Lon Hammond Jr.,romantic_runnerup
+413,romantic_runnerup,"{'char': 'Prince Edward', 'movie': 'Enchanted', 'id': '/m/0jxvm9', 'actor': 'James Marsden'}",/m/0jxvm9,Enchanted,James Marsden,Prince Edward,romantic_runnerup
+414,romantic_runnerup,"{'char': 'James Norrington', 'movie': ""Pirates of the Caribbean: At World's End"", 'id': '/m/0k1xw3', 'actor': 'Jack Davenport'}",/m/0k1xw3,Pirates of the Caribbean: At World's End,Jack Davenport,James Norrington,romantic_runnerup
+415,romantic_runnerup,"{'char': 'Julian Mercer', 'movie': ""Something's Gotta Give"", 'id': '/m/0k3jn6', 'actor': 'Keanu Reeves'}",/m/0k3jn6,Something's Gotta Give,Keanu Reeves,Julian Mercer,romantic_runnerup
+416,romantic_runnerup,"{'char': 'Michael Grates', 'movie': 'Reality Bites', 'id': '/m/0k2ct2', 'actor': 'Ben Stiller'}",/m/0k2ct2,Reality Bites,Ben Stiller,Michael Grates,romantic_runnerup
+417,romantic_runnerup,"{'char': 'Proteus', 'movie': 'Sinbad: Legend of the Seven Seas', 'id': '/m/02vc177', 'actor': 'Joseph Fiennes'}",/m/02vc177,Sinbad: Legend of the Seven Seas,Joseph Fiennes,Proteus,romantic_runnerup
+418,self_made_man,"{'char': 'George Kittredge', 'movie': 'The Philadelphia Story', 'id': '/m/0h6f8kc', 'actor': 'John Howard'}",/m/0h6f8kc,The Philadelphia Story,John Howard,George Kittredge,self_made_man
+419,self_made_man,"{'char': 'Roger Callaway', 'movie': 'It Takes Two', 'id': '/m/0j_0s0', 'actor': 'Steve Guttenberg'}",/m/0j_0s0,It Takes Two,Steve Guttenberg,Roger Callaway,self_made_man
+420,self_made_man,"{'char': 'Daniel ""Rudy"" Ruettiger', 'movie': 'Rudy', 'id': '/m/02tb8j3', 'actor': 'Sean Astin'}",/m/02tb8j3,Rudy,Sean Astin,"Daniel ""Rudy"" Ruettiger",self_made_man
+421,slacker,"{'char': 'Brodie Bruce', 'movie': 'Mallrats', 'id': '/m/07ldy8x', 'actor': 'Jason Lee'}",/m/07ldy8x,Mallrats,Jason Lee,Brodie Bruce,slacker
+422,slacker,"{'char': 'Dale Denton', 'movie': 'Pineapple Express', 'id': '/m/02t9zmj', 'actor': 'Seth Rogen'}",/m/02t9zmj,Pineapple Express,Seth Rogen,Dale Denton,slacker
+423,slacker,"{'char': 'Ben Stone', 'movie': 'Knocked Up', 'id': '/m/0j_ks0', 'actor': 'Seth Rogen'}",/m/0j_ks0,Knocked Up,Seth Rogen,Ben Stone,slacker
+424,slacker,"{'char': 'Shaun', 'movie': 'Shaun of the Dead', 'id': '/m/0k35n0', 'actor': 'Simon Pegg'}",/m/0k35n0,Shaun of the Dead,Simon Pegg,Shaun,slacker
+425,slacker,"{'char': 'Kumar Patel', 'movie': 'Harold & Kumar Go to White Castle', 'id': '/m/0jz5zx', 'actor': 'Kal Penn'}",/m/0jz5zx,Harold & Kumar Go to White Castle,Kal Penn,Kumar Patel,slacker
+426,slacker,"{'char': 'Kumar Patel', 'movie': 'Harold & Kumar Escape from Guantanamo Bay', 'id': '/m/02vdfc2', 'actor': 'Kal Penn'}",/m/02vdfc2,Harold & Kumar Escape from Guantanamo Bay,Kal Penn,Kumar Patel,slacker
+427,slacker,"{'char': 'Romy White', 'movie': ""Romy and Michele's High School Reunion"", 'id': '/m/0k2p5c', 'actor': 'Mira Sorvino'}",/m/0k2p5c,Romy and Michele's High School Reunion,Mira Sorvino,Romy White,slacker
+428,slacker,"{'char': 'Michele Weinberger', 'movie': ""Romy and Michele's High School Reunion"", 'id': '/m/0k2p5j', 'actor': 'Lisa Kudrow'}",/m/0k2p5j,Romy and Michele's High School Reunion,Lisa Kudrow,Michele Weinberger,slacker
+429,slacker,"{'char': 'John Winger', 'movie': 'Stripes', 'id': '/m/0k3w4y', 'actor': 'Bill Murray'}",/m/0k3w4y,Stripes,Bill Murray,John Winger,slacker
+430,slacker,"{'char': 'Dewey Finn', 'movie': 'School of Rock', 'id': '/m/0k2zjf', 'actor': 'Jack Black'}",/m/0k2zjf,School of Rock,Jack Black,Dewey Finn,slacker
+431,slacker,"{'char': 'Aram Finklestein', 'movie': 'The Rebound', 'id': '/m/064yxrp', 'actor': 'Justin Bartha'}",/m/064yxrp,The Rebound,Justin Bartha,Aram Finklestein,slacker
+432,stoner,"{'char': 'Jay', 'movie': 'Dogma', 'id': '/m/0jxdkm', 'actor': 'Jason Mewes'}",/m/0jxdkm,Dogma,Jason Mewes,Jay,stoner
+433,stoner,"{'char': 'Bill S. Preston, Esq.', 'movie': ""Bill & Ted's Excellent Adventure"", 'id': '/m/0jvcqm', 'actor': 'Alex Winter'}",/m/0jvcqm,Bill & Ted's Excellent Adventure,Alex Winter,"Bill S. Preston, Esq.",stoner
+434,stoner,"{'char': 'Ted ""Theodore"" Logan', 'movie': ""Bill & Ted's Excellent Adventure"", 'id': '/m/0jvcqg', 'actor': 'Keanu Reeves'}",/m/0jvcqg,Bill & Ted's Excellent Adventure,Keanu Reeves,"Ted ""Theodore"" Logan",stoner
+435,stoner,"{'char': 'Jeff Spicoli', 'movie': 'Fast Times at Ridgemont High', 'id': '/m/0jy30b', 'actor': 'Sean Penn'}",/m/0jy30b,Fast Times at Ridgemont High,Sean Penn,Jeff Spicoli,stoner
+436,stoner,"{'char': 'Luke Shapiro', 'movie': 'The Wackness', 'id': '/m/040lm10', 'actor': 'Josh Peck'}",/m/040lm10,The Wackness,Josh Peck,Luke Shapiro,stoner
+437,stoner,"{'char': 'Kumar Patel', 'movie': 'Harold & Kumar Go to White Castle', 'id': '/m/0jz5zx', 'actor': 'Kal Penn'}",/m/0jz5zx,Harold & Kumar Go to White Castle,Kal Penn,Kumar Patel,stoner
+438,stoner,"{'char': 'Harold Lee', 'movie': 'Harold & Kumar Go to White Castle', 'id': '/m/0jz5zr', 'actor': 'John Cho'}",/m/0jz5zr,Harold & Kumar Go to White Castle,John Cho,Harold Lee,stoner
+439,stoner,"{'char': 'Dale Denton', 'movie': 'Pineapple Express', 'id': '/m/02t9zmj', 'actor': 'Seth Rogen'}",/m/02t9zmj,Pineapple Express,Seth Rogen,Dale Denton,stoner
+440,stoner,"{'char': 'Red', 'movie': 'Pineapple Express', 'id': '/m/04zk2_k', 'actor': 'Danny McBride'}",/m/04zk2_k,Pineapple Express,Danny McBride,Red,stoner
+441,stoner,"{'char': 'Saul Silver', 'movie': 'Pineapple Express', 'id': '/m/02vb3yc', 'actor': 'James Franco'}",/m/02vb3yc,Pineapple Express,James Franco,Saul Silver,stoner
+442,stoner,"{'char': 'Thadeous', 'movie': 'Your Highness', 'id': '/m/07zm_ym', 'actor': 'Danny McBride'}",/m/07zm_ym,Your Highness,Danny McBride,Thadeous,stoner
+443,stoner,"{'char': 'Fabious', 'movie': 'Your Highness', 'id': '/m/07zm_zv', 'actor': 'James Franco'}",/m/07zm_zv,Your Highness,James Franco,Fabious,stoner
+444,stoner,"{'char': 'Marty Mikalski', 'movie': 'The Cabin in the Woods', 'id': '/m/083z84s', 'actor': 'Fran Kranz'}",/m/083z84s,The Cabin in the Woods,Fran Kranz,Marty Mikalski,stoner
+445,storyteller,"{'char': 'Dilios', 'movie': '300', 'id': '/m/0jsg_x', 'actor': 'David Wenham'}",/m/0jsg_x,300,David Wenham,Dilios,storyteller
+446,storyteller,"{'char': 'Ed Bloom - Young', 'movie': 'Big Fish', 'id': '/m/0jvbkh', 'actor': 'Ewan McGregor'}",/m/0jvbkh,Big Fish,Ewan McGregor,Ed Bloom - Young,storyteller
+447,storyteller,"{'char': 'Garth McCann', 'movie': 'Secondhand Lions', 'id': '/m/0k309k', 'actor': 'Michael Caine'}",/m/0k309k,Secondhand Lions,Michael Caine,Garth McCann,storyteller
+448,storyteller,"{'char': 'Wendy Darling', 'movie': 'Peter Pan', 'id': '/m/0k1vn1', 'actor': 'Rachel Hurd-Wood'}",/m/0k1vn1,Peter Pan,Rachel Hurd-Wood,Wendy Darling,storyteller
+449,stupid_crooks,"{'char': 'Sol', 'movie': 'Snatch', 'id': '/m/03jtd2p', 'actor': 'Lennie James'}",/m/03jtd2p,Snatch,Lennie James,Sol,stupid_crooks
+450,stupid_crooks,"{'char': 'Vinny', 'movie': 'Snatch', 'id': '/m/03lsltz', 'actor': 'Robbie Gee'}",/m/03lsltz,Snatch,Robbie Gee,Vinny,stupid_crooks
+451,stupid_crooks,"{'char': 'Tyrone', 'movie': 'Snatch', 'id': '/m/09hy0ym', 'actor': 'Ade'}",/m/09hy0ym,Snatch,Ade,Tyrone,stupid_crooks
+452,stupid_crooks,"{'char': 'Jerry Lundegaard', 'movie': 'Fargo', 'id': '/m/0jy2wd', 'actor': 'William H. Macy'}",/m/0jy2wd,Fargo,William H. Macy,Jerry Lundegaard,stupid_crooks
+453,stupid_crooks,"{'char': 'Vincent Vega', 'movie': 'Pulp Fiction', 'id': '/m/01xlj4l', 'actor': 'John Travolta'}",/m/01xlj4l,Pulp Fiction,John Travolta,Vincent Vega,stupid_crooks
+454,surfer_dude,"{'char': 'Ted ""Theodore"" Logan', 'movie': ""Bill & Ted's Excellent Adventure"", 'id': '/m/0jvcqg', 'actor': 'Keanu Reeves'}",/m/0jvcqg,Bill & Ted's Excellent Adventure,Keanu Reeves,"Ted ""Theodore"" Logan",surfer_dude
+455,surfer_dude,"{'char': 'Bill S. Preston, Esq.', 'movie': ""Bill & Ted's Excellent Adventure"", 'id': '/m/0jvcqm', 'actor': 'Alex Winter'}",/m/0jvcqm,Bill & Ted's Excellent Adventure,Alex Winter,"Bill S. Preston, Esq.",surfer_dude
+456,surfer_dude,"{'char': 'Jeff Spicoli', 'movie': 'Fast Times at Ridgemont High', 'id': '/m/0jy30b', 'actor': 'Sean Penn'}",/m/0jy30b,Fast Times at Ridgemont High,Sean Penn,Jeff Spicoli,surfer_dude
+457,surfer_dude,"{'char': 'Chicken Joe', 'movie': ""Surf's Up"", 'id': '/m/02_wz7y', 'actor': 'Jon Heder'}",/m/02_wz7y,Surf's Up,Jon Heder,Chicken Joe,surfer_dude
+458,surfer_dude,"{'char': 'Geek', 'movie': ""Surf's Up"", 'id': '/m/02_wz9s', 'actor': 'Jeff Bridges'}",/m/02_wz9s,Surf's Up,Jeff Bridges,Geek,surfer_dude
+459,surfer_dude,"{'char': 'Stoney Brown', 'movie': 'Encino Man', 'id': '/m/0jxvpr', 'actor': 'Pauly Shore'}",/m/0jxvpr,Encino Man,Pauly Shore,Stoney Brown,surfer_dude
+460,surfer_dude,"{'char': 'Crawl', 'movie': 'Son in Law', 'id': '/m/02tb5qh', 'actor': 'Pauly Shore'}",/m/02tb5qh,Son in Law,Pauly Shore,Crawl,surfer_dude
+461,surfer_dude,"{'char': 'Bud Macintosh', 'movie': 'Bio-Dome', 'id': '/m/02vcwzp', 'actor': 'Pauly Shore'}",/m/02vcwzp,Bio-Dome,Pauly Shore,Bud Macintosh,surfer_dude
+462,surfer_dude,"{'char': 'Lance B. Johnson', 'movie': 'Apocalypse Now', 'id': '/m/02vd4sl', 'actor': 'Sam Bottoms'}",/m/02vd4sl,Apocalypse Now,Sam Bottoms,Lance B. Johnson,surfer_dude
+463,the_chief,"{'char': 'Dreyfus', 'movie': 'The Pink Panther', 'id': '/m/0k63xm', 'actor': 'Kevin Kline'}",/m/0k63xm,The Pink Panther,Kevin Kline,Dreyfus,the_chief
+464,the_chief,"{'char': 'Lt. Andrew Bogomil', 'movie': 'Beverly Hills Cop', 'id': '/m/045xnnw', 'actor': 'Ronny Cox'}",/m/045xnnw,Beverly Hills Cop,Ronny Cox,Lt. Andrew Bogomil,the_chief
+465,the_chief,"{'char': 'The Chief', 'movie': 'Dirty Harry', 'id': '/m/0cg54hp', 'actor': 'John Larch'}",/m/0cg54hp,Dirty Harry,John Larch,The Chief,the_chief
+466,the_editor,"{'char': 'Ben Bradlee', 'movie': ""All the President's Men"", 'id': '/m/0jt9_0', 'actor': 'Jason Robards'}",/m/0jt9_0,All the President's Men,Jason Robards,Ben Bradlee,the_editor
+467,the_editor,"{'char': 'Walter Burns', 'movie': 'His Girl Friday', 'id': '/m/0jzg14', 'actor': 'Cary Grant'}",/m/0jzg14,His Girl Friday,Cary Grant,Walter Burns,the_editor
+468,tranquil_fury,"{'char': 'Eric Draven', 'movie': 'The Crow', 'id': '/m/0k4td6', 'actor': 'Brandon Lee'}",/m/0k4td6,The Crow,Brandon Lee,Eric Draven,tranquil_fury
+469,tranquil_fury,"{'char': 'John Preston', 'movie': 'Equilibrium', 'id': '/m/0jxwq8', 'actor': 'Christian Bale'}",/m/0jxwq8,Equilibrium,Christian Bale,John Preston,tranquil_fury
+470,tranquil_fury,"{'char': 'Ethan Hunt', 'movie': 'Mission: Impossible', 'id': '/m/0k0qpl', 'actor': 'Tom Cruise'}",/m/0k0qpl,Mission: Impossible,Tom Cruise,Ethan Hunt,tranquil_fury
+471,tranquil_fury,"{'char': 'Inigo Montoya', 'movie': 'The Princess Bride', 'id': '/m/0k65z5', 'actor': 'Mandy Patinkin'}",/m/0k65z5,The Princess Bride,Mandy Patinkin,Inigo Montoya,tranquil_fury
+472,tranquil_fury,"{'char': 'David Sumner', 'movie': 'Straw Dogs', 'id': '/m/0k3v65', 'actor': 'Dustin Hoffman'}",/m/0k3v65,Straw Dogs,Dustin Hoffman,David Sumner,tranquil_fury
+473,tranquil_fury,"{'char': 'Max Cady', 'movie': 'Cape Fear', 'id': '/m/0jw22y', 'actor': 'Robert De Niro'}",/m/0jw22y,Cape Fear,Robert De Niro,Max Cady,tranquil_fury
+474,tranquil_fury,"{'char': 'Driver', 'movie': 'Drive', 'id': '/m/0g4vml8', 'actor': 'Ryan Gosling'}",/m/0g4vml8,Drive,Ryan Gosling,Driver,tranquil_fury
+475,trickster,"{'char': 'Han Solo', 'movie': 'Star Wars Episode V: The Empire Strikes Back', 'id': '/m/01xpntj', 'actor': 'Harrison Ford'}",/m/01xpntj,Star Wars Episode V: The Empire Strikes Back,Harrison Ford,Han Solo,trickster
+476,trickster,"{'char': 'Captain Jack Sparrow', 'movie': ""Pirates of the Caribbean: Dead Man's Chest"", 'id': '/m/0k1xxm', 'actor': 'Johnny Depp'}",/m/0k1xxm,Pirates of the Caribbean: Dead Man's Chest,Johnny Depp,Captain Jack Sparrow,trickster
+477,trickster,"{'char': 'Tyler Durden', 'movie': 'Fight Club', 'id': '/m/0jy5tj', 'actor': 'Brad Pitt'}",/m/0jy5tj,Fight Club,Brad Pitt,Tyler Durden,trickster
+478,trickster,"{'char': 'Mr. Nick', 'movie': 'The Imaginarium of Dr. Parnassus', 'id': '/m/03kz4l5', 'actor': 'Tom Waits'}",/m/03kz4l5,The Imaginarium of Dr. Parnassus,Tom Waits,Mr. Nick,trickster
+479,trickster,"{'char': 'Loki', 'movie': 'Thor', 'id': '/m/0855mjk', 'actor': 'Tom Hiddleston'}",/m/0855mjk,Thor,Tom Hiddleston,Loki,trickster
+480,valley_girl,"{'char': 'Julie Richman', 'movie': 'Valley Girl', 'id': '/m/03jprhz', 'actor': 'Deborah Foreman'}",/m/03jprhz,Valley Girl,Deborah Foreman,Julie Richman,valley_girl
+481,valley_girl,"{'char': 'Cher Horowitz', 'movie': 'Clueless', 'id': '/m/0jwjsy', 'actor': 'Alicia Silverstone'}",/m/0jwjsy,Clueless,Alicia Silverstone,Cher Horowitz,valley_girl
+482,valley_girl,"{'char': 'Romy White', 'movie': ""Romy and Michele's High School Reunion"", 'id': '/m/0k2p5c', 'actor': 'Mira Sorvino'}",/m/0k2p5c,Romy and Michele's High School Reunion,Mira Sorvino,Romy White,valley_girl
+483,valley_girl,"{'char': 'Buffy Summers', 'movie': 'Buffy the Vampire Slayer', 'id': '/m/0jvy0r', 'actor': 'Kristy Swanson'}",/m/0jvy0r,Buffy the Vampire Slayer,Kristy Swanson,Buffy Summers,valley_girl
+484,valley_girl,"{'char': 'Elle Woods', 'movie': 'Legally Blonde', 'id': '/m/0j_wm4', 'actor': 'Reese Witherspoon'}",/m/0j_wm4,Legally Blonde,Reese Witherspoon,Elle Woods,valley_girl
+485,valley_girl,"{'char': 'Karen', 'movie': 'White Chicks', 'id': '/m/045xr4n', 'actor': 'Busy Philipps'}",/m/045xr4n,White Chicks,Busy Philipps,Karen,valley_girl
+486,warrior_poet,"{'char': 'Katsumoto', 'movie': 'The Last Samurai', 'id': '/m/0k5n1r', 'actor': 'Ken Watanabe'}",/m/0k5n1r,The Last Samurai,Ken Watanabe,Katsumoto,warrior_poet
+487,warrior_poet,"{'char': 'Arthur Burns', 'movie': 'The Proposition', 'id': '/m/0k66rt', 'actor': 'Danny Huston'}",/m/0k66rt,The Proposition,Danny Huston,Arthur Burns,warrior_poet
+488,warrior_poet,"{'char': 'Zohan', 'movie': ""You Don't Mess with the Zohan"", 'id': '/m/03hqx35', 'actor': 'Adam Sandler'}",/m/03hqx35,You Don't Mess with the Zohan,Adam Sandler,Zohan,warrior_poet
+489,warrior_poet,"{'char': 'Broken Sword', 'movie': 'Hero', 'id': '/m/0jzcrb', 'actor': 'Tony Leung Chiu Wai'}",/m/0jzcrb,Hero,Tony Leung Chiu Wai,Broken Sword,warrior_poet
+490,warrior_poet,"{'char': 'Colonel Walter E. Kurtz', 'movie': 'Apocalypse Now', 'id': '/m/0jtp23', 'actor': 'Marlon Brando'}",/m/0jtp23,Apocalypse Now,Marlon Brando,Colonel Walter E. Kurtz,warrior_poet
+491,warrior_poet,"{'char': 'Master Li Mu Bai', 'movie': 'Crouching Tiger, Hidden Dragon', 'id': '/m/0jwt__', 'actor': 'Chow Yun-Fat'}",/m/0jwt__,"Crouching Tiger, Hidden Dragon",Chow Yun-Fat,Master Li Mu Bai,warrior_poet
+492,warrior_poet,"{'char': 'Tool', 'movie': 'The Expendables', 'id': '/m/05tb1tv', 'actor': 'Mickey Rourke'}",/m/05tb1tv,The Expendables,Mickey Rourke,Tool,warrior_poet
+493,warrior_poet,"{'char': 'T. E. Lawrence', 'movie': 'Lawrence of Arabia', 'id': '/m/0j_tdt', 'actor': ""Peter O'Toole""}",/m/0j_tdt,Lawrence of Arabia,Peter O'Toole,T. E. Lawrence,warrior_poet
+494,warrior_poet,"{'char': 'Horton the Elephant', 'movie': 'Horton Hears a Who!', 'id': '/m/05tgl99', 'actor': 'Jim Carrey'}",/m/05tgl99,Horton Hears a Who!,Jim Carrey,Horton the Elephant,warrior_poet
+495,young_gun,"{'char': 'Chico', 'movie': 'The Magnificent Seven', 'id': '/m/0k5tn5', 'actor': 'Horst Buchholz'}",/m/0k5tn5,The Magnificent Seven,Horst Buchholz,Chico,young_gun
+496,young_gun,"{'char': 'Morgan Earp', 'movie': 'Tombstone', 'id': '/m/0k776f', 'actor': 'Bill Paxton'}",/m/0k776f,Tombstone,Bill Paxton,Morgan Earp,young_gun
+497,young_gun,"{'char': 'Colorado Ryan', 'movie': 'Rio Bravo', 'id': '/m/0k2kqg', 'actor': 'Ricky Nelson'}",/m/0k2kqg,Rio Bravo,Ricky Nelson,Colorado Ryan,young_gun
+498,young_gun,"{'char': 'Tom Sawyer', 'movie': 'The League of Extraordinary Gentlemen', 'id': '/m/0k5nsh', 'actor': 'Shane West'}",/m/0k5nsh,The League of Extraordinary Gentlemen,Shane West,Tom Sawyer,young_gun
+499,young_gun,"{'char': ""William H. 'Billy the Kid' Bonney"", 'movie': 'Young Guns II', 'id': '/m/03lrjk0', 'actor': 'Emilio Estevez'}",/m/03lrjk0,Young Guns II,Emilio Estevez,William H. 'Billy the Kid' Bonney,young_gun
+500,young_gun,"{'char': 'Jake', 'movie': 'Silverado', 'id': '/m/0k39jj', 'actor': 'Kevin Costner'}",/m/0k39jj,Silverado,Kevin Costner,Jake,young_gun
