@@ -12,7 +12,8 @@ Our society has made massive progress regarding female rights within the last ce
 .
 ├── data *all the data*
 │   ├── MovieSummaries *the original CMU dataset*
+│   ├── IMDB *IMDB dataset*
 │   └── pickles *the processed pickle files*
-├── pipelines *the jupyter notebooks for dataprocessing*
+├── pipelines *jupyter notebooks for dataprocessing*
 └── demo_jupyters *jupyter notebooks explaining dataprocessing steps*
 ```  
