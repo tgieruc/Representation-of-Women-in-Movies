@@ -19,5 +19,12 @@ Our society has made massive progress regarding female rights within the last ce
 ```  
 ## Additional Datasets
 
+* [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page): a free and open knowledge database with structured data from its Wikimedia sister projects, such as Wikipedia and Wikitionary. This database is used to crosscheck and complete our original CMU dataset. We have queried the database using GET requests, with wikidata IDs extracted from [Freebase ID - Wikidata ID mapping](https://developers.google.com/freebase#freebase-wikidata-mappings) and from the wikipedia page of movies.
+  * For the movies, we have extracted the release date, the runtime and the box office revenue in order to crosscheck the CMU dataset, and the review score, IMDB ID and BoxOffice Mojo ID in order to complete it.
+  * For the characters, we have extracted the gender, date of birth and ethnicity in order to crosscheck the CMU dataset, and the number of notable movies and the IMDB ID to complete the dataset.
 
+
+  
 ## Methods
+
+
