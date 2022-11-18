@@ -31,6 +31,7 @@ What women are portrayed in movies? How is age diversity evolving yearly? Are fe
 **Wikidata**
 
 **Stanford CoreNLP-processed summaries**
+
 XML data was handled and parsed using gzip and lxml etree. The descriptors are defined by the type of dependency that they have in relation to a character of interest (agent verbs: nsubj or agent, patient verbs: dobj, nsubjpass, iobj, or any prepositional argument prep*). Once a relvent word was found the lemma of the word was also extracted.
 
 **Movie dataset**
@@ -39,7 +40,9 @@ XML data was handled and parsed using gzip and lxml etree. The descriptors are d
 
 ### Analysis
 **Investigate trends in director and writer data:** Director Dataset Analysis.ipynb
+
 Exploratory analysis was done in the dataset to understand the proportion of female and male directors and writers as well as the biometric breakdown of each group (male directors, female directors, male writers, female writers). Data was visualized over the entire dataset and then broken down by year, movie genre, and top 1000 rated movies. The top 1000 movies over the entire dataset were analyzed to understand what trends may exist within the most successful movies and if those differ from the trends seen overall.
+
 **Investigate trends in character descriptors**
 
 **Investigate trends in actor data**
