@@ -6,7 +6,7 @@
 Society has made massive progress regarding women’s rights within the last century, but can we see that change in the movies that we watch? Laws and general societal outlook has changed, but the way women are viewed by everyday people around them may not have changed as much. Movies provide us a unique insight into the subconscious ways that society is conditioned to view women and capture the ideals and norms of the time they were produced. From actresses on screen to the story itself, within film there potentially lies some hidden truth about how far we have come to addressing gender inequality. Through the exploratory analysis of directors and writers, movie characters, and actors centered around the CMU Movie Summary Corpus dataset, the group aims to get a better understanding of how women are and have been represented in media.
 
 ## Research Questions
-**Creative Direction: Who is telling the stories?**
+**Creative Direction: Who are telling the stories?**
 How have movie directors and writers progressed in terms of gender? Where are women participating as directors and writers? What are the dynamics and are there any pivoting figures?
 
 **Common Characters: What kinds of stories are being told?**
@@ -40,7 +40,6 @@ XML data was handled and parsed using gzip and lxml etree. The descriptors are d
 
 ### Analysis
 **Investigate trends in director and writer data:** Director Dataset Analysis.ipynb
-
 Exploratory analysis was done in the dataset to understand the proportion of female and male directors and writers as well as the biometric breakdown of each group (male directors, female directors, male writers, female writers). Data was visualized over the entire dataset and then broken down by year, movie genre, and top 1000 rated movies. The top 1000 movies over the entire dataset were analyzed to understand what trends may exist within the most successful movies and if those differ from the trends seen overall.
 
 **Investigate trends in character descriptors**
