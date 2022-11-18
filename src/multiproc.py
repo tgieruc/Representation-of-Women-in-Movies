@@ -1,7 +1,4 @@
 import pickle
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 import requests
 from bs4 import BeautifulSoup as bs
