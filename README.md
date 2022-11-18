@@ -17,26 +17,27 @@ What women are portrayed in movies? How is age diversity evolving yearly? Are fe
   
 ## Additional Datasets
 
-* [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page): a free and open knowledge database with structured data from its Wikimedia sister projects, such as Wikipedia and Wikitionary. This database is used to crosscheck and complete our original CMU dataset. We have queried the database using GET requests, with wikidata IDs extracted from [Freebase ID - Wikidata ID mapping](https://developers.google.com/freebase#freebase-wikidata-mappings) and from the wikipedia page of movies.
-  * For the movies, we have extracted the release date, the runtime and the box office revenue in order to crosscheck the CMU dataset, and the review score, IMDB ID and BoxOffice Mojo ID in order to complete it.
-  * For the characters, we have extracted the gender, date of birth and ethnicity in order to crosscheck the CMU dataset, and the number of notable movies and the IMDB ID to complete the dataset.
-  * For the directors and writers, we have extracted the gender, date of birth, ethnicity, and height data to create a directors and wrtiers dataset to analyze along side the CMU moviedata set. This was done to understand how Females are represented behind the camera.
-
+* [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page): a free and open knowledge database with structured data from its Wikimedia sister projects, such as Wikipedia and Wikitionary. 
+* [IMDB](https://www.imdb.com/interfaces/): an online database of information related to films, television series, cast and crews.
 * [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar)
  contains all 42,306 plot summaries used in CMU Movie Summary Corpus dataset analysis run through the Stanford CoreNLP pipeline (tagging, parsing, NER and coref). The data is stored per movie in XML format (XML structure shown in Data Handling.ipynb). The group can use this data set to extract character descriptors as defined in the paper [Learning Latent Personas of Film Characters](http://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf) by David Bamman, Brendan O'Connor, and Noah A. Smith.
 
   
 ## Methods
 ### Initial data collection and cleaning
-**Wikidata**
+* **Wikidata**: This database is used to crosscheck and complete our original CMU dataset. We have queried the database using GET requests, with wikidata IDs extracted from [Freebase ID - Wikidata ID mapping](https://developers.google.com/freebase#freebase-wikidata-mappings) and from the wikipedia page of movies.
+  * For the movies, we have extracted the release date, the runtime and the box office revenue in order to crosscheck the CMU dataset, and the review score, IMDB ID and BoxOffice Mojo ID in order to complete it.
+  * For the characters, we have extracted the gender, date of birth and ethnicity in order to crosscheck the CMU dataset, and the number of notable movies and the IMDB ID to complete the dataset.
+  * For the directors and writers, we have extracted the gender, date of birth, ethnicity, and height data to create a directors and writers dataset to analyze alongside the CMU movie dataset. This was done to understand how Females are represented behind the camera.
 
-**Stanford CoreNLP-processed summaries**
+* **IMDB**: We used the title.basics in order to get the release year, runtime and genre of movies, the title.crew for the directors and writers, the title.ratings for the average ratings and number of votes for movies, and the name.basics for crosschecking the year of birth of actors.\
+We merged using the IMDB IDs extracted from Wikidata.
 
+* **Stanford CoreNLP-processed summaries**:
 XML data was handled and parsed using gzip and lxml etree. The descriptors are defined by the type of dependency that they have in relation to a character of interest (agent verbs: nsubj or agent, patient verbs: dobj, nsubjpass, iobj, or any prepositional argument prep*). Once a relvent word was found the lemma of the word was also extracted.
 
-**Movie dataset**
+* **Movie & Character datasets**: We used Wikidata and IMDb to complete and crosscheck the original CMU dataset. Overall, we added 12'530 entries to existing categories of the CMU character dataset and modified 15'793 entries. For the CMU movie dataset, we have added 17'937 new entries to existing categories and modified 1'554 entries. We added 68'341 ratings of movies and 74'200 directors and writers.
 
-**Character dataset**
 
 ### Analysis
 **Investigate trends in director and writer data:** Director Dataset Analysis.ipynb
@@ -61,4 +62,4 @@ Exploratory analysis was done in the dataset to understand the proportion of fem
 * Team member 1 - Analysis and visualization for RQ1, draft datastory
 * Team member 2 - Analysis and visualization for RQ2, final review and editing
 * Team member 3 - Analysis and visualization for RQ3, Help other members as needed
-* Team member 4 - Available for help, incharge of putting together webpage
+* Team member 4 - Available for help, in charge of putting together webpage
