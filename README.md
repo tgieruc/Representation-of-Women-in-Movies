@@ -1,5 +1,3 @@
-# ADA 2022 Project :  ALL Goats Are Troublemakers
-
 # The Representation of Women in Movies 
 *From Behind the Camera to on the Screen*
 
