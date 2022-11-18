@@ -26,7 +26,7 @@ What women are portrayed in movies? How is age diversity evolving yearly? Do mal
 
   
 ## Methods
-### Initial data collection and cleaning (Data Handling.ipynb)
+### Initial data collection and cleaning ([Data Handling.ipynb](Data%20Handling.ipynb))
 * **Wikidata**: This database is used to crosscheck and complete our original CMU dataset. We have queried the database using GET requests, with wikidata IDs extracted from [Freebase ID - Wikidata ID mapping](https://developers.google.com/freebase#freebase-wikidata-mappings) and from the wikipedia page of movies.
   * Movie release date, runtime, and box office revenue was extracted to crosscheck CMU dataset and the review score, IMDB ID and BoxOffice Mojo ID in order to supplement it.
   * Character gender, date of birth and ethnicity was extracted in order to crosscheck the CMU dataset, and number of notable movies and the IMDB ID to supplement it.
@@ -41,11 +41,11 @@ XML data was handled using gzip and lxml etree. The descriptors are defined by t
 
 
 ### Analysis
-**Investigate trends in director and writer data (Director Dataset Analysis.ipynb)**
+**Investigate trends in director and writer data ([Director Dataset Analysis.ipynb](Director%20Dataset%20Analysis.ipynb))**
 
 Exploratory analysis was done to understand the proportion of female and male directors and writers as well as biometric breakdown of each group (male directors, female directors, male writers, female writers). Data was visualized over the entire dataset and then broken down by year, movie genre, and top 1000 rated movies. The top 1000 movies were analyzed to understand what trends may exist within the most successful movies and if those differ from the trends seen overall.
 
-**Investigate trends in character descriptors (Character Terms Analysis.ipynb)**
+**Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
 
 Qualitative analyses:
 Looked at most frequent descriptors for different genres broken down by decade. Sampled genres and performed analysis within the genre. Checked for trends and if they were consistent within genres. Visualized with word clouds.
@@ -64,7 +64,7 @@ Quantitative analysis:
 For each gender per decade analyze number of terms per decade, unique terms per character, share of positive / negative terms (paired with sentiment classification), diversity within clusters and of the clusters themselves
 
 
-**Investigate trends in actor data (Actor Analysis.ipynb)**
+**Investigate trends in actor data ([Actor Analysis.ipynb](Actor%20Analysis.ipynb))**
 
 movie and characters dataset was used to understand proportion of male and female actress in the industry as well as their age differences. The genres provided by IMDB were used to understand if actors and actresses played in different kinds of movies. Using webscraping a metric to evaluate the presence of females in major/minor roles was found.
 
