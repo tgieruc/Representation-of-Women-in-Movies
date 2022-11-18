@@ -50,18 +50,18 @@ Exploratory analysis was done to understand the proportion of female and male di
 Qualitative analyses:
 Looked at most frequent descriptors for different genres broken down by decade. Sampled genres and performed analysis within the genre. Checked for trends and if they were consistent within genres. Visualized with word clouds.
 
-Clustering: clustering terms for different genres to get interpretable clusters
+Clustering: clustering terms for different genres to get interpretable clusters.
 
-Embeddings tested: glove50d, glove100d, bert base (cls), bert base (bpe averages)
+Embeddings tested: glove50d, glove100d, bert base (cls), bert base (bpe averages).
 
-Clustering algorithms tested: DBScan, Agglomerative clustering (with a distance threshold), since a prior for a reasonable amount of clusters is not available. (cosine distance used as metric)
+Clustering algorithms tested: DBScan, Agglomerative clustering (with a distance threshold), since a prior for a reasonable amount of clusters is not available. (cosine distance used as metric).
 
-currently interpretable clusters have not been found, planning on doing a hyperparameter search for clustering algorithms. 
-On the data side, planning on separating the descriptors based on the part of speech.
+Currently interpretable clusters have not been found, planning on doing a hyperparameter search for clustering algorithms. 
+On the data side, planning on separating the descriptors based on the part of speech:
 - Topic modelling
 - Possibly, sentiment classification (on full sentences)
 Quantitative analysis:
-For each gender per decade analyze number of terms per decade, unique terms per character, share of positive / negative terms (paired with sentiment classification), diversity within clusters and of the clusters themselves
+For each gender per decade analyze number of terms per decade, unique terms per character, share of positive / negative terms (paired with sentiment classification), diversity within clusters and of the clusters themselves.
 
 
 **Investigate trends in actor data (Actor Analysis.ipynb)**
