@@ -13,7 +13,7 @@ How have movie directors and writers progressed in terms of gender? Where are wo
 What types of female characters are prevalent in the data? How are Women portrayed? What are the common associations across female characters? 
 
 **Character Portrayal: Who do we watch in the theatre?**
-What women are portrayed in movies? How is age diversity evolving yearly? Are females equally represented in leading and minor roles? How do actresses affect the success of a movie?
+What women are portrayed in movies? How is age diversity evolving yearly? Do male and female actor play in the same genre of movies? Are females equally represented in leading and minor roles?
   
 ## Additional Datasets
 
@@ -45,7 +45,8 @@ Exploratory analysis was done in the dataset to understand the proportion of fem
 
 **Investigate trends in character descriptors**
 
-**Investigate trends in actor data**
+**Investigate trends in actor data** Actor Analysis.ipynb
+We usde the movie and charcters dataset to understand the proportion of male and female actress in the industry as well as their age differneces. We also used the genres provided by IMDB to understrand if actors anjd actresses played in different kinds of movies. We also, with a bit of webscarping found a metric to evaluate the presence of females in major/minor roles.
 
 
 ## Proposed Timeline
