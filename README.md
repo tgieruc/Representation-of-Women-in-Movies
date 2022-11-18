@@ -6,11 +6,12 @@
 Society has made massive progress regarding women’s rights within the last century, but can we see that change in the movies that we watch? Laws and general societal outlook has changed, but the way women are viewed by everyday people around them may not have changed as much. Movies provide us a unique insight into the subconscious ways that society is conditioned to view women and capture the ideals and norms of the time they were produced. From actresses on screen to the story itself, within film there potentially lies some hidden truth about how far we have come to addressing gender inequality. Through the exploratory analysis of directors and writers, movie characters, and actors centered around the CMU Movie Summary Corpus dataset, the group aims to get a better understanding of how women are and have been represented in media.
 
 ## Research Questions
-The research questions are focused around three parts of the movie making process:
 **Creative Direction: Who is telling the stories?**
 How have movie directors and writers progressed in terms of gender? Where are women participating as directors and writers? What are the dynamics and are there any pivoting figures?
+
 **Common Characters: What kinds of stories are being told?**
 What types of female characters are prevalent in the data? How are Women portrayed? What are the common associations across female characters? 
+
 **Character Portrayal: Who do we watch in the theatre?**
 What women are portrayed in movies? How is age diversity evolving yearly? Are females equally represented in leading and minor roles? How do actresses affect the success of a movie?
   
