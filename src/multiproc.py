@@ -38,7 +38,7 @@ def get_gender_list(imdb_id, gender = "female"):
     if table is not None:
         m = re.findall(first_name, table.decode())
         gender_list = [d.get_gender(s.replace('img alt="', "")) for s in m]  #we find the gender of the person using a gender detector package
-        return [imdb_id, find_first_woman_index(gender_list, gender)+1]
+        return [imdb_id, find_first_woman_index(gender_list, gender="female")+1, find_first_woman_index(gender_list, gender="male")+1] # directly retrieves the rank of men and women
 
     else:
         return [imdb_id, "no-cast"]
@@ -50,16 +50,16 @@ pickle_folder = data_folder + 'pickles/'
 movies = pickle.load(open(pickle_folder + 'movies.p', 'rb'))
 
 imdb_id = movies.IMDB_id.dropna()
-imdb_id = list(imdb_id)[:1000]
+imdb_id = list(imdb_id)
 total_len = len(imdb_id)
 
-if __name__ == '__main__':
-    with Pool(4) as p:
-        collection = list(tqdm(p.imap(partial(get_gender_list, gender="male"), imdb_id), total=total_len, smoothing=1.0))
-    pickle.dump(collection, open(pickle_folder + f'women_appearance.p', 'wb'))
+# if __name__ == '__main__':
+#     with Pool(4) as p:
+#         collection = list(tqdm(p.imap(partial(get_gender_list, gender="male"), imdb_id), total=total_len, smoothing=1.0))
+#     pickle.dump(collection, open(pickle_folder + f'men_appearance.p', 'wb'))
 
 
 if __name__ == '__main__':
     with Pool(4) as p:
         collection = list(tqdm(p.imap(get_gender_list, imdb_id), total=total_len, smoothing=1.0))
-    pickle.dump(collection, open(pickle_folder + 'women_appearance.p', 'wb'))
+    pickle.dump(collection, open(pickle_folder + f'women_appearance.p', 'wb'))
