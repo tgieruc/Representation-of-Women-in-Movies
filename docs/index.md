@@ -17,6 +17,9 @@ We have separated the data in three tables:
 
 * The movies, that contains 
 
+{% include movie_percentage.html %}
+
+
 # Where are the Women?
 
 When it comes to the representation of women in media, the numbers are not encouraging. In recent years, women have made up a small percentage of actors, directors, and screenwriters in the film industry.
