@@ -3,21 +3,78 @@ title: The Representation of Women in Movies
 subtitle: From Behind the Camera to on the Screen
 ---
 
+<head>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true,
+          processRefs: true,
+          processEnvironments: true
+      },
+      TeX: { equationNumbers: { autoNumber: "AMS" } }
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+
+
+
+
 # Introduction
 
-Society has made massive progress regarding women’s rights within the last century, but can we see that change in the movies that we watch? Laws and general societal outlook has changed, but the way women are viewed by everyday people around them may not have changed as much. Movies provide us a unique insight into the subconscious ways that society is conditioned to view women and capture the ideals and norms of the time they were produced. From actresses on screen to the story itself, within film there potentially lies some hidden truth about how far we have come to addressing gender inequality. Through the exploratory analysis of directors and writers, movie characters, and actors centered around the CMU Movie Summary Corpus dataset, the group aims to get a better understanding of how women are and have been represented in media.
+The representation of women in media has long been a topic of debate and scrutiny. While society has made significant progress in terms of gender equality over the past century, it is important to examine whether these changes are reflected in the films we watch. Movies have the ability to reveal societal norms and ideals, as well as the underlying beliefs and attitudes that shape our culture.
+
+For this data analysis project, we will be using the [CMU Movie Summary Corpus dataset](https://www.cs.cmu.edu/~ark/personas/), as well as additional datasets from Stanford CoreNLP, IMDb, Wikidata, IMDB, and Box Office Mojo, to explore the portrayal of women in film, including the roles of actresses, characters, and writers and directors. Through our analysis, we hope to gain a deeper understanding of how women have been depicted in media over time and how this representation may have evolved. By examining these factors, we can gain insight into the ways that society views and treats women, and consider how far we have come in addressing gender inequality.
 
 
 
 # The Data
-
-Our analysis is based on merging the [CMU Dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/).
+Our analysis is based on merging the [CMU Dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/).
 
 We have separated the data in three tables: 
 
-* The movies, that contains 
+* The movies table, that contains titles, release year, runtime, box office revenue, average rating and number of votes on IMDb, genre, as well as the list of directors and writers. We have a total of 81'741 different movies.
 
 {% include movie_percentage.html %}
+
+
+* The characters table, that contains the ID of the movie, the character name and actor name, their height, ethnicity, birth and death year, the movie metric and the actor metric. We have 450'669 characters played by 135'761 different actors.
+
+{% include characters_percentage.html %}
+
+* The directors and writers table, that contains titles, role (either director or writer), name, gender, birth year and height. We have a total of 86'474 directors and 164'271 writers.
+
+{% include directors_percentage.html %}
+
+## The Impact Score metric
+### Movies
+We have created a metric in order to measure the impact a movie has, based on their average rating and the number of votes. Our assumption is that an impactful movie has a lot votes and has either an extremely good or bad average rating.
+
+We apply a logarithmic transformation to the number of votes, as this follows a power-law distribution. This allows us to normalize the data and accurately compare the impact of different movies.
+Next, we take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception.
+By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
+
+$$\textrm{Impact Score}_\textrm{Movies} = \textrm{normalized} (\log(\textrm{number of votes})) \cdot \textrm{abs}(\textrm{normalized}(\textrm{IMDB rating}))$$
+
+According to this metric, those are the top 10 most impactful movies of our dataset:
+
+{% include top20_movies.html %}
+
+### Actors, writers and directors
+In order to apply this metric to actors, writers and directors, we decided to use the [Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain). 
+
+For each actor, writer, or director, we first rank the movies they are linked to according to the impact score, in decreasing order. Then, we compute the discounted cumulative gain on this subset of movies using the following formula:
+
+$$\textrm{Impact Score}_\textrm{Actors, Directors, Writers} = \sum_{i=1}^{\textrm{number of movies}}\frac{\textrm{movie metric}_i}{\log_2(i + 1)}$$
+
+Here are the top 10 actors, writers and directors with the highest impact score:
+
+{% include impact_score.html %}
+
 
 
 # Where are the Women?
@@ -65,67 +122,3 @@ These women have not only excelled in their careers, but have also challenged st
 # That’s a Wrap!
 
 In conclusion, the representation of women in media is limited and often stereotypical. However, there are many talented and successful women in the industry who are making a significant impact. It is important for the industry to continue to strive for greater diversity and representation, in order to create a more accurate and fair portrayal of women in media.
-
-<!-- Load the D3 library -->
-<script src="https://d3js.org/d3.v5.min.js"></script>
-
-<!-- Create a container element for the chart -->
-<div id="chart"></div>
-
-<!-- Create the chart using D3 -->
-<script>
-// Set the dimensions of the chart
-var width = 600;
-var height = 400;
-
-// Set the margins
-var margin = {
-  top: 20,
-  right: 20,
-  bottom: 30,
-  left: 50
-};
-
-// Set the data
-var data = [
-  { role: "Actors", percent: 28 },
-  { role: "Directors", percent: 8 },
-  { role: "Screenwriters", percent: 11 }
-];
-
-// Set the ranges
-var x = d3.scaleBand().range([0, width]).padding(0.1);
-var y = d3.scaleLinear().range([height, 0]);
-
-// Create the SVG element
-var svg = d3.select("#chart")
-  .append("svg")
-  .attr("width", width + margin.left + margin.right)
-  .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-// Scale the range of the data
-x.domain(data.map(function(d) { return d.role; }));
-y.domain([0, d3.max(data, function(d) { return d.percent; })]);
-
-// Add the x-axis
-svg.append("g")
-  .attr("transform", "translate(0," + height + ")")
-  .call(d3.axisBottom(x));
-
-// Add the y-axis
-svg.append("g")
-  .call(d3.axisLeft(y));
-
-// Add the bars
-svg.selectAll(".bar")
-  .data(data)
-  .enter()
-  .append("rect")
-  .attr("class", "bar")
-  .attr("x", function(d) { return x(d.role); })
-  .attr("width", x.bandwidth())
-  .attr("y", function(d) { return y(d.percent); })
-  .attr("height", function(d) { return height - y(d.percent); });
-</script>
