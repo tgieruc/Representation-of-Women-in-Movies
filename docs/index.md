@@ -26,37 +26,34 @@ subtitle: From Behind the Camera to on the Screen
 
 # Introduction
 
-The representation of women in media has long been a topic of debate and scrutiny. While society has made significant progress in terms of gender equality over the past century, it is important to examine whether these changes are reflected in the films we watch. Movies have the ability to reveal societal norms and ideals, as well as the underlying beliefs and attitudes that shape our culture.
+The representation of women in media has long been a topic of interest, as it reflects societal norms and attitudes towards gender equality. Despite the progress made in recent decades towards gender equality, it is important to examine whether these changes are reflected in the films we watch. Movies provide a unique insight into the subconscious ways in which society is conditioned to view women, and can capture the ideals and norms of the time in which they were produced.
 
-For this data analysis project, we will be using the [CMU Movie Summary Corpus dataset](https://www.cs.cmu.edu/~ark/personas/), as well as additional datasets from Stanford CoreNLP, IMDb, Wikidata, IMDB, and Box Office Mojo, to explore the portrayal of women in film, including the roles of actresses, characters, and writers and directors. Through our analysis, we hope to gain a deeper understanding of how women have been depicted in media over time and how this representation may have evolved. By examining these factors, we can gain insight into the ways that society views and treats women, and consider how far we have come in addressing gender inequality.
-
+In this data analysis project, we will use the CMU Movie Summary Corpus dataset, as well as additional datasets from Stanford CoreNLP, IMDb, Wikidata, IMDB, and Box Office Mojo, to explore the portrayal of women in film. This includes examining the roles of actresses, characters, and writers and directors. By analyzing these factors, we aim to gain a deeper understanding of how women have been depicted in media over time and how this representation may have evolved. Our analysis will also allow us to consider the ways in which society views and treats women and the progress made towards gender equality.
 
 
 # The Data
-Our analysis is based on merging the [CMU Dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/).
 
-We have separated the data in three tables: 
+Our analysis is based on merging the CMU Dataset, the [CMU Dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/). We have separated the data into three tables: the movies table, the characters table, and the directors and writers table.
 
-* The movies table, that contains titles, release year, runtime, box office revenue, average rating and number of votes on IMDb, genre, as well as the list of directors and writers. We have a total of 81'741 different movies.
+* The movies table contains titles, release year, runtime, box office revenue, average rating and number of votes on IMDb, genre, as well as the list of directors and writers. There are a total of 81,741 different movies.
 
 {% include movie_percentage.html %}
 
-
-* The characters table, that contains the ID of the movie, the character name and actor name, their height, ethnicity, birth and death year, the movie metric and the actor metric. We have 450'669 characters played by 135'761 different actors.
+* The characters table contains the ID of the movie, the character name and actor name, their height, ethnicity, birth and death year, the movie metric and the actor metric. There are 450,669 characters played by 135,761 different actors.
 
 {% include characters_percentage.html %}
 
-* The directors and writers table, that contains titles, role (either director or writer), name, gender, birth year and height. We have a total of 86'474 directors and 164'271 writers.
+* The directors and writers table contains titles, role (either director or writer), name, gender, birth year, and height. There are a total of 86,474 directors and 164,271 writers.
 
 {% include directors_percentage.html %}
 
+
+
 ## The Impact Score metric
 ### Movies
-We have created a metric in order to measure the impact a movie has, based on their average rating and the number of votes. Our assumption is that an impactful movie has a lot votes and has either an extremely good or bad average rating.
+We have created a metric in order to measure the impact of a movie on the average rating and the number of votes. Our assumption is that an impactful movie has a lot of votes and has either an extremely good or bad average rating.
 
-We apply a logarithmic transformation to the number of votes, as this follows a power-law distribution. This allows us to normalize the data and accurately compare the impact of different movies.
-Next, we take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception.
-By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
+We apply a logarithmic transformation to the number of votes in order to normalize the data and accurately compare the impact of different movies. We then take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception. By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
 
 $$\textrm{Impact Score}_\textrm{Movies} = \textrm{normalized} (\log(\textrm{number of votes})) \cdot \textrm{abs}(\textrm{normalized}(\textrm{IMDB rating}))$$
 
@@ -64,10 +61,9 @@ According to this metric, those are the top 10 most impactful movies of our data
 
 {% include top20_movies.html %}
 
-### Actors, writers and directors
-In order to apply this metric to actors, writers and directors, we decided to use the [Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain). 
 
-For each actor, writer, or director, we first rank the movies they are linked to according to the impact score, in decreasing order. Then, we compute the discounted cumulative gain on this subset of movies using the following formula:
+### Actors, writers and directors
+For actors, writers, and directors, we use the [Discounted Cumulative Gain](https://en.wikipedia.org/wiki/Discounted_cumulative_gain) to rank the movies they are linked to according to the impact score and compute their overall impact.
 
 $$\textrm{Impact Score}_\textrm{Actors, Directors, Writers} = \sum_{i=1}^{\textrm{number of movies}}\frac{\textrm{movie metric}_i}{\log_2(i + 1)}$$
 
@@ -79,37 +75,33 @@ Here are the top 10 actors, writers and directors with the highest impact score:
 
 # Where are the Women?
 
-When it comes to the representation of women in media, the numbers are not encouraging. In recent years, women have made up a small percentage of actors, directors, and screenwriters in the film industry.
+
+As our project focuses on the representation of women in movies, it can be interesting to look at the percentage of female actresses per genre per decades.
+
+{% include percentage_per_genre_per_decade.html %}
+
+When it comes to genre, women are most often represented in dramas, comedies and romances, while they are underrepresented in action adventure and sci-fi films.
+
+When considering the representation of women among directors and writers, we found that the pattern is similar, although the overall percentage of women in these roles is significantly lower than for actresses.
+
+{% include directors_writers_percentage_per_genre_per_decade.html %}
 
 <!-- ![Representation of women in various roles in media](representation_of_women.png) -->
 
-When it comes to genre, women are most often represented in dramas and comedies, while they are underrepresented in action and sci-fi films.
 
 <!-- ![Genres in which women are represented](genre_representation.png) -->
 
 # Behind the Camera
 
-When it comes to directors, men outnumber women by a significant margin. However, there are some female directors who have made a significant impact in the industry.
-
-<!-- ![Top female directors by box office performance](top_female_directors.png) -->
-
-Some of the most successful female directors in recent years include Patty Jenkins, who directed the critically-acclaimed Wonder Woman, and Ava DuVernay, who directed the Oscar-nominated Selma.
+Put the director analysis here. Who are the most impactful directors for the most common genres? What are their best movies? What are they about? how does the impact of female directors compare with male directors?
 
 # In Front of the Camera
 
-Similarly, women are underrepresented as actors in the film industry. However, there are some female actors who have made a significant impact and achieved great success in their careers.
-
-<!-- ![Top female actors by box office performance](top_female_actors.png) -->
-
-Some of the highest-grossing actresses in recent years include Gal Gadot, who starred in the Wonder Woman franchise, and Emma Stone, who won an Oscar for her role in La La Land.
+Put the Actor analysis here
 
 # On the Screen
 
-The representation of women on screen is also limited, with many female characters being relegated to supporting roles or falling into stereotypical tropes.
-
-<!-- ![Top female characters by box office performance](top_female_characters.png) -->
-
-Some of the most successful female characters in recent years include Wonder Woman, played by Gal Gadot, and Katniss Everdeen, played by Jennifer Lawrence in the Hunger Games series.
+Put the character analysis here
 
 # Women of Impact
 
