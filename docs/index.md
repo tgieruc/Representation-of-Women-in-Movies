@@ -72,28 +72,30 @@ Here are the top 10 actors, writers and directors with the highest impact score:
 
 {% include impact_score.html %}
 
-
+We can see that the top 10 actors, writers and directors are all male, which is a leads to the following question: *where are the women?*
 
 # Where are the Women?
 
 
-As our project focuses on the representation of women in movies, it can be interesting to look at the percentage of female actresses per genre per decades.
+As our project focuses on the representation of women in movies, it can be interesting to look at the evolution of the presence of women in movies, as characters and as part of the crew.
+
+
+{% include actress_crew_percentage.html %}
+
+From the graph above, we can see that women in crews have always been even more underrepresented than actresses.
+
+Let's break the data down by genre, to see if there is any difference in the distribution of women in film across genres.
 
 {% include percentage_per_genre_per_decade.html %}
 {% include male_vs_female_presence_in_movie_genre.html %}
 
 
+From the graphs above, we can see that when it comes to genre, women are most often represented in dramas, comedies and romances, while they are underrepresented in action adventure and sci-fi films.
 
-When it comes to genre, women are most often represented in dramas, comedies and romances, while they are underrepresented in action adventure and sci-fi films.
-
-When considering the representation of women among directors and writers, we found that the pattern is similar, although the overall percentage of women in these roles is significantly lower than for actresses.
+When considering the representation of women among directors and writers, we found that the pattern is similar, although the overall percentage of women in these roles is significantly lower than for actresses, as shown below.
 
 {% include directors_writers_percentage_per_genre_per_decade.html %}
 
-<!-- ![Representation of women in various roles in media](representation_of_women.png) -->
-
-
-<!-- ![Genres in which women are represented](genre_representation.png) -->
 
 # Behind the Camera
 
