@@ -26,14 +26,15 @@ subtitle: From Behind the Camera to on the Screen
 
 # Introduction
 
-The representation of women in media has long been a topic of interest, as it reflects societal norms and attitudes towards gender equality. Despite the progress made in recent decades towards gender equality, it is important to examine whether these changes are reflected in the films we watch. Movies provide a unique insight into the subconscious ways in which society is conditioned to view women, and can capture the ideals and norms of the time in which they were produced.
+The representation of women in media has long been a topic of interest, as it reflects societal norms and attitudes towards gender equality. Despite the progress made in recent decades towards gender equality, it is important to examine whether these changes are reflected in the films we watch. Movies provide a unique insight into the subconscious ways in which society is conditioned to view women, and can capture the ideals and norms of the time in which they were produced. 
 
-In this data analysis project, we will use the CMU Movie Summary Corpus dataset, as well as additional datasets from Stanford CoreNLP, IMDb, Wikidata, IMDB, and Box Office Mojo, to explore the portrayal of women in film. This includes examining the roles of actresses, characters, and writers and directors. By analyzing these factors, we aim to gain a deeper understanding of how women have been depicted in media over time and how this representation may have evolved. Our analysis will also allow us to consider the ways in which society views and treats women and the progress made towards gender equality.
+In this data analysis project, we will use the CMU Movie Summary Corpus dataset, completed with additional datasets, to explore the portrayal of women in film. We will not only analyze the roles of actresses and characters, but also of writers and directors. By analyzing these factors, we aim to gain a deeper understanding of how women are and have been represented in media, and how this has evolved through time.
+
 
 
 # The Data
 
-Our analysis is based on merging the CMU Dataset, the [CMU Dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/). We have separated the data into three tables: the movies table, the characters table, and the directors and writers table.
+Our analysis is based on merging the [CMU Movie Summary Corpus dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/). We have separated the data into three tables: the movies table, the characters table, and the directors and writers table.
 
 * The movies table contains titles, release year, runtime, box office revenue, average rating and number of votes on IMDb, genre, as well as the list of directors and writers. There are a total of 81,741 different movies.
 
@@ -53,7 +54,7 @@ Our analysis is based on merging the CMU Dataset, the [CMU Dataset](https://www.
 ### Movies
 We have created a metric in order to measure the impact of a movie on the average rating and the number of votes. Our assumption is that an impactful movie has a lot of votes and has either an extremely good or bad average rating.
 
-We apply a logarithmic transformation to the number of votes in order to normalize the data and accurately compare the impact of different movies. We then take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception. By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
+We apply a logarithmic transformation to the number of votes in order to turn its heavy-tailed distribution into a gaussian distribution, then we normalize the data and accurately compare the impact of different movies. We then take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception. By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
 
 $$\textrm{Impact Score}_\textrm{Movies} = \textrm{normalized} (\log(\textrm{number of votes})) \cdot \textrm{abs}(\textrm{normalized}(\textrm{IMDB rating}))$$
 
@@ -79,6 +80,9 @@ Here are the top 10 actors, writers and directors with the highest impact score:
 As our project focuses on the representation of women in movies, it can be interesting to look at the percentage of female actresses per genre per decades.
 
 {% include percentage_per_genre_per_decade.html %}
+{% include male_vs_female_presence_in_movie_genre.html %}
+
+
 
 When it comes to genre, women are most often represented in dramas, comedies and romances, while they are underrepresented in action adventure and sci-fi films.
 
@@ -105,11 +109,7 @@ Put the character analysis here
 
 # Women of Impact
 
-Despite the challenges facing women in the film industry, there are many women who have made a significant impact and achieved great success in their roles.
-
-<!-- ![Carousel of top women in various roles in media](top_women.png) -->
-
-These women have not only excelled in their careers, but have also challenged stereotypes and paved the way for future generations of women in media.
+Maybe highlight the top women in each role that have made the highest impact? the bag of words for their characters? make this in a carousel? 
 
 # That’s a Wrap!
 
