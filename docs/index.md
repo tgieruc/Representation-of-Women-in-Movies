@@ -126,7 +126,7 @@ The drop in number of unique attributes in the last decade can be explained by t
 {% include unique_attributes.html %}
 
 We see that the number of attributes is lower for female characters than for male ones. 
-Nevertheless, the number of unique terms per character is consistently higher for females than for males. This can mean that even though there are fewer female characters they are more developed and thought-through.
+Nevertheless, the number of unique terms per character is consistently higher for women than for men. This can mean that even though there are fewer female characters they are more developed and thought-through.
 Interestingly enough, the general trend of the number of attributes per character is decreasing. So there are more characters in the movies, but they might possess the same set of typical qualities.
 
 ### Word clouds 
@@ -143,7 +143,7 @@ Word clouds give us an understanding of certain trends but they focus on exact f
 
 {% include embeddings.html %}
 
-For every decade we can find an “aggressive” cluster for male characters, which is in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout the decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from more temporal (current emotions or states, e.g. heartbroken, unloved) to intrinsic (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, females have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
+For every decade we can find an “aggressive” cluster for male characters, which is in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout the decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from more temporal (current emotions or states, e.g. heartbroken, unloved) to intrinsic (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, women have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
 
 ### Regression analysis
 
@@ -170,6 +170,7 @@ Those are the three most impactful female directors and writers in the dataset:
 ![Philippa Boyens](assets/boyens.png){:class="img-responsive"}
 ![jk](assets/jk.png){:class="img-responsive"}
 
+As a side note, the fact that every woman in both lists are english speakers is interesting, and might be a result of the fact that the dataset is mostly english movies.
 
 # That’s a Wrap!
 
