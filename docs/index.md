@@ -103,7 +103,19 @@ Put the director analysis here. Who are the most impactful directors for the mos
 
 # In Front of the Camera
 
-Put the Actor analysis here
+{% include first_appearance_per_decade_per_gender.html %}
+
+{% include histogram_num_movies_perc_female.html %}
+
+{% include distrib_movie_impact_score_perc_female.html %}
+
+{% include avg_movie_impact_score_perc_female_by_genre.html %}
+
+{% include actor_impact_score_per_gender.html %}
+
+{% include avg_actor_immpact_score_per_genre_per_decade.html %}
+
+{% include top100_actors_impact_score.html %}
 
 # On the Screen
 
