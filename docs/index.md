@@ -184,7 +184,7 @@ To highlight the difference between men and women in another way, we show in the
 
 # On the Screen
 
-To analyze the way different genres are portrayed in movies, we analyzed the Stanford CoreNLP-processed plot summaries provided for 42,000 movies in the CMU dataset. We use the output of the Stanford CoreNLP pipeline to acquire information about characters. 
+To analyze the way different genders are portrayed in movies, we analyzed the Stanford CoreNLP-processed plot summaries provided for 42,000 movies in the CMU dataset. We use the output of the Stanford CoreNLP pipeline to acquire information about characters. 
 
 Not all characters in a movie are equally significant, we considered the characters mentioned in the plot summaries as main characters as they are valuable enough to the plot to be represented in a condensed description of the movie.
 
