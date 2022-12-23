@@ -72,28 +72,30 @@ Here are the top 10 actors, writers and directors with the highest impact score:
 
 {% include impact_score.html %}
 
-
+We can see that the top 10 actors, writers and directors are all male, which leads to the following question: *where are the women?*
 
 # Where are the Women?
 
 
-As our project focuses on the representation of women in movies, it can be interesting to look at the percentage of female actresses per genre per decades.
+As our project focuses on the representation of women in movies, it can be interesting to look at the evolution of the presence of women in movies, as characters and as part of the crew.
+
+
+{% include actress_crew_percentage.html %}
+
+From the graph above, we can see that women in crews have always been even more underrepresented than actresses.
+
+Let's break the data down by genre, to see if there is any difference in the distribution of women in film across genres.
 
 {% include percentage_per_genre_per_decade.html %}
 {% include male_vs_female_presence_in_movie_genre.html %}
 
 
+From the graphs above, we can see that when it comes to genre, women are most often represented in dramas, comedies and romances, while they are underrepresented in action adventure and sci-fi films.
 
-When it comes to genre, women are most often represented in dramas, comedies and romances, while they are underrepresented in action adventure and sci-fi films.
-
-When considering the representation of women among directors and writers, we found that the pattern is similar, although the overall percentage of women in these roles is significantly lower than for actresses.
+When considering the representation of women among directors and writers, we found that the pattern is similar, although the overall percentage of women in these roles is significantly lower than for actresses, as shown below.
 
 {% include directors_writers_percentage_per_genre_per_decade.html %}
 
-<!-- ![Representation of women in various roles in media](representation_of_women.png) -->
-
-
-<!-- ![Genres in which women are represented](genre_representation.png) -->
 
 # Behind the Camera
 
@@ -105,7 +107,51 @@ Put the Actor analysis here
 
 # On the Screen
 
-Put the character analysis here
+To analyze the way different genres are portrayed in movies, we took a look at the plot summaries provided for 42k movies in the CMU dataset. We use the output of the Stanford CoreNLP pipeline to acquire information about characters. 
+
+Not all characters in the movie are equally significant, we consider the characters mentioned in the plot summaries as main characters since they are valuable enough to the plot to get represented in the condensed description of the movie
+
+{% include characters_per_decade.html %}
+
+We can see that both for all characters and for the main characters the distribution mass for males is concentrated more towards the right, which means there are generally more male characters in movies. This tendency is true for all decades. Nevertheless, for the main characters, we can notice that the distributions are more balanced.
+
+Since we perform the analysis of textual descriptions, we focus only on the main characters.
+
+To see how the characters are portrayed we extract the attributes (descriptive adjectives) associated with the characters in the plots.
+
+To highlight the differences in attribute distributions we consider unique attributes which are specific to one of the genders. 
+
+The drop in number of unique attributes in the last decade can be explained by the fact that the CMU movie dataset was released in 2013, so the decade is underrepresented.
+
+{% include unique_attributes.html %}
+
+We see that the number of attributes is lower for female characters than for male ones. 
+Nevertheless, the number of unique terms per character is consistently higher for females than for males. This can mean that even though there are fewer female characters they are more developed and thought-through.
+Interestingly enough, the general trend of the number of attributes per character is decreasing. So there are more characters in the movies, but they might possess the same set of typical qualities.
+
+### Word clouds 
+
+To get an idea of the kind of data we are dealing with, we look at the word clouds of unique attributes for each gender and decade. 
+
+An interesting finding from this data is that for each decade popular male attributes include some kind of aggressive characteristics: **enraged, angry, cruel, abusive**
+
+{% include wordclouds.html %}
+
+### Word embeddings
+
+Word clouds give us an understanding of certain trends but they focus on exact formulations and not semantics, to capture the similarities of the words and to see if they form some natural groups we perform clustering over the attributes using fasttext to produce attribute embeddings.
+
+{% include embeddings.html %}
+
+For every decade we can find an “aggressive” cluster for male characters, which is in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout the decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from more temporal (current emotions or states, e.g. heartbroken, unloved) to intrinsic (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, females have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
+
+### Regression analysis
+
+To verify our “**aggressive**“ hypothesis we perform regression analysis on the movie plots. We use sentiment analysis to acquire the general sentiment of the movie plot. Apart from that, we use “**aggression**”, “**dispute**”and **“violence**” lexical categories of the empath sentiment analysis. 
+
+For the scores of each category we make a linear regression model based on the share of female characters in the movie. Of course, the sentiment or aggression score of a movie is impossible objective to model only with information about the share of female characters, which explains the low R-score values that we got with the linear models (0.001 - 0.02). Nevertheless, for each of the objectives we got a statistically significant coefficient for the share of female characters which was negative for “**aggression**”, “**dispute**”and **“violence**” and positive for the sentiment.
+
+This means that the more female characters there is in the movie the less its plot’s aggression/dispute/violence score and the more positive sentiment would be on average.
 
 # Women of Impact
 
