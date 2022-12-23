@@ -47,7 +47,7 @@ Exploratory analysis was done to understand the proportion of female and male di
 
 **Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
 
-Qualitative analyses:
+Qualitative analysis:
 Looked at most frequent descriptors for different genres broken down by decade. Sampled genres and performed analysis within the genre. Checked for trends and if they were consistent within genres. Visualized with word clouds.
 
 Clustering: clustering terms for different genres to get interpretable clusters.
