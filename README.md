@@ -63,6 +63,10 @@ XML data was handled using gzip and lxml etree. The descriptors are defined by t
 
 - Difference of impact score between male and female actors trhough time and genres
 
+- Linear Regression analysis on gender features and their impact on Movie Impact Score
+
+- Matching analysis on male and female directors and writers (analysis was dropped due to difficulties in creating network with Networkx)
+
 
 **Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
 
