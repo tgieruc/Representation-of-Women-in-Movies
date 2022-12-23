@@ -154,8 +154,22 @@ For the scores of each category we make a linear regression model based on the s
 This means that the more female characters there is in the movie the less its plot’s aggression/dispute/violence score and the more positive sentiment would be on average.
 
 # Women of Impact
+## Actresses
+Those are the three most impactful actresses in the dataset:
 
-Maybe highlight the top women in each role that have made the highest impact? the bag of words for their characters? make this in a carousel? 
+![Uma Thurman](assets/thurman.png){:class="img-responsive"}
+![Cate Blanchett](assets/blanchett.png){:class="img-responsive"}
+![Carmen Electra](assets/electra.png){:class="img-responsive"}
+
+It is interesting to note that one of Uma Thurman's three most impactful films received very negative ratings, while the other two were rated positively. On the other hand, all three of Cate Blanchett's most impactful films had a positive impact, but Carmen Electra's three most impactful films were largely criticized. 
+
+## Directors & Writers
+Those are the three most impactful female directors and writers in the dataset:
+
+![Fran Walsh](assets/walsh.png){:class="img-responsive"}
+![Philippa Boyens](assets/boyens.png){:class="img-responsive"}
+![jk](assets/jk.png){:class="img-responsive"}
+
 
 # That’s a Wrap!
 
