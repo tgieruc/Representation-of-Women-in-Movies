@@ -9,7 +9,7 @@ pickle_folder = data_folder + 'pickles/'
 
 characters = pickle.load(open(pickle_folder + 'characters.p', 'rb'))
 movies = pickle.load(open(pickle_folder + 'movies.p', 'rb'))
-df_actors = pickle.load(open("actors_with_image.p","rb"))
+df_actors = pickle.load(open(pickle_folder + "actors_with_image.p","rb"))
 
 
 fig = px.bar(df_actors, y='actor_metric', x='actor_name', color ="combined_gender")
