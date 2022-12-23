@@ -24,7 +24,7 @@ subtitle: From Behind the Camera to on the Screen
 
 
 
-# Introduction
+# Women and Movies
 
 The representation of women in media has long been a topic of interest, as it reflects societal norms and attitudes towards gender equality. Despite the progress made in recent decades towards gender equality, it is important to examine whether these changes are reflected in the films we watch. Movies provide a unique insight into the subconscious ways in which society is conditioned to view women, and can capture the ideals and norms of the time in which they were produced. 
 
@@ -52,9 +52,9 @@ Our analysis is based on merging the [CMU Movie Summary Corpus dataset](https://
 
 ## The Impact Score metric
 ### Movies
-We have created a metric in order to measure the impact of a movie on the average rating and the number of votes. Our assumption is that an impactful movie has a lot of votes and has either an extremely good or bad average rating.
+We have created a metric in order to measure the impact of a movie on the average rating and the number of votes. Our assumption is that an impactful movie has a lot of votes and has either an extremely good or bad average rating. The number of votes were used as a proxy to gauge the number of people that may have watched the movie, another benefit of using this feature is that to cast a vote takes effort and it is intuitive that someone would likely put in this effort if a movie was impactful on them or they are someone who is passionate about cinematography. An exetremely good or bad rating shows that a movie stood out from other movies and on either end of the spectrum is impactful as it may impact how future movies are produced.
 
-We apply a logarithmic transformation to the number of votes in order to turn its heavy-tailed distribution into a gaussian distribution, then we normalize the data and accurately compare the impact of different movies. We then take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception. By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
+We apply a logarithmic transformation to the number of votes in order to account for the heavy-tailed distribution and then normalized the data so that it does not outweigh the contribution of the rating to the impact score. We then take the absolute value of the normalized average rating for each movie. This accounts for both very good and very bad movies, as both have a significant impact on audience reception. By combining these two factors, we are able to calculate the overall impact a movie has on its audience and compare this across different films.
 
 $$\textrm{Impact Score}_\textrm{Movies} = \textrm{normalized} (\log(\textrm{number of votes})) \cdot \textrm{abs}(\textrm{normalized}(\textrm{IMDB rating}))$$
 
@@ -122,7 +122,7 @@ Now that we can see that women are becoming more prevalent in the teams that cre
 
 The above figure showing the average movie impact score for varying percent of a team being women over the entire dataset as well as split into before and after the start of the 21st century with 95% confidence error bars. While it can be seen that for a low, but above 0, percent of women on a team (10%-40%) there is a statistically significant increase in the impact of a movie, but the amount of change in impact can be deemed as negligible. The data shows that regardless of the ratio of women and men working on a movie the impact that movie has is more or less the same.
 
-A linear regression model was fit to gender data and genre data to determine what effect both may have on the impact score of a movie. The gender based features that were used in the model were: The percent of women on the directorial team, the percent of women on the writing team, whether there was a female director at all, if the team on the movie was all male, or if the team on the movie was all female. The model achieved a low r-squared score of 0.12 meaning that it was only able to model 12% of the variance in the dataset and while some of the gender features where statistically significant with p-values lower than 0.05, the weight of these features (percent of directors that are women, percent of writers that are women, and if a team is only made up of men) was too small to make a noticeable difference. The impact being a small decrease in impact score for increasing director or writer percentage and a small decrease in impact for a team that only has men. To visualize the data another way the same graph from above was plotted broken down by the top 10 most produced genres.
+A linear regression model was fit to gender data and genre data to determine what effect both may have on the impact score of a movie. The gender based features that were used in the model were: The percent of women on the directorial team, the percent of women on the writing team, whether there was a female director at all, if the team on the movie was all male, or if the team on the movie was all female. The model achieved a low R-squared score of 0.12 meaning that it was only able to model 12% of the variance in the dataset and while some of the gender features where statistically significant with p-values lower than 0.05, the weight of these features (percent of directors that are women, percent of writers that are women, and if a team is only made up of men) was too small to make a noticeable difference. The impact being a small decrease in impact score for increasing director or writer percentage and a small decrease in impact for a team that only has men. To visualize the data another way the same graph from above was plotted broken down by the top 10 most produced genres.
 
 {% include director_movie_impact_per_genre_per_decade.html %}
 
@@ -140,43 +140,43 @@ The data used in this analysis was more often than not heavy tailed and it is im
 {% include top_50_directors.html %}
 {% include top_50_writers.html %}
 
-In the case of the directors there were no women in the top 50 directors based on our impact score, the highest ranking female director ranked 270th. In the case of writers there were three women in the top 50 with the most impactful one ranking 22nd. 
+In the case of the directors there were no women in the top 50 directors based on our impact score, the highest ranking female director ranked 270th with a director impact score of 7.82. In the case of writers there were three women in the top 50 with the most impactful one ranking 22nd with a writer impact score of 20.97. 
 
 # In Front of the Camera
 ## Actors as past of a movie
-In order to understand a bit better how the gender distribution amongst actors could influence the impact score, we decided to add the actor appearance order in the movie’s credits and if the lead actors were men or women. We achieved this using the Full Cast & crew available on IMDB, as in [this example](https://www.imdb.com/title/tt0068646/fullcredits?ref_=tt_ov_st_sm). We are able to retrieve the order in which the actors appear in the credits of each movie. From this information, we can retrieve the rank of first appearance in the credits of both men and women. For example, if the credits first show two males then a female actor, the rank of the man would be 1 while the rank of the women would be 3.
+In order to better understand how the gender distribution amongst actors could influence the impact score, we decided to add the actor appearance order in the movie’s credits to determine if the lead actors were men or women. We achieved this using the Full Cast & crew available on IMDB, as in [this example](https://www.imdb.com/title/tt0068646/fullcredits?ref_=tt_ov_st_sm). We are able to retrieve the order in which the actors appear in the credits of each movie. From this information, we can retrieve the rank of first appearance in the credits of both men and women. For example, if the credits first show two males then a female actor, the rank of the man would be 1 while the rank of the women would be 3.
 
 {% include first_appearance_per_decade_per_gender.html %}
 
-We can see on this graph that on average women appear later in the credits than men. Women have therefore less often lead/important roles, as actors who appear earlier in the credits are very often the main characters. Interestingly, women’s first appearance ranking seems to be increasing over the years, compared to men who stay at the same rank. This would mean that female characters got less important over the years compared to their male counterparts.
+We can see on the graph above that on average women appear later in the credits than men. Women have therefore less often lead/important roles, as actors who appear earlier in the credits are very often the main characters. Interestingly, women’s first appearance ranking seems to be increasing over the years, compared to men who stay at the same rank. This would mean that female characters got less important over the years compared to their male counterparts.
 
 We continued the analysis by looking at the percentage of female and male actors in each movie, and comparing this number to the movie’s impact score.
 
 {% include histogram_num_movies_perc_female.html %}
 
-Looking at this histogram, we can see that the bulk of the films have fewer than 50% female actors.
+Looking at the above histogram, we can see that the bulk of the films have fewer than 50% female actors.
 
 {% include distrib_movie_impact_score_perc_female.html %}
 
-This graph above shows how the impact score evolves for different percentages of female actors in movies. There is a difference between the two time periods, that remains pretty constant across all the percentages. The movie impact score of the 21st century is consistently higher than before the 21st century, this could be explained by the fact that newer films are reviewed more than older ones on IMDB and our metric heavily relies on the number of votes.
+The above graph above shows how the impact score evolves for different percentages of female actors in a movie. There is a difference between the two time periods that remains relatively constant across all percentages. The movie impact score of the 21st century is consistently higher than before the 21st century which could be explained by the fact that newer films are reviewed more than older ones on IMDB affecting the total number of votes and therefore the movie impact score.
 
 {% include avg_movie_impact_score_perc_female_by_genre.html %}
 
-Looking a bit more into the percentage of women in movies, we compare film genres between each other. The main observation we can make here is that it seems that there is a downward trend between the movie metric and the female percentage. This means that the higher the female percentage, the lower the movie impact score would be.
+Looking more into the percentage of women in movies, we compared film genres between each other. The main observation seen here is that it appears that there is a downward trend between the movie impact score and the female percentage. This means that the higher the female percentage, the lower the movie impact score would be.
 
-To see if this observation could be confirmed, we decided to perform a linear regression that links the movie impact score with the female actor percentage, the rank of the first appearance of a woman in  the credits , and if the lead actor is a woman (for this last metric we assumed that if the woman was first in the credits she was the lead actors).
+To confirm this observation, we decided to perform a linear regression linking the movie impact score with the female actor percentage, the rank of the first appearance of a woman in the credits, and if the lead actor is a woman (for this last metric we assumed that if the woman was first in the credits she was the lead actors).
 
-It takes much more than only those gender-related statistics to correctly model the causes of the metric score of any film. Despite a low R-squared value (0.01), the results remain nevertheless interesting as all our criteria are statistically significant. The most important coefficient we have is the one linked to the female actor percentage which is a coefficient of -0.5. The trend we observed earlier can be confirmed, a higher percentage of female actors seem to have a negative effect on the movie metric.
+It takes much more than only those gender-related statistics to correctly model the causes of the impact score of any film. Despite a low R-squared value of 0.01, the results remain nevertheless interesting as all our criteria were shown to be statistically significant. The most impactful feature being the female actor percentage which had a coefficient of -0.5. Therefore the trend we observed earlier can be confirmed, a higher percentage of female actors appears to have a negative effect on the movie impact score.
 
 ### Actors as individuals
 
 {% include actor_impact_score_per_gender.html %}
 
-We can see that on average, and for each decade, the male actors have a better metric compared to female actors. One possible reason for such a difference is that male actors play in more films on average (4.43 films/actor) than female actors (3.76 films/actors).
+From the above graph we can see that on average, and for each decade, that male actors have a better actor impact score compared to female actors. One possible reason for such a difference could be that male actors play in more films on average (4.43 films/actor) than female actors (3.76 films/actors).
 
 {% include avg_actor_immpact_score_per_genre_per_decade.html %}
 
-Looking at the actor metric through the genre, we can see that there is a general upward trend in the actor ranking, over all genres. This could once again be explained by the fact that newer films are reviewed more than older ones.
+Looking at the actor impact score broken down by genre, we can see that there is a general upward trend in the actor impact score over all genres. This could once again be explained by the fact that newer films are reviewed more than older ones.
 
 To highlight the difference between men and women in another way, we show in the following plot the 50 best actors according to our metric. It highlights even more the difference between men and women actors in terms of their impact. The first woman appears at the 33rd place in our ranking with a score of 29.57.
 
@@ -184,55 +184,56 @@ To highlight the difference between men and women in another way, we show in the
 
 # On the Screen
 
-To analyze the way different genres are portrayed in movies, we took a look at the plot summaries provided for 42k movies in the CMU dataset. We use the output of the Stanford CoreNLP pipeline to acquire information about characters. 
+To analyze the way different genres are portrayed in movies, we analyzed the Stanford CoreNLP-processed plot summaries provided for 42,000 movies in the CMU dataset. We use the output of the Stanford CoreNLP pipeline to acquire information about characters. 
 
-Not all characters in the movie are equally significant, we consider the characters mentioned in the plot summaries as main characters since they are valuable enough to the plot to get represented in the condensed description of the movie
+Not all characters in a movie are equally significant, we considered the characters mentioned in the plot summaries as main characters as they are valuable enough to the plot to be represented in a condensed description of the movie.
 
 {% include characters_per_decade.html %}
 
-We can see that both for all characters and for the main characters the distribution mass for males is concentrated more towards the right, which means there are generally more male characters in movies. This tendency is true for all decades. Nevertheless, for the main characters, we can notice that the distributions are more balanced.
+We can see that both for all characters and main characters the distribution mass for males is concentrated towards the right, meaning there are generally more male characters in movies. This tendency is true for all decades. Nevertheless, for the main characters we can notice that the distributions are more balanced.
 
-Since we perform the analysis of textual descriptions, we focus only on the main characters.
+Since we performed an analysis of the plot summaries, the focus of the analysis was on main characters.
 
-To see how the characters are portrayed we extract the attributes (descriptive adjectives) associated with the characters in the plots.
+To see how main characters are portrayed in a movie, we extracted the attributes (descriptive adjectives) associated with the characters in the processed plot summaries.
 
 To highlight the differences in attribute distributions we consider unique attributes which are specific to one of the genders. 
 
-The drop in number of unique attributes in the last decade can be explained by the fact that the CMU movie dataset was released in 2013, so the decade is underrepresented.
+The drop in number of unique attributes in the last decade can be explained by the CMU movie dataset was released in 2013 leaving the last decade underrepresented.
 
 {% include unique_attributes.html %}
 
-We see that the number of attributes is lower for female characters than for male ones. 
-Nevertheless, the number of unique terms per character is consistently higher for women than for men. This can mean that even though there are fewer female characters they are more developed and thought-through.
-Interestingly enough, the general trend of the number of attributes per character is decreasing. So there are more characters in the movies, but they might possess the same set of typical qualities.
+We see that the number of attributes is lower for female characters than for male ones, but that the number of unique terms per character is consistently higher for women than for men. This could mean that even though there are fewer female characters they are more developed and thought-through.
+Interestingly enough, the general trend of the number of attributes per character is decreasing. Meaning that while there are more characters in movies, they might possess the same set of typical qualities.
 
 ### Word clouds 
 
-To get an idea of the kind of data we are dealing with, we look at the word clouds of unique attributes for each gender and decade. 
+To get an idea of the kind of data we are dealing with, we looked at the word clouds of unique attributes for each gender and decade. 
 
-An interesting finding from this data is that for each decade popular male attributes include some kind of aggressive characteristics: **enraged, angry, cruel, abusive**
+An interesting finding from this data is that for each decade popular male attributes include some kind of aggressive characteristic: **enraged, angry, cruel, abusive**
 
 {% include wordclouds.html %}
 
 ### Word embeddings
 
-Word clouds give us an understanding of certain trends but they focus on exact formulations and not semantics, to capture the similarities of the words and to see if they form some natural groups we perform clustering over the attributes using fasttext to produce attribute embeddings.
+Word clouds give us an understanding of certain trends but they focus on exact formulations and not semantics, to capture the similarities of the words and to see if they form some natural groups we performed clustering over the attributes using fasttext to produce attribute embeddings.
 
 {% include embeddings.html %}
 
-For every decade we can find an “aggressive” cluster for male characters, which is in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout the decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from more temporal (current emotions or states, e.g. heartbroken, unloved) to intrinsic (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, women have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
+For every decade we can find an “aggressive” cluster for male characters, falling in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout all decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from a more temporal nature (current emotions or states, e.g. heartbroken, unloved) to an intrinsic nature (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, women have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
 
 ### Regression analysis
 
-To verify our “**aggressive**“ hypothesis we perform regression analysis on the movie plots. We use sentiment analysis to acquire the general sentiment of the movie plot. Apart from that, we use “**aggression**”, “**dispute**”and **“violence**” lexical categories of the empath sentiment analysis. 
+To verify our “**aggressive**“ hypothesis we performed a regression analysis on the movie plot summaries using sentiment analysis to acquire the general sentiment of a movie plot. Apart from that, we use “**aggression**”, “**dispute**”and **“violence**” lexical categories of the empath sentiment analysis. 
 
-For the scores of each category we make a linear regression model based on the share of female characters in the movie. Of course, the sentiment or aggression score of a movie is impossible objective to model only with information about the share of female characters, which explains the low R-score values that we got with the linear models (0.001 - 0.02). Nevertheless, for each of the objectives we got a statistically significant coefficient for the share of female characters which was negative for “**aggression**”, “**dispute**”and **“violence**” and positive for the sentiment.
+For the scores of each category we made a linear regression model based on the share of female characters in the movie. Of course, the sentiment or aggression score of a movie is impossible objective to model only with information about the share of female characters, which explains the low R-score values that we got with the linear models (0.001 - 0.02). Regardless, for each of the objectives we obtained a statistically significant coefficient for the share of female characters which was negative for “**aggression**”, “**dispute**”and **“violence**” and positive for the sentiment.
 
-This means that the more female characters there is in the movie the less its plot’s aggression/dispute/violence score and the more positive sentiment would be on average.
+This means that the more female characters there are in the movie the less its plot’s aggression/dispute/violence score and the more positive sentiment would be on average.
 
 # Women of Impact
+Through our analysis we analyzed the impact of Women in movies and would like to highlight the women throughout time that have made the most impact in their respective career fields and comment on what the data has to say about them.
+
 ## Actresses
-Those are the three most impactful actresses in the dataset:
+These are the three most impactful actresses in the dataset:
 
 ![Uma Thurman](assets/thurman.png){:class="img-responsive"}
 ![Cate Blanchett](assets/blanchett.png){:class="img-responsive"}
@@ -241,7 +242,7 @@ Those are the three most impactful actresses in the dataset:
 It is interesting to note that one of Uma Thurman's three most impactful films received very negative ratings, while the other two were rated positively. On the other hand, all three of Cate Blanchett's most impactful films had a positive impact, but Carmen Electra's three most impactful films were largely criticized. 
 
 ## Directors & Writers
-Those are the three most impactful female directors and writers in the dataset:
+These are the three most impactful female directors and writers in the dataset:
 
 ![Fran Walsh](assets/walsh.png){:class="img-responsive"}
 ![Philippa Boyens](assets/boyens.png){:class="img-responsive"}
