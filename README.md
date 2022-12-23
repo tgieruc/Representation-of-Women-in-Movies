@@ -54,7 +54,7 @@ XML data was handled using gzip and lxml etree. The descriptors are defined by t
 
 ## Analysis
 
-**Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
+### **Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
 
 **Qualitative analysis**:
 
@@ -80,7 +80,7 @@ Clustering algorithms tested: DBScan, Agglomerative clustering (with a distance 
 
 ---
 
-## Team Structure
+## Team Structure :goat:
 * Team member 1 - Analysis and visualization for RQ1, draft datastory
 * Team member 2 - Analysis and visualization for RQ2, final review and editing
 * Team member 3 - Analysis and visualization for RQ3, Help other members as needed
