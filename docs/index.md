@@ -206,8 +206,7 @@ Those are the three most impactful female directors and writers in the dataset:
 ![Philippa Boyens](assets/boyens.png){:class="img-responsive"}
 ![jk](assets/jk.png){:class="img-responsive"}
 
-As a side note, the fact that every woman in both lists are english speakers is interesting, and might be a result of the fact that the dataset is mostly english movies.
-
+As a side note, the fact that every woman in both lists are english speakers is interesting, and might be a result of the fact that the dataset is mostly Holywood-centric.
 # That’s a Wrap!
 
 In conclusion, the representation of women in media is limited and often stereotypical. However, there are many talented and successful women in the industry who are making a significant impact. It is important for the industry to continue to strive for greater diversity and representation, in order to create a more accurate and fair portrayal of women in media.
