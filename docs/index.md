@@ -72,7 +72,7 @@ Here are the top 10 actors, writers and directors with the highest impact score:
 
 {% include impact_score.html %}
 
-We can see that the top 10 actors, writers and directors are all male, which is a leads to the following question: *where are the women?*
+We can see that the top 10 actors, writers and directors are all male, which leads to the following question: *where are the women?*
 
 # Where are the Women?
 
