@@ -98,8 +98,49 @@ When considering the representation of women among directors and writers, we fou
 
 
 # Behind the Camera
+When a movie is being created the ones that have the most influence on the way that women will be portrayed are the people who control the overarching story: The directors and writers. To understand exactly how the impact of female directors and writers has changed throughout time first we accessed the demographics involved to understand how the situation has changed over time. The figures below show that throughout time the number of male directors and writers in comparison to female directors and writers has always been low, but has increased in recent decades.
 
-Put the director analysis here. Who are the most impactful directors for the most common genres? What are their best movies? What are they about? how does the impact of female directors compare with male directors?
+{% include num_directors_decade.html %}
+{% include fperc_directors_decade.html %}
+
+To dig deeper we asked In which genre of movie are there the highest number of women working in a team on average? The 10 genres with the most movies have been plotted corresponding to how their percent of females in a team change by decade below. The labels in the legend can be clicked to change the visibility of genres on the plot.
+
+{% include director_percentage_per_genre_per_decade.html %}
+
+It can be seen that in general women are becoming more prevalent in the teams that write and direct movies. Echoing the previous figures there has been an increase of women in movie teams in most genres. Notably in Romance, Drama, and Family movies there are a large percent of an average team being female while in Thriller and Action movies there are few.
+
+Another way to understand how women are distributed as directors and writers among the movies that are created is to look at the distribution of the percentage of women on movie teams as shown in the figure below.
+
+{% include director_fperc_distribution.html %}
+
+From the above figure it can be seen that a majority of teams do not have any women on them at all.
+
+## Directors and Writers as Part of a Movie
+Now that we can see that women are becoming more prevalent in the teams that create movies it begs the question: “what impact are they having?” Using the Movie Impact Score metric we can analyze the impact that female directors and writers have on the movies they work on. 
+
+{% include director_movie_score_fperc.html %}
+
+The above figure showing the average movie impact score for varying percent of a team being women over the entire dataset as well as split into before and after the start of the 21st century with 95% confidence error bars. While it can be seen that for a low, but above 0, percent of women on a team (10%-40%) there is a statistically significant increase in the impact of a movie, but the amount of change in impact can be deemed as negligible. The data shows that regardless of the ratio of women and men working on a movie the impact that movie has is more or less the same.
+
+A linear regression model was fit to gender data and genre data to determine what effect both may have on the impact score of a movie. The gender based features that were used in the model were: The percent of women on the directorial team, the percent of women on the writing team, whether there was a female director at all, if the team on the movie was all male, or if the team on the movie was all female. The model achieved a low r-squared score of 0.12 meaning that it was only able to model 12% of the variance in the dataset and while some of the gender features where statistically significant with p-values lower than 0.05, the weight of these features (percent of directors that are women, percent of writers that are women, and if a team is only made up of men) was too small to make a noticeable difference. The impact being a small decrease in impact score for increasing director or writer percentage and a small decrease in impact for a team that only has men. To visualize the data another way the same graph from above was plotted broken down by the top 10 most produced genres.
+
+{% include director_movie_impact_per_genre_per_decade.html %}
+
+The above figure shows that there isn’t a clear linear trend across genres for how the average impact score of a movie changes with the percent of women on a movie’s creative team. 
+
+## Directors and Writers as Individuals
+Beyond measuring the impact that a director or writer has on one particular movie we can also analyze the impact that a director or writer has had over their career using discount cumulative gain. For the following analysis directors and writers were considered together to calculate their impact score. The following figure shows the average director and writer impact score broken down by gender and decade with 95% confidence intervals.
+
+{% include combined_director_impact_decade.html %}
+
+It can be seen that while male directors and writers have increased in their impact on the industry overall that female directors and writers have not leading to the average male director or writer being more impactful than the average female director or writer. It can also be seen that there is more variance in the impact that women can have on the movie industry in comparison to their male counter parts likely due to there being a significantly less number of them in the dataset.
+
+The data used in this analysis was more often than not heavy tailed and it is important when we talk about impactful people to look at these outliers. The top 50 most impactful directors and writers were analyzed to understand which women, if any, were able to make it into the top of their profession. The impact scores for directors and writers in this case were calculated separately so that we could differentiate impactful women in both careers respectively.
+
+{% include top_50_directors.html %}
+{% include top_50_writers.html %}
+
+In the case of the directors there were no women in the top 50 directors based on our impact score, the highest ranking female director ranked 270th. In the case of writers there were three women in the top 50 with the most impactful one ranking 22nd. 
 
 # In Front of the Camera
 ## Actors as past of a movie
