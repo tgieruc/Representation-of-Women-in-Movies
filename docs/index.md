@@ -252,7 +252,7 @@ As a side note, the fact that every woman in both lists are english speakers is 
 
 # That’s a Wrap!
 
-In conclusion, as we have seen through our analyses, there is a significant difference between men and women, whether it is in terms of the number of movies they appear in, the number of characters they play, the role they play as part of the crew or the way they are portrayed. 
+In conclusion, as we have seen through our analyses, there are differences between men and women, whether it is in terms of the number of movies they appear in, the number of characters they play, the role they play as part of the crew or the way they are portrayed. 
 
 We have succesfully crafted a metric that reflects the impact of movies, actors, directors and crews. This metric allowed us to visualize the difference in influence that women have versus men in the movie industry. Although we couldn't find a direct and strong link between the gender of actors and crews and the impact of the movie, this data story can been use proof that the movie industry remains heavily unequal, especially for the directors and writers.
 
