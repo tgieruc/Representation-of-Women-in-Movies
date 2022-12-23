@@ -54,6 +54,28 @@ XML data was handled using gzip and lxml etree. The descriptors are defined by t
 
 ## Analysis
 
+**Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
+
+Qualitative analysis:
+
+- Analyzing wordclouds of gender-spefic character attributes per decade
+
+- Clustering the attributes to get a better understanding of the trends (and to mitigate the lack of synonymity coverage using embeddings) 
+
+Embeddings tested: glove50d, glove100d, bert base (cls), bert base (bpe averages), fasttext (trained on movie plots).
+
+Clustering algorithms tested: DBScan, Agglomerative clustering (with a distance threshold).
+
+Quantitive analysis:
+
+- Character and main character distributions for genders per decade
+
+- Numer and share of unique attributes for genders per decade
+
+- Sentiment classification and topic detection
+
+- Regression analysis based on the share of females for the targets of movie plot sentiment, lexical categories of aggression, dispute, violence
+
 
 
 ---
