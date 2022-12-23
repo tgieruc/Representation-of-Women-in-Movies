@@ -102,8 +102,44 @@ When considering the representation of women among directors and writers, we fou
 Put the director analysis here. Who are the most impactful directors for the most common genres? What are their best movies? What are they about? how does the impact of female directors compare with male directors?
 
 # In Front of the Camera
+## Actors as past of a movie
+In order to understand a bit better how the gender distribution amongst actors could influence the impact score, we decided to add the actor appearance order in the movie’s credits and if the lead actors were men or women. We achieved this using the Full Cast & crew available on IMDB, as in [this example](https://www.imdb.com/title/tt0068646/fullcredits?ref_=tt_ov_st_sm). We are able to retrieve the order in which the actors appear in the credits of each movie. From this information, we can retrieve the rank of first appearance in the credits of both men and women. For example, if the credits first show two males then a female actor, the rank of the man would be 1 while the rank of the women would be 3.
 
-Put the Actor analysis here
+{% include first_appearance_per_decade_per_gender.html %}
+
+We can see on this graph that on average women appear later in the credits than men. Women have therefore less often lead/important roles, as actors who appear earlier in the credits are very often the main characters. Interestingly, women’s first appearance ranking seems to be increasing over the years, compared to men who stay at the same rank. This would mean that female characters got less important over the years compared to their male counterparts.
+
+We continued the analysis by looking at the percentage of female and male actors in each movie, and comparing this number to the movie’s impact score.
+
+{% include histogram_num_movies_perc_female.html %}
+
+Looking at this histogram, we can see that the bulk of the films have fewer than 50% female actors.
+
+{% include distrib_movie_impact_score_perc_female.html %}
+
+This graph above shows how the impact score evolves for different percentages of female actors in movies. There is a difference between the two time periods, that remains pretty constant across all the percentages. The movie impact score of the 21st century is consistently higher than before the 21st century, this could be explained by the fact that newer films are reviewed more than older ones on IMDB and our metric heavily relies on the number of votes.
+
+{% include avg_movie_impact_score_perc_female_by_genre.html %}
+
+Looking a bit more into the percentage of women in movies, we compare film genres between each other. The main observation we can make here is that it seems that there is a downward trend between the movie metric and the female percentage. This means that the higher the female percentage, the lower the movie impact score would be.
+
+To see if this observation could be confirmed, we decided to perform a linear regression that links the movie impact score with the female actor percentage, the rank of the first appearance of a woman in  the credits , and if the lead actor is a woman (for this last metric we assumed that if the woman was first in the credits she was the lead actors).
+
+It takes much more than only those gender-related statistics to correctly model the causes of the metric score of any film. Despite a low R-squared value (0.01), the results remain nevertheless interesting as all our criteria are statistically significant. The most important coefficient we have is the one linked to the female actor percentage which is a coefficient of -0.5. The trend we observed earlier can be confirmed, a higher percentage of female actors seem to have a negative effect on the movie metric.
+
+### Actors as individuals
+
+{% include actor_impact_score_per_gender.html %}
+
+We can see that on average, and for each decade, the male actors have a better metric compared to female actors. One possible reason for such a difference is that male actors play in more films on average (4.43 films/actor) than female actors (3.76 films/actors).
+
+{% include avg_actor_immpact_score_per_genre_per_decade.html %}
+
+Looking at the actor metric through the genre, we can see that there is a general upward trend in the actor ranking, over all genres. This could once again be explained by the fact that newer films are reviewed more than older ones.
+
+To highlight the difference between men and women in another way, we show in the following plot the 50 best actors according to our metric. It highlights even more the difference between men and women actors in terms of their impact. The first woman appears at the 33rd place in our ranking with a score of 29.57.
+
+{% include top50_actors_impact_score.html %}
 
 # On the Screen
 
@@ -126,7 +162,7 @@ The drop in number of unique attributes in the last decade can be explained by t
 {% include unique_attributes.html %}
 
 We see that the number of attributes is lower for female characters than for male ones. 
-Nevertheless, the number of unique terms per character is consistently higher for females than for males. This can mean that even though there are fewer female characters they are more developed and thought-through.
+Nevertheless, the number of unique terms per character is consistently higher for women than for men. This can mean that even though there are fewer female characters they are more developed and thought-through.
 Interestingly enough, the general trend of the number of attributes per character is decreasing. So there are more characters in the movies, but they might possess the same set of typical qualities.
 
 ### Word clouds 
@@ -143,7 +179,7 @@ Word clouds give us an understanding of certain trends but they focus on exact f
 
 {% include embeddings.html %}
 
-For every decade we can find an “aggressive” cluster for male characters, which is in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout the decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from more temporal (current emotions or states, e.g. heartbroken, unloved) to intrinsic (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, females have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
+For every decade we can find an “aggressive” cluster for male characters, which is in line with our word cloud observations. Another tendency is that negative characteristics are prevalent amongst female attributes throughout the decades: unfaithful, unworthy, sad. Throughout time female attributes traverse from more temporal (current emotions or states, e.g. heartbroken, unloved) to intrinsic (proud, clever, talkative), while male characters have the opposing trend (from intrinsic only to emotional state descriptions). Additionally, women have appearance-related attributes (overweight, hot, ugly) which are less typical for male characters.
 
 ### Regression analysis
 
@@ -170,7 +206,7 @@ Those are the three most impactful female directors and writers in the dataset:
 ![Philippa Boyens](assets/boyens.png){:class="img-responsive"}
 ![jk](assets/jk.png){:class="img-responsive"}
 
-
+As a side note, the fact that every woman in both lists are english speakers is interesting, and might be a result of the fact that the dataset is mostly Holywood-centric.
 # That’s a Wrap!
 
 In conclusion, the representation of women in media is limited and often stereotypical. However, there are many talented and successful women in the industry who are making a significant impact. It is important for the industry to continue to strive for greater diversity and representation, in order to create a more accurate and fair portrayal of women in media.

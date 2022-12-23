@@ -53,8 +53,18 @@ XML data was handled using gzip and lxml etree. The descriptors are defined by t
 ---
 
 ## Analysis
+**The Women in front of the camera ([Actor Analysis.ipynb](Actor%20Analysis.ipynb))**
 
-### **Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
+- Comparing Male and Female actors through mulitple scopes
+
+- Age, presence in genres, representation in leading and minor roles
+
+- Effect on the inpact metric, percent of female actors in cast, if the lead is a female actor, when does the first woman appears in the credits ?
+
+- Difference of impact score between male and female actors trhough time and genres
+
+
+**Investigate trends in character descriptors ([Character Terms Analysis.ipynb](Character%20Terms%20Analysis.ipynb))**
 
 **Qualitative analysis**:
 
@@ -80,8 +90,8 @@ Clustering algorithms tested: DBScan, Agglomerative clustering (with a distance 
 
 ---
 
-## Team Structure :goat:
-* Ali - Analysis and visualization for RQ1, draft datastory
-* Guillaume - Analysis and visualization for RQ2, final review and editing
-* Arina - Analysis and visualization for RQ3, Help other members as needed
-* Théo - Available for help, in charge of putting together webpage
+## Team Structure
+* Team member 1 - Analysis and visualization for RQ1, draft datastory
+* Team member 2 - Analysis and visualization for RQ2, final review and editing
+* Team member 3 - Analysis and visualization for RQ3, Help other members as needed
+* Team member 4 - Available for help, in charge of putting together webpage
