@@ -34,7 +34,7 @@ In this data analysis project, we will use the CMU Movie Summary Corpus, complet
 
 # The Data
 
-Our analysis is based on merging the [CMU Movie Summary Corpus dataset](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/). We have separated the data into three tables: the movies table, the characters table, and the directors and writers table.
+Our analysis is based on merging the [CMU Movie Summary Corpus](https://www.cs.cmu.edu/~ark/personas/), the [Stanford CoreNLP-processed summaries](http://www.cs.cmu.edu/~ark/personas/data/corenlp_plot_summaries.tar), [IMDb](https://www.imdb.com/interfaces/), [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), [IMDB](https://www.imdb.com/interfaces/) and [Box office Mojo](https://www.boxofficemojo.com/). We have separated the data into three tables: the movies table, the characters table, and the directors and writers table.
 
 * The movies table contains titles, release year, runtime, box office revenue, average rating and number of votes on IMDb, genre, as well as the list of directors and writers. There are a total of 81,741 different movies.
 
@@ -107,7 +107,7 @@ To dig deeper we asked In which genre of movie are there the highest number of w
 
 {% include director_percentage_per_genre_per_decade.html %}
 
-It can be seen that in general women are becoming more prevalent in the teams that write and direct movies. Echoing the previous figures there has been an increase of women in movie teams in most genres. Notably in Romance, Drama, and Family movies there are a large percent of an average team being female while in Thriller and Action movies there are few.
+It can be seen that in general women are becoming more prevalent in the teams that write and direct movies. Echoing the previous figures there has been an increase of women in movie teams in most genres. Notably in Romance, Drama, and Family movies there is a large percent of an average team being female while in Thriller and Action movies there are few.
 
 Another way to understand how women are distributed as directors and writers among the movies that are created is to look at the distribution of the percentage of women on movie teams as shown in the figure below.
 
@@ -122,7 +122,7 @@ Now that we can see that women are becoming more prevalent in the teams that cre
 
 The above figure showing the average movie impact score for varying percent of a team being women over the entire dataset as well as split into before and after the start of the 21st century with 95% confidence error bars. While it can be seen that for a low, but above 0, percent of women on a team (10%-40%) there is a statistically significant increase in the impact of a movie, but the amount of change in impact can be deemed as negligible. The data shows that regardless of the ratio of women and men working on a movie the impact that movie has is more or less the same.
 
-A linear regression model was fit to gender data and genre data to determine what effect both may have on the impact score of a movie. The gender based features that were used in the model were: The percent of women on the directorial team, the percent of women on the writing team, whether there was a female director at all, if the team on the movie was all male, or if the team on the movie was all female. The model achieved a low R-squared score of 0.12 meaning that it was only able to model 12% of the variance in the dataset and while some of the gender features where statistically significant with p-values lower than 0.05, the weight of these features (percent of directors that are women, percent of writers that are women, and if a team is only made up of men) was too small to make a noticeable difference. The impact being a small decrease in impact score for increasing director or writer percentage and a small decrease in impact for a team that only has men. To visualize the data another way the same graph from above was plotted broken down by the top 10 most produced genres.
+A linear regression model was fit to gender and genre data to determine what effect both may have on the impact score of a movie. The gender based features that were used in the model were: The percent of women on the directorial team, the percent of women on the writing team, whether there was a female director at all, if the team on the movie was all male, or if the team on the movie was all female. The model achieved a low R-squared score of 0.12 meaning that it was only able to model 12% of the variance in the dataset and while some of the gender features where statistically significant with p-values lower than 0.05, the weight of these features (percent of directors that are women, percent of writers that are women, and if a team is only made up of men) was too small to make a noticeable difference. The impact being a small decrease in impact score for increasing director or writer percentage and a small decrease in impact for a team that only has men. To visualize the data another way the same graph from above was plotted broken down by the top 10 most produced genres.
 
 {% include director_movie_impact_per_genre_per_decade.html %}
 
@@ -133,7 +133,7 @@ Beyond measuring the impact that a director or writer has on one particular movi
 
 {% include combined_director_impact_decade.html %}
 
-It can be seen that while male directors and writers have increased in their impact on the industry overall that female directors and writers have not leading to the average male director or writer being more impactful than the average female director or writer. It can also be seen that there is more variance in the impact that women can have on the movie industry in comparison to their male counter parts likely due to there being a significantly less number of them in the dataset.
+It can be seen that while male directors and writers have increased their impact on the industry, female cast has not. This leads us to believe that the average male director or writer is more impactful than the average female director or writer. It can also be seen that there is more variance in the impact that women can have on the movie industry in comparison to their male counter parts likely because there is significantly less women in the dataset.
 
 The data used in this analysis was more often than not heavy tailed and it is important when we talk about impactful people to look at these outliers. The top 50 most impactful directors and writers were analyzed to understand which women, if any, were able to make it into the top of their profession. The impact scores for directors and writers in this case were calculated separately so that we could differentiate impactful women in both careers respectively.
 
@@ -143,7 +143,7 @@ The data used in this analysis was more often than not heavy tailed and it is im
 In the case of the directors there were no women in the top 50 directors based on our impact score, the highest ranking female director ranked 270th with a director impact score of 7.82. In the case of writers there were three women in the top 50 with the most impactful one ranking 22nd with a writer impact score of 20.97. 
 
 # In Front of the Camera
-## Actors as past of a movie
+### Actors as part of a movie
 In order to better understand how the gender distribution amongst actors could influence the impact score, we decided to add the actor appearance order in the movie’s credits to determine if the lead actors were men or women. We achieved this using the Full Cast & crew available on IMDB, as in [this example](https://www.imdb.com/title/tt0068646/fullcredits?ref_=tt_ov_st_sm). We are able to retrieve the order in which the actors appear in the credits of each movie. From this information, we can retrieve the rank of first appearance in the credits of both men and women. For example, if the credits first show two males then a female actor, the rank of the man would be 1 while the rank of the women would be 3.
 
 {% include first_appearance_per_decade_per_gender.html %}
@@ -164,7 +164,7 @@ The above graph above shows how the impact score evolves for different percentag
 
 Looking more into the percentage of women in movies, we compared film genres between each other. The main observation seen here is that it appears that there is a downward trend between the movie impact score and the female percentage. This means that the higher the female percentage, the lower the movie impact score would be.
 
-To confirm this observation, we decided to perform a linear regression linking the movie impact score with the female actor percentage, the rank of the first appearance of a woman in the credits, and if the lead actor is a woman (for this last metric we assumed that if the woman was first in the credits she was the lead actors).
+To confirm this observation, we decided to perform a linear regression linking the movie impact score with the female actor percentage, the rank of the first appearance of a woman in the credits, and if the lead actor is a woman (for this last metric we assumed that if the woman was first in the credits she was the lead actress).
 
 It takes much more than only those gender-related statistics to correctly model the causes of the impact score of any film. Despite a low R-squared value of 0.01, the results remain nevertheless interesting as all our criteria were shown to be statistically significant. The most impactful feature being the female actor percentage which had a coefficient of -0.5. Therefore the trend we observed earlier can be confirmed, a higher percentage of female actors appears to have a negative effect on the movie impact score.
 
@@ -192,11 +192,11 @@ Not all characters in a movie are equally significant, we considered the charact
 
 We can see that both for all characters and main characters the distribution mass for males is concentrated towards the right, meaning there are generally more male characters in movies. This tendency is true for all decades. Nevertheless, for the main characters we can notice that the distributions are more balanced.
 
-Since we performed an analysis of the plot summaries, the focus of the analysis was on main characters.
+Since we considered the character descriptions in the plot summaries, the focus of the analysis was on main characters.
 
 To see how main characters are portrayed in a movie, we extracted the attributes (descriptive adjectives) associated with the characters in the processed plot summaries.
 
-To highlight the differences in attribute distributions we consider unique attributes which are specific to one of the genders. 
+To highlight the differences in attribute distributions we considered unique attributes which are specific to one of the genders. 
 
 The drop in number of unique attributes in the last decade can be explained by the CMU movie dataset was released in 2013 leaving the last decade underrepresented.
 
@@ -248,7 +248,7 @@ These are the three most impactful female directors and writers in the dataset:
 ![Philippa Boyens](assets/boyens.png){:class="img-responsive"}
 ![jk](assets/jk.png){:class="img-responsive"}
 
-As a side note, the fact that every woman in both lists are english speakers is interesting, and might be a result of the fact that the dataset is mostly Holywood-centric.
+As a side note, the fact that every woman in both lists is an english speaker is interesting, and might be a result of the fact that the dataset is mostly Holywood-centric.
 
 # That’s a Wrap!
 
