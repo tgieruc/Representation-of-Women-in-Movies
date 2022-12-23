@@ -90,8 +90,8 @@ Clustering algorithms tested: DBScan, Agglomerative clustering (with a distance 
 
 ---
 
-## Team Structure
-* Team member 1 - Analysis and visualization for RQ1, draft datastory
-* Team member 2 - Analysis and visualization for RQ2, final review and editing
-* Team member 3 - Analysis and visualization for RQ3, Help other members as needed
-* Team member 4 - Available for help, in charge of putting together webpage
+## Team Structure :goat:
+* Ali - Analysis and visualization for RQ1, draft datastory
+* Guillaume - Analysis and visualization for RQ2, final review and editing
+* Arina - Analysis and visualization for RQ3, Help other members as needed
+* Théo - Available for help, in charge of putting together webpage
